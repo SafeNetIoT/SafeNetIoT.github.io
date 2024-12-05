@@ -58,15 +58,17 @@ export const intro = {
 }
 
 export const about = {
-  title: "Who Are We",
+  title: "Who We Are",
   description: [
-    "Insert description here",
+    "I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering. I kick started my professional career as a mobile application developer working remotely for a UK based startup — Lessgo.",
     <img src="path/to/your/image.jpg" alt="Image description" />, // Add an image here
-    "More description here.",
+    "The tech industry is ever-evolving and I love being able to grow with it, while continually solidifying the fundamentals. I opensource my code from a place of empathy - for future developers, teammates, users, and with accessibility in mind. I also love joining communities, helping and mentoring new developers, and supporting organizations to promote diversity in tech. I’m sharing my programming journey on instagram, helping people who are just getting into the space of programming.",
+    "When I’m not programming, I focus on my hobbies which are: diary writing, doodling, meeting people and growing my network.",
   ],
 };
 
 export const projects = {
+  //note: this title isn't updating hmm - staying as projects
   title: "Research",
   cards: [
     {
@@ -111,7 +113,7 @@ export const projects = {
 }
 
 export const work = {
-  title: "Events coming up",
+  title: "Events",
   cards: [
     {
       title: "Event A",
@@ -128,15 +130,15 @@ export const work = {
 
 export const contact = {
   title: "Get in touch",
-  description: "Please do not hesitate to get in touch, organise a visit etc ...",
+  description: "Coffee Chat! Please do not hesitate to schedule a meeting. Alternatively, feel free to reach out directly by email at hashirshoaeb@gmail.com.",
   buttons: [
     {
-      title: "Email Us",
+      title: "Email Me",
       link: "mailto:hashirshoaeb@gmail.com",
       isPrimary: true,
     },
     {
-      title: "Organise a Visit",
+      title: "Schedule Meeting",
       link: "https://topmate.io/hashirshoaeb",
       isPrimary: false,
     },
@@ -150,4 +152,33 @@ export const SEO = {
   //EDIT ME
   description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
   image: profile.src,
+}
+
+//EDIT ME 
+export const links = {
+  image: profile.src,
+  title: "@hashirshoaeb",
+  description: "Computer Engineer | Flutter | Reactjs Developer",
+  cards: [
+    {
+      title: "My website",
+      link: "https://hashirshoaeb.com/",
+    },
+    {
+      title: "QuranTalk App",
+      link: "https://www.qurantalk.app/",
+    },
+    {
+      title: "StarBook App",
+      link: "https://starbook.dev/",
+    },
+    {
+      title: "My GitHub",
+      link: "https://github.com/hashirshoaeb/",
+    },
+    {
+      title: "My LinkedIn",
+      link: "https://www.linkedin.com/in/hashirshoaeb/",
+    },
+  ]
 }
