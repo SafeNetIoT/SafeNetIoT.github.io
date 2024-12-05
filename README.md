@@ -1,63 +1,149 @@
-# IoTrim
-Consumer IoT devices come with convenient services. However, since there are few strict privacy/security regulations and standards in the IoT context, device abuse is increasingly becoming a major privacy/security issue for consumers worldwide. 
+<!-- PROJECT LOGO -->
+<br />
+<p align="center">
+  <h1 align="center">Developer's Portfolio ✨</h1>
 
-IoTrim, automatically monitors and blocks non-essential network activities, and identifies IoT devices’ information exposure and security threats, using privacy-preserving AI techniques to build insights and behavioral models from devices.
-IoTrim components run on the home router, and can be controlled through a smartphone app, a computer or the user’s voice (It offers easy-to-use, plug and play protection). 
+  <p align="center">
+    It is a personal static website/portfolio template hosted with GitHub Pages, built to showcase my recent projects.
+    <br />
+    <strong>Site URL / Demo » </strong>
+    <a href="https://hashirshoaeb.github.io/portfolio"> hashirshoaeb.github.io/portfolio</a>
+    <br />
+    <br />
+    <a href="https://hashirshoaeb.com">About Me</a>
+    ·
+    <a href="https://github.com/hashirshoaeb/portfolio/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/hashirshoaeb/portfolio/issues">Request Feature</a>
+  </p>
+</p>
 
-IoTrim prevents violations of individuals’ privacy by intercepting and blocking information exposure to third-party analytics and service providers, most of which are collecting personal data unbeknownst to the user and potentially breaking privacy regulations such as the GDPR and CCPA.
-
-The design of the testing system (<a href="https://github.com/IoTrim/IoTrigger">IoTrigger</a>), the blocking system (<a href="https://github.com/IoTrim/IoTrimmer">IoTrimmer</a>), the <a href="https://github.com/IoTrim/ML">AI Engine</a>, and the <a href="https://github.com/IoTrim/iotrimlist">IoTrim list</a> have now been released! 
-
-## IoTrim List
-
-This site contains a <a href="https://github.com/IoTrim/iotrimlist">set of non-required destinations list</a> from 31 consumer IoT devices and the software for producing the list. The list is created using a methodology for determining non-required destinations by automatically executing IoT device functions and determining the execution outcome while blocking selected destinations.
-IoT devices offer multiple types of functionality; however, for this list, we select only the main functions for every IoT device under test. However, from preliminary experiments we have seen that most devices use the same destinations for different functions. 
-
-<a href="https://github.com/IoTrim/iotrimlist/"><img src="https://raw.githubusercontent.com/IoTrim/iotrimlist/master/iotrim.png" width="500"/></a>
-
-The list contains 4 columns: 
-
-* device: the device under test
-* destination: the non-required destination 
-* party: destination’s party type (first party, third, support)
-     - First party: destination related to the device manufacturer.
-     - Support party: destination that is not a first party and is responsible for providing remote computation.
-     - Third party: destination that is not a First party or a Support party. 
-* grouped: to facilitate analysis and streamline blocklists, we developed a strategy to group destinations thet use different DNS names and IP addresses for each replica. 
-
-## IoTrigger
-
-This site contains a <a href="https://github.com/IoTrim/IoTrigger"> command-line version of IoTrigger</a>, which includes a library of probes and triggers scripts that support the IoT devices we tested. IoTrigger manages the lifecycle of functionality experiments for each device, including the invocation of user-provided trigger and probe scripts, and to finally produce (non-)required destination lists.
-     
-## IoTrimmer
-
-This site contains a <a href="https://github.com/IoTrim/IoTrimmer"> version of IoTrimmer</a>. It comes preconfigured with the deny-listing blocking strategy and uses the blocklist of 62 non-required destinations we found for our set of 31 IoT devices. 
-When a new device is connected to IoTrimmer its MAC address appears on the list.
-The user then chooses which device is connected to IoTrimmer. The blocklist (IoTrim) is regularly updated from the Internet and automatically applied to all connected devices. Users can click on a device to display the list of blocked destinations.
-     
-## AI Engine
-
-This site contains a <a href="https://github.com/IoTrim/ML"> version of the AI Engine</a>. The IoTrim AI Engine allows to build and re-train ML models for device identification.
-
-## TEAM
-IoTrim leverages advanced privacy preserving AI techniques for creating the trim lists. The protection techniques behind IoTrimmer have been reviewed by experts in top academic institutions, resulting in research papers published in top tier scientific conferences and EU/US funded research projects. Our team won important awards and our research has been featured in the Financial Times, New York Times, USA Today and the BBC. 
-
-* <a href="https://annamandalari.com/">Dr Anna Maria Mandalari</a> works as Associate Professor at University College London (UCL). She is affiliated with the Electronic & Electrical Engineering Department and member of the UCL’s Academic Center of Excellence in Cyber Security Research (ACE-CSR).  She is Honorary Research Fellow at the Institute for Security Science and Technology at Imperial College London. Her research interests are related to IoT, privacy, large-scale Internet measurements, Internet measurement platforms, middleboxes and new Internet protocols. 
-
-* <a href="https://haddadi.github.io/">Professor Hamed Haddadi</a> is an Associate Professor in Human-Centred Systems at the Department of Computing at Imperial College London. He is part of the Networks and Systems Laboratory (NetSys) and Imperial-X (I-X) where he leads the Privacy and Security Research Area. He also serves as a Security Science Fellow of the Institute for Security Science and Technology. In his industrial role, he is the Chief Scientist at Brave.
-
-* <a href="https://david.choffnes.com/">Professor David Choffnes</a> is an Associate Professor at Northeastern University, Executive Director of the Cybersecurity and Privacy Institute, and affiliate faculty at the Center for Law, Innovation and Creativity (CLIC). His research is primarily in the areas of distributed systems and networking, with a recent focus on privacy, security, transparency, and mobile systems.
-
-* <a href="https://www.khoury.northeastern.edu/people/daniel-j-dubois/">Dr Daniel Dubois</a> is an Associate Research Scientist at Northeastern University, his research is rooted in software engineering, with a current focus on IoT privacy. He maintains the Mon(IoT)r Lab testbed, which provides an IoT monitoring infrastructure to four research institutions.  
+[![GitHub forks](https://img.shields.io/github/forks/hashirshoaeb/portfolio?style=for-the-badge)](https://github.com/hashirshoaeb/portfolio/network)
+[![GitHub license](https://img.shields.io/github/license/hashirshoaeb/portfolio?style=for-the-badge)](https://github.com/hashirshoaeb/portfolio/blob/master/LICENSE)
+[![Twitter Follow](https://img.shields.io/twitter/follow/hashirshoaeb?color=ffcc66&logo=twitter&logoColor=ffffff&style=for-the-badge)](https://twitter.com/hashirshoaeb)
+[![Node Version](https://img.shields.io/static/v1?label=Node&message=16.16.0&color=026e00&style=for-the-badge)](https://nodejs.org)
+[![npm Version](https://img.shields.io/static/v1?label=npm&message=8.11.0&color=cb0000&style=for-the-badge)](https://nodejs.org)
 
 
-## NEWS
-* Our paper “Protected or Porous: A Comparative Analysis of Threat Detection Capability of IoT Safeguards” has been conditionally accepted to the 44th IEEE Symposium on Security and Privacy (Oakland 2023). More details [here.](https://iotrim.github.io/safeguards.html)
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#setup">Setup</a></li>
+      </ul>
+    </li>
+    <li><a href="#support-my-work">Support my work</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+  </ol>
+</details>
 
-* Our paper, describing the methodology and results, “Blocking Without Breaking: Identification and Mitigation of Non-Essential IoT Traffic” has been accepted to the Privacy Enhancing Technologies Symposium <a href="https://petsymposium.org/2021/paperlist.php">(PETS 2021)</a>. More details [here.](https://moniotrlab.ccis.neu.edu/publications/pets21/)
-
-* Our project won one of the Top 5 spots in the <a href="https://telekom-challenge.com/">Telekom Challenge</a> amongst 180 startup teams around the world. 
-
-<a href="https://telekom-challenge.com/"><img src="https://raw.githubusercontent.com/IoTrim/iotrimlist/master/telekom.png" width="500"/></a>
 
 
+<!-- ABOUT THE PROJECT -->
+# About The Project
+
+[![Product Name Screen Shot](/READMEdocs/screenshot.gif)](https://example.com)
+
+There are many portfolio website templates available on Github, however, I didn't find one that really suit my needs so I created this one. A simple, easy to configure, lightweight, and responsive static portfolio website.
+
+I know one template doesn't fulfill everyone's needs. So I'll try adding more features in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+
+**Features**
+
+- [x] Easy to configure
+- [x] SEO friendly
+- [x] Responsive
+- [x] Lightweight
+- [x] Linktree Page
+
+**Built with** [Nextjs](https://nextjs.org/) & [Bootstrap5](https://getbootstrap.com).
+
+
+
+<!-- GETTING STARTED -->
+# Getting Started
+
+Building your own personal website from this project can take as little as 30 minutes. Follow the setup instructions below. Please feel free to reach out to me by filing an [issue](https://github.com/hashirshoaeb/portfolio/issues) or emailing me at hashirshoaeb@gmail.com for help configuring your project.
+
+## Prerequisites
+
+You should have [Nodejs](https://nodejs.org/en/) and [Git](https://git-scm.com/downloads) installed on your PC. You should also own a GitHub account.
+
+## Setup
+
+1. Fork this repoistory and clone it to your local machine.
+    ```sh
+      git clone https://github.com/<your-username>/portfolio.git
+    ``` 
+
+2. Edit the [config/config.js](https://github.com/hashirshoaeb/portfolio/blob/main/config/config.js) file. Replace [config/profile.png](https://github.com/hashirshoaeb/portfolio/blob/main/config/profile.png) with your image. 
+    >Note: You need to rename your image file as `profile.png`.
+
+3. Run following scripts in terminal/command prompt to install dependencies.
+    ```sh
+      npm install
+      npm run build
+    ```
+## Testing
+
+1. To test on your local server, run the following command:
+    ```sh
+      npm run dev
+    ```
+
+2. Open the browser to http://localhost:3000/
+
+## Deployment
+
+If it works locally, you can deploy your project to GitHub Pages. GitHub Pages provides two types of free domains, `<username>.github.io` and `<username>.github.io/<repository>`. You can choose the one that suits your needs. You can learn more about domain types from [here](https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages#types-of-github-pages-sites).
+
+### Deploy to \<your-username>.github.io/portfolio
+
+Simply you just need to commit and push your changes to github. And [GitHub Actions](https://docs.github.com/en/actions/learn-github-actions/introduction-to-github-actions#overview) will take care of the deployment. Your site will be available at `https://<your-username>.github.io/portfolio`
+
+### Deploy to \<your-username>.github.io
+
+Create a new repository with your username as `<your-username>.github.io`. And let the following command do the job for you.
+
+```sh
+  npm run predeploy
+  node scripts/pages.js <your-username> master
+```
+
+Your site will be available at `https://<your-username>.github.io`
+
+>Note: You need to replace `<your-username>` with your username. To add CNAME for custom domain, see [scripts/cname.js](https://github.com/hashirshoaeb/portfolio/blob/main/scripts/cname.js)
+
+# Support my work
+
+If you found this project valuable, please consider giving it a ⭐️ on GitHub. Your support keeps me motivated! If you'd like to further support my work, you can buy me a book. Thank you for your generosity!
+
+<div>
+  <a href="https://www.buymeacoffee.com/hashirshoaeb"><img src="https://img.buymeacoffee.com/button-api/?text=Buy me a book&emoji=📖&slug=hashirshoaeb&button_colour=5F7FFF&font_colour=ffffff&font_family=Cookie&outline_colour=000000&coffee_colour=FFDD00" /></a>
+ </div>
+
+<!-- CONTRIBUTING -->
+# Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contribution you make would be **appreciated**.
+
+1. Fork the Project
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the Branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+
+<!-- LICENSE -->
+# License
+
+Distributed under the `MIT` License. See [LICENSE](https://github.com/hashirshoaeb/portfolio/blob/main/LICENSE) for more information.
