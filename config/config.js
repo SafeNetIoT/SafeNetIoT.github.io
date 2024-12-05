@@ -150,7 +150,7 @@ export const SEO = {
   // 50 - 60 char  
   title: "UCL SafeNet IoT",
   //EDIT ME
-  description: "I create mobile apps and static websites. I graduated from National University of Sciences and Technology (NUST) in 2020 with a degree in Computer Engineering.",
+  description: "We are a research group based at University College London, exploring ... ",
   image: profile.src,
 }
 
