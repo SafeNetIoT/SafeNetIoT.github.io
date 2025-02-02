@@ -13,7 +13,7 @@ const ResearchPage = () => {
 
       <div className="d-flex flex-column justify-content-between bg-secondary min-vh-100">
         <div className="container py-5 px-3 px-sm-5">
-          {/* Title */}
+
           <h1 className="text-primary fw-bold text-left mb-4">Research</h1>
 
           <div className="row justify-content-center mb-5">
@@ -25,7 +25,7 @@ const ResearchPage = () => {
             </div>
           </div>
 
-          {/* Upcoming Papers */}
+
           <div className="mb-5">
             <h2 className="text-primary mb-4">Upcoming Papers</h2>
             <ul className="list-unstyled">
@@ -65,7 +65,6 @@ const ResearchPage = () => {
             </ul>
           </div>
 
-          {/* Published Papers */}
           <div className="mb-5">
             <h2 className="text-primary mb-4">Published Papers</h2>
             <ul className="list-unstyled">

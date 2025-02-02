@@ -14,7 +14,7 @@ const LabPage = () => {
         <div className="container py-5 px-3 px-sm-5">
           <h1 className="text-light fw-bold text-left mb-4">Our Lab</h1>
 
-          <div className="row justify-content-left mb-5">
+          <div className="row justify-content-center mb-5">
             <div className="col-12 col-md-10 col-lg-8">
               <p className="text-light lead text-left">
                 This video tours our advanced research facility dedicated to securing connected devices and networks. See real-time vulnerability testing of smart home systems, industrial IoT prototypes under stress analysis, and collaborative spaces where we develop encryption frameworks and privacy-preserving architectures. Learn how we are combatting emerging cyberthreats in an increasingly connected world.

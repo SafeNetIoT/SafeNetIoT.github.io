@@ -50,9 +50,9 @@ export const about = {
   title: "Recent News",
   news: [
     {
-      date: "January 2025: London Networks & Systems Symposium",
+      date: "8th January 2025: London Networks & Systems Symposium",
       description: "Prof. Anna Mandalari gave a talk at Imperial College London's London Networks & Systems Symposium, titled 'Towards IoT Privacy and Security Verification'",
-      image: "/images/news/october-2023.jpg",
+      image: "/images/news/imperialSymposium.jpeg",
       link: "https://www.linkedin.com/in/anna-maria-mandalari/recent-activity/all/",
     },
     {

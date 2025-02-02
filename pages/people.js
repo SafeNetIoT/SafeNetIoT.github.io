@@ -66,7 +66,7 @@ const PeoplePage = () => {
         <div className="py-5 px-5 container">
           <h1 className="text-primary fw-bold text-left mb-5">People</h1>
 
-          <div className="row justify-content-center mb-5">
+          <div className="row justify-content-left mb-5">
             <div className="col-12 col-md-10 col-lg-8">
               <p className="text-dark lead text-left">
                 The members of SafeNetIot conduct cutting-edge research into all aspects of IoT Security and Privacy.
