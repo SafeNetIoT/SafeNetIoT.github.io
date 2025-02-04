@@ -19,14 +19,6 @@ const people = {
   ],
   researchers: [
     {
-      name: "Baraa Zieni",
-      description: "Dr Zieni (B.Eng., M.Eng, Ph.D. ) is a Senior Research Fellow in Computer Science and Engineering, joint the Department of Electrical & Electronic Engineering in UCL in 2024. Her current research is focus on homecare sensing technologies their communication, control system and privacy challenges.",
-      image: "/images/people/baraa.jpeg",
-      links: [
-        { name: "linkedin", url: "https://linkedin.com/in/baraa-zieni" },
-      ],
-    },
-    {
       name: "Aurelio Loris Canino",
       description: "Visiting researcher.",
       image: "/images/people/aurelio.jpeg",
@@ -38,7 +30,7 @@ const people = {
   phdStudents: [
     {
       name: "Mohammad Alhussan",
-      description: "Research focus: The Medical Internet of Things",
+      description: "Mohammad Alhussan is a PhD candidate in Electronic and Electrical Engineering at University College London (UCL), specializing in the cybersecurity of the Internet of Medical Things (IoMT). He holds a Master’s degree in Electrical Engineering from Texas A&M University, with a focus on power electronics, and a Bachelor’s degree in Electrical Engineering from Concordia University, specializing in electronics and systems, both earned with distinction. With extensive experience in engineering and automation for around 9 years, Mohammad has held senior roles at EQUATE Petrochemical Company and MEGlobal Americas, where his expertise encompassed process automation, control system design, industrial instrumentation, and operational technology. He has been also serving as an assistant teacher at the Public Authority for Applied Education and Training in Kuwait, contributing to the development of future engineers. Mohammad's research and innovations have been recognized with numerous accolades, including the Technical Best Presentation Award at APEC 2021 for his work on AC-DC converters and the Best Demo Award at EWSN 2024 for exposing vulnerabilities in BLE-enabled wearable medical devices.",
       image: "/images/people/mohammad.jpeg",
       links: [],
     },
@@ -54,7 +46,33 @@ const people = {
       image: "/images/people/ammara.jpg",
       links: [],
     },
+    {
+      name: "Yuanyuan Zhou",
+      description: "Research focus: ",
+      image: "/images/people/yuanyuan.jpg",
+      links: [],
+    },
   ],
+  students: [
+    {
+      name: "Anna Dixon",
+      description: "INSERT",
+      image: "/images/people/anna_dixon.jpeg",
+      links: [],
+    },
+    {
+      name: "Alex Ciechonski",
+      description: "INSERT",
+      image: "/images/people/alex.jpeg",
+      links: [],
+    },
+    {
+      name: "Lepakshi Venkatraman",
+      description: "INSERT",
+      image: "/images/people/lepakshi.jpeg",
+      links: [],
+    },
+  ]
 };
 
 const PeoplePage = () => {
@@ -66,7 +84,7 @@ const PeoplePage = () => {
         <div className="py-5 px-5 container">
           <h1 className="text-primary fw-bold text-left mb-5">People</h1>
 
-          <div className="row justify-content-left mb-5">
+          <div className="row justify-content-center mb-5">
             <div className="col-12 col-md-10 col-lg-8">
               <p className="text-dark lead text-left">
                 The members of SafeNetIot conduct cutting-edge research into all aspects of IoT Security and Privacy.
@@ -93,6 +111,14 @@ const PeoplePage = () => {
           <h2 className="text-primary mb-4">PhD Students</h2>
           <div className="row">
             {people.phdStudents.map((person, index) => (
+              <PersonCard key={index} person={person} />
+            ))}
+          </div>
+
+          {/* Researchers Section */}
+          <h2 className="text-primary mb-4">Students</h2>
+          <div className="row mb-5">
+            {people.students.map((person, index) => (
               <PersonCard key={index} person={person} />
             ))}
           </div>
