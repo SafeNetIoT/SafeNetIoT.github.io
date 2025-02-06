@@ -42,14 +42,14 @@ const people = {
     },
     {
       name: "Ammara Yasin",
-      description: "Research focus: Circumventing Telecommunication Shutdowns",
+      description: "Ammara (BSc Computer Science, MSc Science, Technology and Society) is undertaking interdisciplinary research at the intersection of Electronic and Electrical Engineering and Science and Technology Studies. This interdisciplinary approach is central to her research, which examines the privacy ans security of methods to circumvent telecommunication shutdownns. Her research unpacks how these methods can contribute to reconfiguring global digital networks.",
       image: "/images/people/ammara.jpg",
       links: [],
     },
     {
       name: "Yuanyuan Zhou",
-      description: "Research focus: ",
-      image: "/images/people/yuanyuan.jpg",
+      description: "Yuanyuan Zhou is a PhD candidate in Electronic and Electrical Engineering(EEE) at University College London (UCL), specializing in Honeypot and Network Security. She holds a Bachelor's degree in Telecommunication Engineering from Sichuan University and a Master's degree in Machine Learning from UCL. Her research interests include the Internet of Things (IoT), privacy&security, machine learning, networking, and distributed systems.",
+      image: "/images/people/yuanyuan.png",
       links: [],
     },
   ],
