@@ -6,6 +6,12 @@ import { SEO, navigation } from '../config/config';
 
 const allNews = [
   {
+    date: "6th February 2025 - BBC's Blue Room Visit",
+    description: "We recieved an invitation to visit the BBC's 'Blue Room' - the consumer technology research and demo lab from BBC Research & Development. We discussed our work on Smart TVs as well as our Matter Device study and the security of medical devices",
+    image: "/images/news/BBCVisit.jpg",
+    link: "https://www.bbc.com/blueroom",
+  },
+  {
     date: "31st January 2025 - Visiting Speaker Michele Chiappalone",
     description: "We were thrilled to welcome Michele Chiappalone from Google to our Security and Privacy course at UCL Electronic and Electrical Engineering! With deep expertise in cloud, Michele shared insights into the latest challenges, best practices, and innovations in cloud environments. This is a fantastic opportunity for our students to gain real-world knowledge from an industry leader at the forefront.",
     image: "/images/news/googleTalk.jpg",
