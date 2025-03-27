@@ -68,8 +68,8 @@ const people = {
     },
     {
       name: "Lepakshi Venkatraman",
-      description: "INSERT",
-      image: "/images/people/lepakshi.jpeg",
+      description: "Lepakshi is an MRes Telecommunications student at University College London (UCL), specializing in IoT security and privacy. She holds a Bachelor of Engineering in Electronics and Telecommunications Engineering from St. Joseph’s College of Engineering, Chennai, where she focused on video steganography with multi-factor authentication, published in IEEE Xplore. Her current research involves analyzing IoT traffic from 2023 onward, uncovering security and privacy risks across devices in the UCL IoT Lab. Her expertise includes network traffic analysis, IoT privacy, and large-scale traffic monitoring.",
+      image: "/images/people/lepakshi.jpg",
       links: [],
     },
   ]
