@@ -79,11 +79,6 @@ export const work = {
       icons: null,
     },
     {
-      title: "Baraa Zieni ",
-      description: "Dr Zieni (B.Eng., M.Eng, Ph.D. ) is a Senior Research Fellow in Computer Science and Engineering, joint the Department of Electrical & Electronic Engineering in UCL in 2024. Her current research is focus on homecare sensing technologies their communication, control system and privacy challenges.",
-      icons: null,
-    },
-    {
       title: "Aurelio Loris Canino ",
       description: "Visiting researcher",
       icons: null,
