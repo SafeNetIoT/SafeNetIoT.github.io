@@ -4,21 +4,71 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>BioSensors 2024 – Hacking Health</title>
-</head>
-<body style="font-family: sans-serif; padding: 40px; line-height: 1.6; max-width: 800px; margin: auto;">
+  <style>
+    body {
+      font-family: "Segoe UI", sans-serif;
+      background-color: #f8f9fa;
+      color: #333;
+      padding: 40px;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.7;
+    }
 
-  <h1 style="text-align: center;">BioSensors 2024</h1>
-  <h2 style="text-align: center;">Hacking Health: Unveiling Vulnerabilities in Wireless Wearable Sensors</h2>
+    h1, h2 {
+      text-align: center;
+      color: #111;
+    }
+
+    .image-container {
+      text-align: center;
+      margin: 30px 0;
+    }
+
+    .image-container img {
+      max-width: 100%;
+      border: 1px solid #ccc;
+      box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    }
+
+    a {
+      color: #6c2bd9;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .footnote {
+      font-style: italic;
+      text-align: center;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>BioSensors 2024</h1>
+  <h2>Hacking Health: Unveiling Vulnerabilities in Wireless Wearable Sensors</h2>
 
   <p><strong>Authors:</strong> Mohammad Alhussan, Francesca Boem, Sara Ghoreishizadeh, Anna Maria Mandalari</p>
-
   <p><strong>Conference:</strong> IEEE BioSensors 2024</p>
 
   <p>This live demonstration showcases vulnerabilities in wearable sensors using Bluetooth Low Energy (BLE), focusing on Man-in-the-Middle (MITM) and data manipulation attacks. Our demo highlights security risks in devices such as SnapECG, Wellue Oxylink, and Wellue BPM.</p>
 
+  <div class="image-container">
+  <h3>BLE Attack Overview</h3>
+  <img src="biosensors_images/Experimental_Results.png" alt="BLE MITM Attack Demo" />
+
+  <h3 style="margin-top: 40px;">Experimental Results</h3>
+  <img src="biosensors_images/WMD_Hacking.png" alt="Experimental Results from BLE Attacks" />
+</div>
+
+  
   <p><a href="https://ieeexplore.ieee.org/document/10712697" target="_blank">View Paper on IEEE Xplore</a></p>
 
-  <p><em>All experiments were safely performed in a controlled environment.</em></p>
+  <p class="footnote">All experiments were safely performed in a controlled environment.</p>
 
 </body>
 </html>
