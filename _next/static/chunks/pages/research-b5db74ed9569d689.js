@@ -6,7 +6,7 @@
       style:{fontWeight:500},
       target:"_blank",
       rel:"noopener noreferrer",
-      children:"- Hacking Health: Unveiling Vulnerabilities in Wireless Wearable Sensors"
+      children:"   [1] M. Alhussan, F. Boem, S. Ghoreishizadeh, and A. M. Mandalari, “Hacking Health: Unveiling Vulnerabilities in Wireless Wearable Sensors,” in Proc. IEEE BioSensors Conf., 2024"
     })
   }),
   (0,i.jsx)("li",{className:"mb-3",children:
