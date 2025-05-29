@@ -31,7 +31,7 @@
   }),
   (0,i.jsx)("li",{className:"mb-3",children:
     (0,i.jsx)("a",{
-      href:"ISCAS.html",
+      href:"iscas.html",
       className:"text-decoration-underline text-primary",
       style:{fontWeight:500},
       target:"_blank",
