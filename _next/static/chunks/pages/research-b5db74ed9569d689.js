@@ -36,7 +36,7 @@
       style:{fontWeight:500},
       target:"_blank",
       rel:"noopener noreferrer",
-      children:"- Hacking Health: Unveiling Vulnerabilities in BLE-Enabled Wearable Sensor Nodes"
+      children:"[4] M. Alhussan, F. Boem, S. Ghoreishizadeh, and A. M. Mandalari, “Hacking Health: Unveiling Vulnerabilities in BLE-Enabled Wearable Sensor Nodes,” in Proc. 2025 IEEE Int. Symp. Circuits Syst. (ISCAS), May 2025, London, United Kingdom."
     })
   }),
   (0,i.jsx)("li",{className:"mb-3",children:
