@@ -5,7 +5,7 @@ l=[
     date:"25-28 May 2025 - ISCAS 2025 Presentation",
     description:"Mohammad Alhussan presented his work on BLE vulnerabilities in wearable sensor nodes at ISCAS 2025, London. The talk highlighted novel BLE threat models, experimental findings, and implications for securing medical wearables.",
     image:"/ISCAS_images/2.jpg",
-    link:"/ISCAS.html"
+    link:"https://safenetiot.github.io/ISCAS.html"
   },
   {
     date:"7th April 2025 - NTNU Lab Tour ",
