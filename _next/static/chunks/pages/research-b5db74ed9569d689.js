@@ -16,7 +16,7 @@
       style:{fontWeight:500},
       target:"_blank",
       rel:"noopener noreferrer",
-      children:"- Demo: From Eavesdropping to Exploitation: Exposing Vulnerabilities in BLE-Enabled Wearable Medical Devices"
+      children:"[2] M. Alhussan, F. Boem, S. Ghoreishizadeh, and A. M. Mandalari, “Demo: From Eavesdropping to Exploitation: Exposing Vulnerabilities in BLE-Enabled Wearable Medical Devices,” in Proc. 21st Int. Conf. Embedded Wireless Syst. Netw. (EWSN), Dec. 2024, St. Regis Abu Dhabi, UAE. Best Demo Award."
     })
   }),
   (0,i.jsx)("li",{className:"mb-3",children:
@@ -26,7 +26,7 @@
       style:{fontWeight:500},
       target:"_blank",
       rel:"noopener noreferrer",
-      children:"- PhD School: From Eavesdropping to Exploitation: Exposing Vulnerabilities in BLE-Enabled Wearable Medical Devices"
+      children:"[3] M. Alhussan, F. Boem, S. Ghoreishizadeh, and A. M. Mandalari, “PhD School: From Eavesdropping to Exploitation: Exposing Vulnerabilities in BLE-Enabled Wearable Medical Devices,” in PhD School at the 21st Int. Conf. Embedded Wireless Syst. Netw. (EWSN), Dec. 2024, St. Regis Abu Dhabi, UAE."
     })
   }),
   (0,i.jsx)("li",{className:"mb-3",children:
