@@ -68,7 +68,7 @@ const ResearchPage = () => {
           <div className="mb-5">
             <h2 className="text-primary mb-4">Published Papers</h2>
             <ul className="list-unstyled">
-              
+
               <li className="mb-3">
                 <a
                   href="https://arxiv.org/pdf/2504.18571?"
@@ -80,17 +80,14 @@ const ResearchPage = () => {
                   - Intelligent Detection of Non-Essential IoT Traffic on the Home Gateway
                 </a>
               </li>
-                    
+
               <li className="mb-3">
-                <a
-                  href="https://www.researchgate.net/publication/384992278_Live_Demonstration_Hacking_Health_Unveiling_Vulnerabilities_in_Wireless_Wearable_Sensors"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-dark text-decoration-none"
-                >
-                  <i className="bi bi-file-earmark-text me-2"></i>
-                  - Hacking Health: Unveiling Vulnerabilities in Wireless Wearable Sensors
-                </a>
+                <Link href="/research/hacking-health">
+                  <a className="text-dark text-decoration-none">
+                    <i className="bi bi-file-earmark-text me-2"></i>
+                    - Hacking Health: Unveiling Vulnerabilities in Wireless Wearable Sensors*
+                  </a>
+                </Link>
               </li>
               <li className="mb-3">
                 <a
