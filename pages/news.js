@@ -4,7 +4,19 @@ import { Header } from '../components/Header';
 import { Nav } from '../components/Navbar';
 import { SEO, navigation } from '../config/config';
 
-const allNews = [
+export const allNews = [
+  {
+    date: "7th April 2025 - NTNU Lab Tour ",
+    description: "We hosted students and staff from the Norwegian University of Science and Technology's (NTNU) Cybersecurity program. The group engaged directly with our researchers developing revolutionary adaptive defense frameworks capable of evolving alongside emerging threats. ",
+    image: "/images/news/NTNUVisit.jpg",
+    link: "",
+  },
+  {
+    date: "15-16th March 2025 - RIPE NCC DNS Hackathon ",
+    description: "PhD Student Andrew visited Stockholm for RIPE's DNS Hackathon. He formed a team made and developed code to investigate the IoT traffic captures. They uncovered critical DNS-related security vulnerabilities in IoT devices, discovering the highly fingerprintable nature of the traffic",
+    image: "/images/news/RIPENCC.png",
+    link: "https://labs.ripe.net/author/becha/join-the-dns-hackathon-2025/",
+  },
   {
     date: "6th February 2025 - BBC's Blue Room Visit",
     description: "We recieved an invitation to visit the BBC's 'Blue Room' - the consumer technology research and demo lab from BBC Research & Development. We discussed our work on Smart TVs as well as our Matter Device study and the security of medical devices",
@@ -38,6 +50,10 @@ const allNews = [
 ];
 
 const NewsPage = () => {
+  // Sort news by date (newest first) when rendering
+  const sortedNews = [...allNews].sort((a, b) => {
+    return new Date(b.date) - new Date(a.date);
+  });
   return (
     <Fragment>
       <Header seo={SEO} />
@@ -65,7 +81,7 @@ const NewsPage = () => {
 
           {/* News Cards */}
           <div className="row">
-            {allNews.map((item, index) => (
+            {sortedNews.map((item, index) => (
               <div key={index} className="col-md-6 col-lg-4 mb-4">
                 <div className="card h-100">
                   <img

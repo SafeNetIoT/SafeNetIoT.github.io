@@ -2,6 +2,7 @@
 import profile from './profile.png';
 import { faAppStore, faGithub, faGooglePlay, faResearchgate } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
+import { allNews } from '/pages/News';
 
 export const navigation = {
   name: "SafeNetIoT",
@@ -46,28 +47,22 @@ export const intro = {
   ],
 }
 
+const processNews = () => {
+  try {
+    return [...allNews]
+      .sort((a, b) => new Date(b.date) - new Date(a.date))
+      .slice(0, 3);
+  } catch (error) {
+    console.error("Error processing news data:", error);
+    return []; // Return empty array if there's an error
+  }
+};
+
+const recentNews = processNews();
+
 export const about = {
   title: "Recent News",
-  news: [
-    {
-      date: "8th January 2025: London Networks & Systems Symposium",
-      description: "Prof. Anna Mandalari gave a talk at Imperial College London's London Networks & Systems Symposium, titled 'Towards IoT Privacy and Security Verification'",
-      image: "/images/news/imperialSymposium.jpeg",
-      link: "https://www.linkedin.com/in/anna-maria-mandalari/recent-activity/all/",
-    },
-    {
-      date: "10th -13th December 2024: The 21st International Conference on Embedded Wireless Systems and Networks (EWSN 2024)",
-      description: "Prof. Anna Mandalari and PhD Students Mohammad Alhussan and Andrew Losty attended the 21st International Conference on Embedded Wireless Systems and Networks (EWSN 2024). Muhammad won the 'Best Demo' Award for research on the potential vulnerabilities in wearable medical devices  ",
-      image: "/images/news/BestDemo.jpeg",
-      link: "",
-    },
-    {
-      date: "26th November 2024: Connected Ecosystems: Security and Resilience in IoT",
-      description: "Prof. Anna Mandalari hosted a panel bringing together cybersecurity experts, industry leaders, and policymakers to explore emerging regulations, best practices, and innovative approaches to safeguarding IoT.",
-      image: "/images/news/august-2023.jpg",
-      link: ""
-    },
-  ],
+  news: recentNews,
 };
 
 export const work = {

@@ -42,7 +42,7 @@ const people = {
     },
     {
       name: "Ammara Yasin",
-      description: "Ammara (BSc Computer Science, MSc Science, Technology and Society) is undertaking interdisciplinary research at the intersection of Electronic and Electrical Engineering and Science and Technology Studies. This interdisciplinary approach is central to her research, which examines the privacy ans security of methods to circumvent telecommunication shutdownns. Her research unpacks how these methods can contribute to reconfiguring global digital networks.",
+      description: "Ammara  (BSc Computer Science, MSc Science, Technology and Society) is undertaking interdisciplinary research at the intersection of Electronic and Electrical Engineering and Science and Technology Studies. This interdisciplinary approach is central to her work, which examines the privacy and security of methods to circumvent network shutdownns. Her research unpacks how these methods can contribute to reconfiguring global digital networks.",
       image: "/images/people/ammara.jpg",
       links: [],
     },
@@ -62,7 +62,7 @@ const people = {
     },
     {
       name: "Alex Ciechonski",
-      description: "INSERT",
+      description: "I’m a third-year Electronic and Electrical Engineering student, minoring in Application Programming for Data Science, with a final-year project focused on network security. My research involves analyzing the architecture of popular GenAI browser assistants to uncover security vulnerabilities and assess privacy risks. Beyond academia, I have a background in software engineering, gained through an internship at Accenture. I’m eager to apply these skills in cybersecurity to develop tools that identify system vulnerabilities and enhance digital security.",
       image: "/images/people/alex.jpeg",
       links: [],
     },
