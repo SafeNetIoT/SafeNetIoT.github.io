@@ -18,6 +18,21 @@ export const navigation = {
     {
       title: "Research",
       link: "/research",
+      sublinks: [
+        {
+          title: "All Research",
+          link: "/research"
+        },
+        {
+          title: "Hacking Health",
+          link: "/research/hacking-health"
+        },
+        // Add more papers here as they're created
+        //{
+        //  title: "paper2 added",
+        //  link: "/research/paper2"
+        //}
+      ]
     },
     {
       title: "Lab",

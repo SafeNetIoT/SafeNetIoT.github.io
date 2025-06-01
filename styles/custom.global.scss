@@ -110,6 +110,132 @@ $card-border-radius: 15px;
 // Utilities
 @import "~bootstrap/scss/utilities/api";
 
+// Updated SCSS for dropdown
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  min-width: 200px;
+  border: none;
+  border-radius: 0;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+  .dropdown-item {
+    background-color: white;
+    color: #365B6D;
+    transition: background-color 0.2s ease, color 0.2s ease;
+    font-weight: normal;
+
+    &:hover {
+      background-color: #365B6D;
+      color: white;
+    }
+  }
+
+  .all-research {
+    background-color: #365B6D;
+    color: white;
+    font-weight: bold;
+
+    &:hover {
+      background-color: #2a4758;
+      color: white;
+    }
+  }
+
+  hr {
+    margin: 0;
+    border-color: rgba(54, 91, 109, 0.1);
+  }
+}
+
+
+
+
+// Navbar spacing and dropdown styles
+.navbar {
+  padding: 1rem 0;
+
+  .navbar-nav {
+    gap: 1.5rem; // Consistent spacing between nav items
+
+    .nav-link {
+      padding: 0.5rem 0;
+      position: relative;
+    }
+  }
+}
+
+.dropdown-menu {
+  border-radius: 0;
+  overflow: hidden;
+  border: none;
+
+  .dropdown-item {
+    transition: all 0.2s ease;
+
+    &.active,
+    &[aria-current="page"] {
+      background-color: $primary;
+      color: white;
+
+      &:hover {
+        background-color: darken($primary, 10%);
+      }
+    }
+  }
+
+  hr {
+    margin: 0;
+    opacity: 0.1;
+  }
+}
+
+// Mobile adjustments
+@include media-breakpoint-down(lg) {
+  .navbar-collapse {
+    padding-top: 1rem;
+
+    .dropdown-menu {
+      box-shadow: none;
+      margin-left: 1rem;
+    }
+  }
+}
+
+// Mobile styles
+@include media-breakpoint-down(lg) {
+  .dropdown-menu {
+    position: static;
+    border: none;
+    box-shadow: none;
+
+    .dropdown-item {
+      padding-left: 2.5rem;
+
+      &.active {
+        background-color: transparent;
+        color: $primary;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+// Nav item alignment fix
+.navbar-nav {
+  .nav-item {
+    display: flex;
+    align-items: center;
+
+    >.nav-link {
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+  }
+}
 
 // 5. Add additional custom code here
 html {
