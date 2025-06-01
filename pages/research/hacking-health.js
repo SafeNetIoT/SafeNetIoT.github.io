@@ -41,7 +41,7 @@ export default function HackingHealthPaper() {
                   use Bluetooth Low Energy (BLE) for communication, focusing on the risks of Man-in-the-Middle (MITM)
                   attacks, data sabotage, and manipulation. We show how these attacks can compromise not only the
                   confidentiality and integrity of sensitive medical data transmitted by wearable devices, but also
-                  patients' privacy and sensor reliability.
+                  patients privacy and sensor reliability.
                 </p>
 
                 <h3 className="text-center text-primary mt-4"><strong>Demonstration Setup</strong></h3>
