@@ -12,7 +12,7 @@ export const navigation = {
       link: "/people",
     },
     {
-      title: "News",
+      title: "Activity",
       link: "/news",
     },
     {
@@ -76,7 +76,7 @@ const processNews = () => {
 const recentNews = processNews();
 
 export const about = {
-  title: "Recent News",
+  title: "Recent Activity",
   news: recentNews,
 };
 
@@ -90,7 +90,7 @@ export const work = {
     },
     {
       title: "Aurelio Loris Canino ",
-      description: "Visiting researcher",
+      description: "Aurelio is a visiting researcher from Mediterranea University of Reggio Calabria, working on real privacy risks in everyday web browsing.",
       icons: null,
     }
   ],
