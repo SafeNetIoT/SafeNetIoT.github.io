@@ -6,6 +6,20 @@ import { SEO, navigation } from '../config/config';
 
 export const allNews = [
   {
+    date: "25th May 2025 - ISCAS Presentation ",
+    description: "Our latest paper, Hacking Health: Unveiling Vulnerabilities in BLE-Enabled Wearable Sensor Nodes, led by Mohammad Al-Hussan, was published and presented at ISCAS2025",
+    image: "/images/news/ISCAS.jpg",
+    link: "/research/hacking-health",
+
+  },
+  {
+    date: "12-16th May 2025 - RIPE Lisbon ",
+    description: "Anna was elected IoT WG Co-Chair at hashtag#RIPE90 in Lisbon, and PhD Student Yuanyuan Zhou gave an incredible presentation on her work TwinGuard.  ",
+    image: "/images/news/RIPE_lisbon.jpg",
+    link: "https://www.linkedin.com/posts/anna-maria-mandalari_ripe72-ripe90-raci-activity-7329523295177867264-NxpD?utm_source=share&utm_medium=member_desktop&rcm=ACoAACSOxL4BYpJON8o1d0-60buhEccFmQDuT2M",
+
+  },
+  {
     date: "7th April 2025 - NTNU Lab Tour ",
     description: "We hosted students and staff from the Norwegian University of Science and Technology's (NTNU) Cybersecurity program. The group engaged directly with our researchers developing revolutionary adaptive defense frameworks capable of evolving alongside emerging threats. ",
     image: "/images/news/NTNUVisit.jpg",
@@ -63,18 +77,13 @@ const NewsPage = () => {
       />
       <div className="d-flex flex-column justify-content-between bg-primary min-vh-100">
         <div className="py-5 px-5 container">
-          <h1 className="text-secondary fw-bold text-left mb-5">All News</h1>
+          <h1 className="text-secondary fw-bold text-left mb-5">All Activity</h1>
 
           {/* Updated Description */}
           <div className="row justify-content-center mb-5">
             <div className="col-12 col-md-10 col-lg-8">
               <div className="text-secondary lead text-left">
                 The latest updates on our achievements, events, and collaborations.
-                <ul className="list-unstyled">
-                  <li>- Award Wins: Celebrating our recognition for excellence in IoT security research and innovation.</li>
-                  <li>- Conferences: Highlights of conferences we have organized, attended, or presented at, showcasing our contributions to the global IoT community.</li>
-                  <li>- Speakers: Insights from renowned experts and thought leaders who have shared their knowledge at our events.</li>
-                </ul>
               </div>
             </div>
           </div>

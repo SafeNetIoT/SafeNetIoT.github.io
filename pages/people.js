@@ -3,6 +3,8 @@ import { Footer } from '../components/Footer';
 import { Header } from '../components/Header';
 import { Nav } from '../components/Navbar';
 import { SEO, navigation } from '../config/config';
+import { FaLinkedin, FaGoogle, FaBook } from 'react-icons/fa';
+
 
 // Define people data with categories
 const people = {
@@ -13,7 +15,7 @@ const people = {
       image: "/images/people/anna.jpeg",
       links: [
         { name: "linkedin", url: "https://linkedin.com/in/anna-maria-mandalari" },
-        { name: "google", url: "https://scholar.google.com/citations?user=example" },
+        { name: "google", url: "https://scholar.google.it/citations?user=iASd_SsAAAAJ&hl=it" },
       ],
     },
   ],
@@ -23,7 +25,8 @@ const people = {
       description: "Visiting researcher.",
       image: "/images/people/aurelio.jpeg",
       links: [
-        { name: "google", url: "https://scholar.google.com/citations?user=example" },
+        { name: "linkedin", url: "https://www.linkedin.com/in/aurelio-loris-canino-10b07028a/?originalSubdomain=it" },
+        { name: "google", url: "https://scholar.google.com/citations?user=T0JzDTsAAAAJ&hl=it" },
       ],
     },
   ],
@@ -32,28 +35,54 @@ const people = {
       name: "Mohammad Alhussan",
       description: "Mohammad Alhussan is a PhD candidate in Electronic and Electrical Engineering at University College London (UCL), specializing in the cybersecurity of the Internet of Medical Things (IoMT). He holds a Master’s degree in Electrical Engineering from Texas A&M University, with a focus on power electronics, and a Bachelor’s degree in Electrical Engineering from Concordia University, specializing in electronics and systems, both earned with distinction. With extensive experience in engineering and automation for around 9 years, Mohammad has held senior roles at EQUATE Petrochemical Company and MEGlobal Americas, where his expertise encompassed process automation, control system design, industrial instrumentation, and operational technology. He has been also serving as an assistant teacher at the Public Authority for Applied Education and Training in Kuwait, contributing to the development of future engineers. Mohammad's research and innovations have been recognized with numerous accolades, including the Technical Best Presentation Award at APEC 2021 for his work on AC-DC converters and the Best Demo Award at EWSN 2024 for exposing vulnerabilities in BLE-enabled wearable medical devices.",
       image: "/images/people/mohammad.jpeg",
-      links: [],
+      links: [
+        { name: "linkedin", url: "https://www.linkedin.com/in/alhussan/?originalSubdomain=uk" },
+        { name: "google", url: "https://scholar.google.com/citations?user=ngObtA8AAAAJ&hl=en" },
+      ],
     },
     {
       name: "Andrew Losty",
       description: "Research focus: Smart home privacy",
       image: "/images/people/andrew.jpg",
-      links: [],
+      links: [
+        { name: "linkedin", url: "https://www.linkedin.com/in/andrew-losty-4087521a/?originalSubdomain=uk" },
+        { name: "google", url: "https://scholar.google.com/citations?user=6Ks75q0AAAAJ&hl=en" },
+      ],
     },
     {
       name: "Ammara Yasin",
       description: "Ammara  (BSc Computer Science, MSc Science, Technology and Society) is undertaking interdisciplinary research at the intersection of Electronic and Electrical Engineering and Science and Technology Studies. This interdisciplinary approach is central to her work, which examines the privacy and security of methods to circumvent network shutdownns. Her research unpacks how these methods can contribute to reconfiguring global digital networks.",
       image: "/images/people/ammara.jpg",
-      links: [],
+      links: [
+        { name: "linkedin", url: "https://www.linkedin.com/in/ammara-y/" },
+      ],
     },
     {
       name: "Yuanyuan Zhou",
       description: "Yuanyuan Zhou is a PhD candidate in Electronic and Electrical Engineering(EEE) at University College London (UCL), specializing in Honeypot and Network Security. She holds a Bachelor's degree in Telecommunication Engineering from Sichuan University and a Master's degree in Machine Learning from UCL. Her research interests include the Internet of Things (IoT), privacy&security, machine learning, networking, and distributed systems.",
       image: "/images/people/yuanyuan.png",
-      links: [],
+      links: [
+        { name: "linkedin", url: "https://www.linkedin.com/in/yuanyuan-zhou-b71258282/?originalSubdomain=uk" },
+      ],
     },
   ],
   students: [
+    {
+      name: "Yuanzhe Hu",
+      description: "Yuanzhe is a postgraduate student in the MSc Integrated Machine Learning Systems program at University College London (UCL), Department of Electronic and Electrical Engineering. He received his First-Class Honours BEng degree in EEE from UCL (2021–2024). His research interests include IoT edge computing and autonomous driving systems, with a focus on developing efficient, secure, and intelligent machine learning solutions for real-world applications. Yuanzhe has hands-on experience in industrial automation, system testing, and AI model deployment. He is currently involved in a distributed IoT testbed project at the UCL SafeNetIoT Lab.",
+      image: "/images/people/yuanzhe_hu.png",
+      links: [
+      ],
+    },
+    {
+      name: "Ruoyu Wang",
+      description: "Ruoyu holds a Bachelor’s degree in Electrical and Electronic Engineering from Fuzhou University and is currently pursuing an MSc in Internet Engineering at University College London (UCL), specializing in networking and IoT development.",
+      image: "/images/people/ruoyu_wang.jpg",
+      links: [
+      ],
+    },
+  ],
+  alumni: [
     {
       name: "Anna Dixon",
       description: "INSERT",
@@ -83,14 +112,6 @@ const PeoplePage = () => {
       <div className="d-flex flex-column justify-content-between bg-secondary min-vh-100">
         <div className="py-5 px-5 container">
           <h1 className="text-primary fw-bold text-left mb-5">People</h1>
-
-          <div className="row justify-content-center mb-5">
-            <div className="col-12 col-md-10 col-lg-8">
-              <p className="text-dark lead text-left">
-                The members of SafeNetIot conduct cutting-edge research into all aspects of IoT Security and Privacy.
-              </p>
-            </div>
-          </div>
           {/* Staff Section */}
           <h2 className="text-primary mb-4">Staff</h2>
           <div className="row mb-5">
@@ -122,7 +143,15 @@ const PeoplePage = () => {
               <PersonCard key={index} person={person} />
             ))}
           </div>
+          {/* Researchers Section */}
+          <h2 className="text-primary mb-4">Alumni</h2>
+          <div className="row mb-5">
+            {people.alumni.map((person, index) => (
+              <PersonCard key={index} person={person} />
+            ))}
+          </div>
         </div>
+
         <Footer />
       </div>
     </Fragment>
@@ -130,34 +159,50 @@ const PeoplePage = () => {
 };
 
 // Reusable Person Card Component
-const PersonCard = ({ person }) => (
-  <div className="col-md-6 col-lg-4 mb-4">
-    <div className="card h-100">
-      <img
-        src={person.image}
-        alt={person.name}
-        className="card-img-top"
-        style={{ height: '300px', objectFit: 'cover' }}
-      />
-      <div className="card-body">
-        <h5 className="card-title text-primary">{person.name}</h5>
-        <p className="card-text text-primary">{person.description}</p>
-        <div className="d-flex justify-content-start">
-          {person.links.map((link, i) => (
-            <a
-              key={i}
-              href={link.url}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="me-3"
-            >
-              <i className={`bi bi-${link.name} text-primary`} style={{ fontSize: '1.5rem' }}></i>
-            </a>
-          ))}
+const PersonCard = ({ person }) => {
+  // Helper function to render icons based on link name
+  const renderIcon = (name) => {
+    switch (name) {
+      case 'linkedin':
+        return <FaLinkedin size={24} color="#0A66C2" />; // LinkedIn blue
+      case 'google':
+        return <FaGoogle size={24} color="#DB4437" />; // Google red
+      default:
+        return null;
+    }
+  };
+
+  return (
+    <div className="col-md-6 col-lg-4 mb-4">
+      <div className="card h-100">
+        <img
+          src={person.image}
+          alt={person.name}
+          className="card-img-top"
+          style={{ height: '300px', objectFit: 'cover' }}
+        />
+        <div className="card-body">
+          <h5 className="card-title text-primary">{person.name}</h5>
+          <p className="card-text text-primary">{person.description}</p>
+          <div style={{ display: 'flex', gap: '1rem' }}>
+            {person.links.map((link, i) => (
+              <a
+                key={i}
+                href={link.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={link.name}
+                style={{ display: 'inline-flex', alignItems: 'center' }}
+              >
+                {renderIcon(link.name)}
+              </a>
+            ))}
+          </div>
         </div>
       </div>
     </div>
-  </div>
-);
+  );
+};
+
 
 export default PeoplePage;
