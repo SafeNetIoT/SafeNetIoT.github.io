@@ -5,7 +5,7 @@ import { } from '@fortawesome/free-solid-svg-icons';
 import { allNews } from '/pages/News';
 
 export const navigation = {
-  name: "SafeNetIoT",
+  name: "SafeNetIoT        ",
   links: [
     {
       title: "People",
@@ -140,11 +140,6 @@ export const contact = {
       title: "Email Us",
       link: "mailto:anna.mandalari@ucl.ac.uk",
       isPrimary: true,
-    },
-    {
-      title: "Schedule Meeting",
-      link: "https://topmate.io/hashirshoaeb",
-      isPrimary: false,
     },
   ]
 }
