@@ -59,7 +59,7 @@ const people = {
     },
     {
       name: "Yuanyuan Zhou",
-      description: "Yuanyuan Zhou is a PhD candidate in Electronic and Electrical Engineering(EEE) at University College London (UCL), specializing in Honeypot and Network Security. She holds a Bachelor's degree in Telecommunication Engineering from Sichuan University and a Master's degree in Machine Learning from UCL. Her research interests include the Internet of Things (IoT), privacy&security, machine learning, networking, and distributed systems.",
+      description: "Yuanyuan Zhou is a PhD student in Electronic and Electrical Engineering(EEE) at University College London (UCL), specializing in Network Security. She holds a Bachelor's degree in Telecommunication Engineering from Sichuan University and a Master's degree in Machine Learning from UCL. Her research interests include the Internet of Things (IoT), privacy&security, machine learning, networking, and distributed systems.",
       image: "/images/people/yuanyuan.png",
       links: [
         { name: "linkedin", url: "https://www.linkedin.com/in/yuanyuan-zhou-b71258282/?originalSubdomain=uk" },
