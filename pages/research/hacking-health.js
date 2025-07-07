@@ -36,7 +36,7 @@ export default function HackingHealthPaper() {
 
               <div className="image-container mt-5">
                 <img
-                  src="/biosensors_images/WMD_Hacking.png"
+                  src="/images/WMD_Hacking.png"
                   alt="MITM Attack Diagram for Wearable Sensors"
                   className="img-fluid border border-secondary"
                   style={{ width: '50%', display: 'block', margin: '0 auto 20px' }}
@@ -44,7 +44,7 @@ export default function HackingHealthPaper() {
                 <h3 className="text-center mt-4">Wireless Wearable Sensors MITM Attack</h3>
                 
                 <img
-                  src="/biosensors_images/Experimental_Results.png"
+                  src="/images/Experimental_Results.png"
                   alt="Experimental Results from BLE Attacks"
                   className="img-fluid border border-secondary"
                   style={{ width: '50%', display: 'block', margin: '0 auto' }}
