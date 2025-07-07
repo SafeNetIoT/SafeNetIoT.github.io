@@ -45,7 +45,7 @@ const ResearchPage = () => {
 
               <li className="mb-3">
                 <a
-                  href="/ewsn_demo2024.html"
+                  href="/research/ewsn_demo2024"
                   className="text-dark text-decoration-none"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -57,7 +57,7 @@ const ResearchPage = () => {
 
               <li className="mb-3">
                 <a
-                  href="/ewsn_phd2024.html"
+                  href="/research/ewsn_phd2024"
                   className="text-dark text-decoration-none"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -69,7 +69,7 @@ const ResearchPage = () => {
 
               <li className="mb-3">
                 <a
-                  href="/research/iscas"
+                  href="/research/ISCAS"
                   className="text-dark text-decoration-none"
                   target="_blank"
                   rel="noopener noreferrer"
