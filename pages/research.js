@@ -25,46 +25,6 @@ const ResearchPage = () => {
             </div>
           </div>
 
-
-          <div className="mb-5">
-            <h2 className="text-primary mb-4">Upcoming Papers</h2>
-            <ul className="list-unstyled">
-              <li className="mb-3">
-                <a
-                  href="https://example.com/upcoming-paper-1"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-dark text-decoration-none"
-                >
-                  <i className="bi bi-file-earmark-text me-2"></i>
-                  - PENDING
-                </a>
-              </li>
-              {/* <li className="mb-3">
-                <a
-                  href="https://example.com/upcoming-paper-2"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-dark text-decoration-none"
-                >
-                  <i className="bi bi-file-earmark-text me-2"></i>
-                  "Privacy-Preserving Data Aggregation in Healthcare IoT Systems"
-                </a>
-              </li>
-              <li className="mb-3">
-                <a
-                  href="https://example.com/upcoming-paper-3"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-dark text-decoration-none"
-                >
-                  <i className="bi bi-file-earmark-text me-2"></i>
-                  "Real-Time Threat Detection in Industrial IoT Networks"
-                </a>
-              </li> */}
-            </ul>
-          </div>
-
           <div className="mb-5">
             <h2 className="text-primary mb-4">Published Papers</h2>
             <ul className="list-unstyled">
