@@ -34,7 +34,7 @@ const ResearchPage = () => {
               <li className="mb-3">
                 <a 
                   href="/research/hacking-health" 
-                  className="text-dark text-decoration-none"
+                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -46,7 +46,7 @@ const ResearchPage = () => {
               <li className="mb-3">
                 <a
                   href="/research/ewsn_demo2024"
-                  className="text-dark text-decoration-none"
+                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -58,7 +58,7 @@ const ResearchPage = () => {
               <li className="mb-3">
                 <a
                   href="/research/ewsn_phd2024"
-                  className="text-dark text-decoration-none"
+                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -70,7 +70,7 @@ const ResearchPage = () => {
               <li className="mb-3">
                 <a
                   href="/research/ISCAS"
-                  className="text-dark text-decoration-none"
+                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -85,7 +85,7 @@ const ResearchPage = () => {
                   href="https://arxiv.org/pdf/2504.18571?"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-dark text-decoration-none"
+                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
                 >
                   <i className="bi bi-file-earmark-text me-2"></i>
                   - Intelligent Detection of Non-Essential IoT Traffic on the Home Gateway
@@ -97,7 +97,7 @@ const ResearchPage = () => {
                   href="https://www.ewsn.org/file-repository/ewsn2024/EWSN24-PSCE_paper_14.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-dark text-decoration-none"
+                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
                 >
                   <i className="bi bi-file-earmark-text me-2"></i>
                   - An Investigation of Matter Smart Home Mechanisms to Mitigate Denial-of-Service (DoS) Attacks
@@ -109,7 +109,7 @@ const ResearchPage = () => {
                   href="https://www.researchgate.net/publication/383139967_Enabling_Lawful_Interception_in_Environments_Protected_by_IoT_Safeguard"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-dark text-decoration-none"
+                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
                 >
                   <i className="bi bi-file-earmark-text me-2"></i>
                   - Enabling Lawful Interception in Environments Protected by IoT Safeguard
@@ -118,11 +118,11 @@ const ResearchPage = () => {
             </ul>
           </div>
 
-          {/* Research Posters Section (enhanced) */}
+          {/* Research Posters Section remains unchanged */}
           <div className="mb-5">
             <h2 className="text-primary mb-4">Research Posters</h2>
             <div className="row">
-              {/* Poster 1 - Enhanced with HTML content */}
+              {/* Poster 1 */}
               <div className="col-md-6 col-lg-4 mb-4">
                 <div className="card h-100">
                   <img
@@ -146,7 +146,7 @@ const ResearchPage = () => {
                 </div>
               </div>
 
-              {/* Poster 2 - Enhanced with HTML content */}
+              {/* Poster 2 */}
               <div className="col-md-6 col-lg-4 mb-4">
                 <div className="card h-100">
                   <img
@@ -170,7 +170,7 @@ const ResearchPage = () => {
                 </div>
               </div>
 
-              {/* Poster 3 - Enhanced with HTML content */}
+              {/* Poster 3 */}
               <div className="col-md-6 col-lg-4 mb-4">
                 <div className="card h-100">
                   <img
