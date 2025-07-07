@@ -2,32 +2,34 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main]  # Trigger on pushes to main
+    branches: [main]  # Trigger on pushes to `main`
 
 jobs:
   deploy:
-    runs-on: ubuntu-latest  # Faster and free (macos-11 is slower/paid for GitHub Actions)
+    runs-on: ubuntu-latest  # Use Ubuntu (faster/more reliable than macOS)
 
     steps:
       # 1. Checkout code
       - uses: actions/checkout@v4
 
-      # 2. Set up Node.js (LTS version)
+      # 2. Set up Node.js
       - uses: actions/setup-node@v4
         with:
-          node-version: 20.x  # Next.js recommends Node.js 18+
+          node-version: 20.x  # Next.js requires Node.js 16+
           cache: 'npm'
 
-      # 3. Install dependencies and build
+      # 3. Install dependencies, build, and export
+      - run: npx browserslist@latest --update-db  # Fix browserslist warning
       - run: npm ci
       - run: npm run build
       - run: npm run export
       - run: touch ./out/.nojekyll  # Disable Jekyll processing
 
-      # 4. Deploy ONLY the `out/` folder to `master` branch
+      # 4. Deploy to GitHub Pages
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@4.1.4
         with:
           branch: master  # GitHub Pages branch
-          folder: out    # Deploy the exported static files
-          clean: true    # Delete old files in `master`
+          folder: out    # Deploy the `out/` folder
+          clean: true    # Delete old files
+          token: ${{ secrets.GITHUB_TOKEN }}  # Critical for permissions!
