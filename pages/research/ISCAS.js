@@ -7,7 +7,6 @@ import { SEO, navigation } from '../../config/config';
 
 // Import images
 import iscasImage from '../../ISCAS_images/3.png';
-import presentationPdf from '../images/pdfs/ISCAS_Template_Presentation.pdf';
 
 export default function IscasPaper() {
   return (
@@ -75,13 +74,13 @@ export default function IscasPaper() {
                   </li>
                   <li>
                     <a
-                      href={presentationPdf.src}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-primary"
-                    >
-                      View Paper Presentation (pdf)
-                    </a>
+                    href="/pdfs/ISCAS_Template_Presentation.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary"
+                  >
+                    View Paper Presentation (pdf)
+                  </a>
                   </li>
                 </ul>
               </div>
