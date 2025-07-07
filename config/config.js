@@ -2,7 +2,7 @@
 import profile from './profile.png';
 import { faAppStore, faGithub, faGooglePlay, faResearchgate } from '@fortawesome/free-brands-svg-icons';
 import { } from '@fortawesome/free-solid-svg-icons';
-import { allNews } from '/pages/News';
+import { allNews } from '/pages/news';
 
 export const navigation = {
   name: "SafeNetIoT        ",
