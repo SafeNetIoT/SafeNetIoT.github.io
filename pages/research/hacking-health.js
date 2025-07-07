@@ -5,6 +5,10 @@ import { Header } from '../../components/Header';
 import { Nav } from '../../components/Navbar';
 import { SEO, navigation } from '../../config/config';
 
+// Import images using relative paths
+import wmdHackingImage from '../../images/WMD_Hacking.png';
+import experimentalResultsImage from '../../images/Experimental_Results.png';
+
 export default function HackingHealthPaper() {
   return (
     <>
@@ -36,7 +40,7 @@ export default function HackingHealthPaper() {
 
               <div className="image-container mt-5">
                 <img
-                  src="/images/WMD_Hacking.png"
+                  src={wmdHackingImage.src} 
                   alt="MITM Attack Diagram for Wearable Sensors"
                   className="img-fluid border border-secondary"
                   style={{ width: '50%', display: 'block', margin: '0 auto 20px' }}
@@ -44,7 +48,7 @@ export default function HackingHealthPaper() {
                 <h3 className="text-center mt-4">Wireless Wearable Sensors MITM Attack</h3>
                 
                 <img
-                  src="/images/Experimental_Results.png"
+                  src={experimentalResultsImage.src} 
                   alt="Experimental Results from BLE Attacks"
                   className="img-fluid border border-secondary"
                   style={{ width: '50%', display: 'block', margin: '0 auto' }}
