@@ -1,50 +1,33 @@
-# This workflow will do a clean install of node dependencies, cache/restore them, build the source code and run tests across different versions of node
-# For more information see: https://help.github.com/actions/language-and-framework-guides/using-nodejs-with-github-actions
-# https://www.youtube.com/watch?v=yRz8D_oJMWQ
-
-name: Node.js CI
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches: [main]  # Trigger on pushes to main
 
 jobs:
-  build:
-
-    runs-on: macos-11
-
-    # env:
-      # Repository name
-      # https://www.linkedin.com/pulse/deploy-nextjs-app-github-pages-federico-antu%C3%B1a/
-      # BASE_PATH: /${{ github.event.repository.name }}
-
-    strategy:
-      matrix:
-        node-version: [14.x]
-        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+  deploy:
+    runs-on: ubuntu-latest  # Faster and free (macos-11 is slower/paid for GitHub Actions)
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Set Environment Variables
-      run: echo "BASE_PATH=/${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
-    - name: Test Environment Variables
-      run: echo ${{ env.BASE_PATH }}
-    - name: Use Node.js ${{ matrix.node-version }}
-      uses: actions/setup-node@v2
-      with:
-        node-version: ${{ matrix.node-version }}
-        cache: 'npm'
-    - run: npm ci
-    # - run: npm run prebuild # build automatically runs prebuild
-    - run: npm run build
-    - run: npm run export
-    - run: touch ./out/.nojekyll
-    
-    # https://github.com/marketplace/actions/deploy-to-github-pages
-    - name: Deploy 🚀
-      uses: JamesIves/github-pages-deploy-action@4.1.4
-      with:
-        branch: master # The branch the action should deploy to.
-        folder: root # The folder the action should deploy.
+      # 1. Checkout code
+      - uses: actions/checkout@v4
+
+      # 2. Set up Node.js (LTS version)
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20.x  # Next.js recommends Node.js 18+
+          cache: 'npm'
+
+      # 3. Install dependencies and build
+      - run: npm ci
+      - run: npm run build
+      - run: npm run export
+      - run: touch ./out/.nojekyll  # Disable Jekyll processing
+
+      # 4. Deploy ONLY the `out/` folder to `master` branch
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: master  # GitHub Pages branch
+          folder: out    # Deploy the exported static files
+          clean: true    # Delete old files in `master`
