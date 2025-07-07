@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+
 import React, { Fragment } from 'react';
 import Link from 'next/link';
 import { Footer } from '../components/Footer';
