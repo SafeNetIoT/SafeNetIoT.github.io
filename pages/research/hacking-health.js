@@ -20,91 +20,67 @@ export default function HackingHealthPaper() {
             </Link>
           </div>
 
-          <h1 className="text-primary fw-bold">Hacking Health (BioSensors 2024)</h1>
+          <h1 className="text-primary fw-bold">BioSensors 2024</h1>
+          <h2 className="text-primary">Hacking Health: Unveiling Vulnerabilities in Wireless Wearable Sensors</h2>
 
           <div className="row justify-content-center mt-4">
             <div className="col-12 col-md-10 col-lg-8">
-              <h2 className="text-center text-primary">Live Demonstration</h2>
-              <p className="text-center lead"><em>Unveiling Vulnerabilities in Wireless Wearable Sensors</em></p>
+              <p><strong>Authors:</strong> Mohammad Alhussan, Francesca Boem, Sara Ghoreishizadeh, Anna Maria Mandalari</p>
+              <p><strong>Conference:</strong> IEEE BioSensors 2024</p>
 
-              <p className="text-center">
-                Mohammad Alhussan, Francesca Boem, Sara Ghoreishizadeh, Anna Maria Mandalari<br />
-                University College London
+              <p className="mt-4">
+                This live demonstration showcases vulnerabilities in wearable sensors using Bluetooth Low Energy (BLE), 
+                focusing on Man-in-the-Middle (MITM) and data manipulation attacks. Our demo highlights security risks 
+                in devices such as SnapECG, Wellue Oxylink, and Wellue BPM.
               </p>
 
-              <p className="text-center text-muted">Last updated: May 2025</p>
+              <div className="image-container mt-5">
+                <img
+                  src="/biosensors_images/WMD_Hacking.png"
+                  alt="MITM Attack Diagram for Wearable Sensors"
+                  className="img-fluid border border-secondary"
+                  style={{ width: '50%', display: 'block', margin: '0 auto 20px' }}
+                />
+                <h3 className="text-center mt-4">Wireless Wearable Sensors MITM Attack</h3>
+                
+                <img
+                  src="/biosensors_images/Experimental_Results.png"
+                  alt="Experimental Results from BLE Attacks"
+                  className="img-fluid border border-secondary"
+                  style={{ width: '50%', display: 'block', margin: '0 auto' }}
+                />
+                <h3 className="text-center">(A) MITM Attack on Oximeter (B) App Interpreted Results</h3>
+              </div>
 
-              <div className="paper-content mt-5">
-                <h3 className="text-center text-primary"><strong>Abstract</strong></h3>
-                <p className="text-justify">
-                  This live demonstration showcases the potential vulnerabilities in some wireless wearable sensors that
-                  use Bluetooth Low Energy (BLE) for communication, focusing on the risks of Man-in-the-Middle (MITM)
-                  attacks, data sabotage, and manipulation. We show how these attacks can compromise not only the
-                  confidentiality and integrity of sensitive medical data transmitted by wearable devices, but also
-                  patients privacy and sensor reliability.
-                </p>
-
-                <h3 className="text-center text-primary mt-4"><strong>Demonstration Setup</strong></h3>
-                <p className="text-justify">
-                  Our setup includes commercial BLE-enabled medical sensors such as ECGs, oximeters, and blood pressure
-                  monitors (e.g., SnapECG, Wellue Oxylink, Wellue BPM). Using the Mirage tool and BLE dongles with Kali
-                  Linux, we simulate MITM attacks to intercept and alter health data. These demonstrations are conducted
-                  live, enabling visitors to engage with the devices and observe real-time exploits.
-                </p>
-
-                <h3 className="text-center text-primary mt-4"><strong>Visitor Engagement</strong></h3>
-                <p className="text-justify">
-                  Attendees experience firsthand the risks associated with BLE-based communication in wearable sensors.
-                  They can wear the sensors, see intercepted data visualized, and even participate in launching attacks in
-                  a controlled environment.
-                </p>
-
-                <h3 className="text-center text-primary mt-4"><strong>Impact</strong></h3>
-                <p className="text-justify">
-                  This demo emphasizes the importance of strengthening the cybersecurity of wearable devices. Our findings
-                  call for urgent action by manufacturers, researchers, and regulators to implement robust safeguards for
-                  patient safety in the Internet of Medical Things (IoMT).
-                </p>
-
-                <div className="text-center my-5">
-                  <img
-                    src="/images/research/biosensors_diagram.png"
-                    alt="BLE Attack Diagram"
-                    className="img-fluid border border-secondary"
-                    style={{ maxWidth: '80%' }}
-                  />
-                </div>
-
-                <div className="text-center my-5">
-                  <img
-                    src="/images/research/biosensors_photo.png"
-                    alt="MITM Attack Setup"
-                    className="img-fluid border border-secondary"
-                    style={{ maxWidth: '80%' }}
-                  />
-                </div>
-
-                <p className="text-center font-italic"><em>All experiments were performed in a controlled testbed and pose no
-                  real-world risk.</em></p>
-
-                <div className="paper-meta mt-5">
-                  <h3 className="text-center text-primary"><strong>About this publication</strong></h3>
-                  <p><strong>Conference:</strong> IEEE BioSensors 2024</p>
-                  <p><strong>Paper Title:</strong> Hacking Health: Unveiling Vulnerabilities in Wireless Wearable Sensors</p>
-                  <p><strong>Authors:</strong> Mohammad Alhussan, Francesca Boem, Sara Ghoreishizadeh, Anna Maria Mandalari</p>
-                  <p>
-                    <strong>Link:</strong>{' '}
+              <div className="mt-5">
+                <h3 className="text-primary">Resources:</h3>
+                <ul>
+                  <li>
                     <a
                       href="https://ieeexplore.ieee.org/document/10712697"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary"
                     >
-                      IEEE Xplore
+                      View Paper on IEEE Xplore
                     </a>
-                  </p>
-                </div>
+                  </li>
+                </ul>
+
+                <h3 className="text-primary mt-5">Citation:</h3>
+                <pre className="bg-light p-3 rounded" style={{ overflowX: 'auto' }}>
+                  {`@inproceedings{alhussan2024biosensors,
+  title     = {Hacking Health: Unveiling Vulnerabilities in Wireless Wearable Sensors},
+  author    = {Alhussan, Mohammad and Boem, Francesca and Ghoreishizadeh, Sara and Mandalari, Anna Maria},
+  booktitle = {Proceedings of the IEEE BioSensors Conference},
+  year      = {2024}
+}`}
+                </pre>
               </div>
+
+              <p className="font-italic text-center mt-5">
+                Note: All experiments were safely performed in a controlled environment.
+              </p>
             </div>
           </div>
         </div>
