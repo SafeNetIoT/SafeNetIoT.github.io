@@ -32,4 +32,4 @@ jobs:
           branch: master  # GitHub Pages branch
           folder: out    # Deploy the `out/` folder
           clean: true    # Delete old files
-          token: ${{ secrets.GITHUB_TOKEN }}  # Critical for permissions!
+          token: ${{ secrets.DEPLOY_TOKEN }}  # Critical for permissions!
