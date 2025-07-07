@@ -7,7 +7,7 @@ import { SEO, navigation } from '../../config/config';
 
 // Import images
 import iscasImage from '../../ISCAS_images/3.png';
-import presentationPdf from '../pdfs/ISCAS_Template_Presentation.pdf';
+import presentationPdf from '../images/pdfs/ISCAS_Template_Presentation.pdf';
 
 export default function IscasPaper() {
   return (
