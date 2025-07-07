@@ -5,6 +5,26 @@ import { Nav } from '../components/Navbar';
 import { SEO, navigation } from '../config/config';
 
 export const allNews = [
+
+   {
+    date: "7th July 2025 - New York Times Reports on Our Research",
+    description: "The New York Times cites our paper on smart TVs' security and privacy implications in their article on Internet of Things devices. "
+",
+    image: "/images/news/NYT1.jpg",
+    link: "https://www.nytimes.com/wirecutter/reviews/advice-smart-devices-data-tracking/",
+
+  },
+
+  {
+    date: "9th June 2025 - 20th June 2025 - HC2P Summer Research Program",
+    description: "Ammara Yasin attended the Human Centric Cybersecurity Summer Program in Montreal and Ottowa, Canada, as one of 3 PhD students across all UK institutions to be awarded full funding to attend this trans-disciplinary research residency on human-centric cybersecurity."
+",
+    image: "/images/news/HC2P.jpg",
+    link: "https://www.hc2p.ca/",
+
+  },
+
+  
   {
     date: "25th May 2025 – ISCAS 2025 Presentation",
     description: "Mohammad Alhussan presented his research paper Hacking Health: Unveiling Vulnerabilities in BLE-Enabled Wearable Sensor Nodes at the IEEE International Symposium on Circuits and Systems (ISCAS 2025) in London, UK.",
