@@ -27,6 +27,11 @@ export const navigation = {
           title: "Hacking Health",
           link: "/research/hacking-health"
         },
+        {
+          title: "ISCAS",
+          link: "/research/ISCAS"
+        },
+
         // Add more papers here as they're created
         //{
         //  title: "paper2 added",
