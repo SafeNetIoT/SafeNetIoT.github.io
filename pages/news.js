@@ -10,7 +10,7 @@ export const allNews = [
     date: "7th July 2025 - New York Times Reports on Our Research",
     description: "The New York Times cites our paper on smart TVs' security and privacy implications in their article on Internet of Things devices. "
 ",
-    image: "/images/news/NYT1.jpg",
+    image: "/images/news/NYT1.png",
     link: "https://www.nytimes.com/wirecutter/reviews/advice-smart-devices-data-tracking/",
 
   },
