@@ -51,7 +51,7 @@ const people = {
     },
     {
       name: "Ammara Yasin",
-      description: "Ammara TEST (BSc Computer Science, MSc Science, Technology and Society) is undertaking interdisciplinary research at the intersection of Electronic and Electrical Engineering and Science and Technology Studies. This interdisciplinary approach is central to her work, which examines the privacy and security of methods to circumvent network shutdownns. Her research unpacks how these methods can contribute to reconfiguring global digital networks.",
+      description: "Ammara (BSc Computer Science, MSc Science, Technology and Society) is undertaking interdisciplinary research at the intersection of Electronic and Electrical Engineering and Science and Technology Studies. This interdisciplinary approach is central to her work, which examines the privacy and security of methods to circumvent network shutdownns. Her research unpacks how these methods can contribute to reconfiguring global digital networks.",
       image: "/images/people/ammara.jpg",
       links: [
         { name: "linkedin", url: "https://www.linkedin.com/in/ammara-y/" },
