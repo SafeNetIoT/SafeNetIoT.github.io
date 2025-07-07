@@ -74,7 +74,7 @@ export default function IscasPaper() {
                   </li>
                   <li>
                     <a
-                    href="/pdfs/ISCAS_Template_Presentation.pdf"
+                    href="/images/pdfs/ISCAS_Template_Presentation.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary"
