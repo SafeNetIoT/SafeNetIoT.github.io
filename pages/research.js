@@ -30,19 +30,7 @@ const ResearchPage = () => {
           <div className="mb-5">
             <h2 className="text-primary mb-4">Published Papers</h2>
             <ul className="list-unstyled">
-              <li className="mb-3">
-                <a
-                  href="https://arxiv.org/pdf/2504.18571?"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-dark text-decoration-none"
-                >
-                  <i className="bi bi-file-earmark-text me-2"></i>
-                  - Intelligent Detection of Non-Essential IoT Traffic on the Home Gateway
-                </a>
-              </li>
 
-              {/* Changed from Link to anchor tag for consistency */}
               <li className="mb-3">
                 <a 
                   href="/research/hacking-health" 
@@ -55,7 +43,6 @@ const ResearchPage = () => {
                 </a>
               </li>
 
-              {/* Added new paper entries */}
               <li className="mb-3">
                 <a
                   href="/ewsn_demo2024.html"
@@ -95,6 +82,18 @@ const ResearchPage = () => {
               {/* Existing entries */}
               <li className="mb-3">
                 <a
+                  href="https://arxiv.org/pdf/2504.18571?"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-dark text-decoration-none"
+                >
+                  <i className="bi bi-file-earmark-text me-2"></i>
+                  - Intelligent Detection of Non-Essential IoT Traffic on the Home Gateway
+                </a>
+              </li>
+                    
+              <li className="mb-3">
+                <a
                   href="https://www.ewsn.org/file-repository/ewsn2024/EWSN24-PSCE_paper_14.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -104,6 +103,7 @@ const ResearchPage = () => {
                   - An Investigation of Matter Smart Home Mechanisms to Mitigate Denial-of-Service (DoS) Attacks
                 </a>
               </li>
+                    
               <li className="mb-3">
                 <a
                   href="https://www.researchgate.net/publication/383139967_Enabling_Lawful_Interception_in_Environments_Protected_by_IoT_Safeguard"
