@@ -69,7 +69,7 @@ const ResearchPage = () => {
 
               <li className="mb-3">
                 <a
-                  href="/iscas.html"
+                  href="/research/iscas"
                   className="text-dark text-decoration-none"
                   target="_blank"
                   rel="noopener noreferrer"
