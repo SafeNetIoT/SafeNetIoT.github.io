@@ -91,7 +91,7 @@ const ResearchPage = () => {
                   - Intelligent Detection of Non-Essential IoT Traffic on the Home Gateway
                 </a>
               </li>
-                    
+
               <li className="mb-3">
                 <a
                   href="https://www.ewsn.org/file-repository/ewsn2024/EWSN24-PSCE_paper_14.pdf"
@@ -100,9 +100,11 @@ const ResearchPage = () => {
                   className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
                 >
                   <i className="bi bi-file-earmark-text me-2"></i>
-                  - An Investigation of Matter Smart Home Mechanisms to Mitigate Denial-of-Service (DoS) Attacks
+                  [1] A. Losty, A. M. Mandalari, "An Investigation of Matter Smart Home Mechanisms to Mitigate Denial-of-Service (DoS) Attacks" in PhD School at the 21st Int. Conf. Embedded Wireless Syst. Netw. (EWSN), Dec. 2024, St. Regis Abu Dhabi, UAE.
                 </a>
               </li>
+               
+             
                     
               <li className="mb-3">
                 <a
