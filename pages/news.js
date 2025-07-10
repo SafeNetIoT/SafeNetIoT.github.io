@@ -6,21 +6,19 @@ import { SEO, navigation } from '../config/config';
 
 export const allNews = [
    {
-    date: "3rd July – 4th July 2025  – Coseners 2025 (Next Generation Networking and Multi‑Service Networks Workshop)",
-    description: "PhD students Andrew Losty and Yuanyuan Zhou presented their work on “Towards Operational and Security Best Practices for DNS in the Internet of Things” and “TwinGuard: An Adaptive Digital Twin for Real‑Time HTTP(S) Intrusion Detection and Threat Intelligence” at Coseners 2025. Yuanyuan was nominated as the runner‑up for the conference award.",
-    image: "/images/news/Coseners.jpeg",
-    link: "https://coseners.net/coseners-2025/",
-      
-   },
-
-   {
     date: "7th July 2025 - New York Times Reports on Our Research",
     description: "The New York Times cites our paper on smart TVs' security and privacy implications in their article on Internet of Things devices.",
     image: "/images/news/NYT1.png",
     link: "https://www.nytimes.com/wirecutter/reviews/advice-smart-devices-data-tracking/",
 
   },
-
+   {
+    date: "3rd July – 4th July 2025  – Coseners 2025 (Next Generation Networking and Multi‑Service Networks Workshop)",
+    description: "PhD students Andrew Losty and Yuanyuan Zhou presented their work on “Towards Operational and Security Best Practices for DNS in the Internet of Things” and “TwinGuard: An Adaptive Digital Twin for Real‑Time HTTP(S) Intrusion Detection and Threat Intelligence” at Coseners 2025. Yuanyuan was nominated as the runner‑up for the conference award.",
+    image: "/images/news/Coseners.jpeg",
+    link: "https://coseners.net/coseners-2025/",
+      
+   },
   {
     date: "9th June 2025 - 20th June 2025 - HC2P Summer Research Program",
     description: "Ammara Yasin attended the Human Centric Cybersecurity Summer Program in Montreal and Ottowa, Canada, as one of 3 PhD students across all UK institutions to be awarded full funding to attend this trans-disciplinary research residency on human-centric cybersecurity.",
