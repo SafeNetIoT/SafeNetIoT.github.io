@@ -43,7 +43,7 @@ const people = {
     {
       name: "Andrew Losty",
       description: "Andrew Losty is a PhD candidate in Electronic and Electrical Engineering at University College London (UCL), where he is also affiliated with the UCL Centre for Doctoral Training in Cybersecurity. His research focuses on the privacy, security, and operational behavior of Internet of Things (IoT) devices.",
-      image: "/images/people/andrew2.jpg",
+      image: "/images/people/andrew4.jpg",
       links: [
         { name: "linkedin", url: "https://www.linkedin.com/in/andrew-losty-4087521a/?originalSubdomain=uk" },
         { name: "google", url: "https://scholar.google.com/citations?user=6Ks75q0AAAAJ&hl=en" },
