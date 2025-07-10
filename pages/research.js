@@ -104,7 +104,17 @@ const ResearchPage = () => {
                 </a>
               </li>
                
-             
+             <li className="mb-3">
+                <a
+                  href="https://hal.science/hal-05110445/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
+                >
+                  <i className="bi bi-file-earmark-text me-2"></i>
+                  [2] A. Losty, A. M. Mandalari, A. K. Mishra, M. Cunche  "Towards Operational and Security Best Practices for DNS in the Internet of Things" in ANRW 2025-Applied Networking Research Workshop, July. 2025, IETF Madrid, Spain.
+                </a>
+              </li>
                     
               <li className="mb-3">
                 <a
