@@ -8,7 +8,7 @@ export const allNews = [
    {
     date: "3rd July – 4th July 2025  – Coseners 2025 (Next Generation Networking and Multi‑Service Networks Workshop)",
     description: "PhD students Andrew Losty and Yuanyuan Zhou presented their work on “Towards Operational and Security Best Practices for DNS in the Internet of Things” and “TwinGuard: An Adaptive Digital Twin for Real‑Time HTTP(S) Intrusion Detection and Threat Intelligence” at Coseners 2025. Yuanyuan was nominated as the runner‑up for the conference award.",
-    image: "/public/images/news/Coseners.jpeg",
+    image: "/images/news/Coseners.jpeg",
     link: "https://coseners.net/coseners/",
       
    },
