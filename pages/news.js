@@ -32,7 +32,7 @@ export const allNews = [
     date: "25th May 2025 – ISCAS 2025 Presentation",
     description: "Mohammad Alhussan presented his research paper Hacking Health: Unveiling Vulnerabilities in BLE-Enabled Wearable Sensor Nodes at the IEEE International Symposium on Circuits and Systems (ISCAS 2025) in London, UK.",
     image: "/images/news/ISCAS.jpg",
-    link: "/research/hacking-health",
+       link: "/research/ISCAS",
 
   },
   {
