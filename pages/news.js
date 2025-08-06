@@ -8,7 +8,7 @@ export const allNews = [
 
    {
     date: "19-25th Jul 2025: ANRW Workshop + IETF 123 meeting Madrid",
-    description: "Andrew Losty presented Poster at ANRW Workshop.  Paper accepted by IETF Towards Operational and Security Best Practices for DNS in the Internet of Things Andrew Losty, Anna Maria Mandalari, Abhishek K. Mishra, Mathieu Cunche.  We also submitted IETF draft  RFC IoT DNS Security and Privacy Guidelines https://datatracker.ietf.org/doc/draft-mishra-iotops-iot-dns-guidelines/.",
+    description: "Andrew Losty presented Poster at ANRW Workshop.  Paper accepted by IETF Towards Operational and Security Best Practices for DNS in the Internet of Things Andrew Losty, Anna Maria Mandalari, Abhishek K. Mishra, Mathieu Cunche.  We also submitted IETF draft  “RFC IoT DNS Security and Privacy Guidelines”.",
     image: "/images/news/ietf-poster.png",
     link: "https://www.ietf.org/meeting/123/",
   },
