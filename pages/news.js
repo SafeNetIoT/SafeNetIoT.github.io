@@ -84,6 +84,20 @@ export const allNews = [
     image: "/images/news/august-2023.jpg",
     link: "https://www.digicatapult.org.uk/apply/events/connected-ecosystems-security-and-resilience-in-iot/#:~:text=This%20event%20brings%20together%20cybersecurity,security%20standardisation%20and%20implementation%20strategies.",
   },
+
+   {
+    date: "19 Jul 2025 - 25 Jul 2025: ANRW Workshop + IETF 123 meeting Madrid",
+    description: "Andrew Losty presented Poster at ANRW Workshop.  Paper accepted by IETF Towards Operational and Security Best Practices for DNS in the Internet of Things Andrew Losty, Anna Maria      Mandalari, Abhishek K. Mishra, Mathieu Cunche.  We also submitted IETF draft  RFC IoT DNS Security and Privacy Guidelines https://datatracker.ietf.org/doc/draft-mishra-iotops-iot-dns-guidelines/.",
+    image: "/images/IETF-Poster.jpg",
+    link: "https://https://www.ietf.org/meeting/123/",
+  },
+
+
+
+
+
+
+   
 ];
 
 const NewsPage = () => {
