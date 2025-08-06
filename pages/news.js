@@ -5,6 +5,14 @@ import { Nav } from '../components/Navbar';
 import { SEO, navigation } from '../config/config';
 
 export const allNews = [
+
+   {
+    date: "19-25th Jul 2025: ANRW Workshop + IETF 123 meeting Madrid",
+    description: "Andrew Losty presented Poster at ANRW Workshop.  Paper accepted by IETF Towards Operational and Security Best Practices for DNS in the Internet of Things Andrew Losty, Anna Maria Mandalari, Abhishek K. Mishra, Mathieu Cunche.  We also submitted IETF draft  RFC IoT DNS Security and Privacy Guidelines https://datatracker.ietf.org/doc/draft-mishra-iotops-iot-dns-guidelines/.",
+    image: "/images/news/IETF-Poster.jpg",
+    link: "https://www.ietf.org/meeting/123/",
+  },
+   
    {
     date: "7th July 2025 - New York Times Reports on Our Research",
     description: "The New York Times cites our paper on smart TVs' security and privacy implications in their article on Internet of Things devices.",
@@ -85,19 +93,7 @@ export const allNews = [
     link: "https://www.digicatapult.org.uk/apply/events/connected-ecosystems-security-and-resilience-in-iot/#:~:text=This%20event%20brings%20together%20cybersecurity,security%20standardisation%20and%20implementation%20strategies.",
   },
 
-   {
-    date: "19-25th Jul 2025: ANRW Workshop + IETF 123 meeting Madrid",
-    description: "Andrew Losty presented Poster at ANRW Workshop.  Paper accepted by IETF Towards Operational and Security Best Practices for DNS in the Internet of Things Andrew Losty, Anna Maria      Mandalari, Abhishek K. Mishra, Mathieu Cunche.  We also submitted IETF draft  RFC IoT DNS Security and Privacy Guidelines https://datatracker.ietf.org/doc/draft-mishra-iotops-iot-dns-guidelines/.",
-    image: "/images/news/IETF-Poster.jpg",
-    link: "https://https://www.ietf.org/meeting/123/",
-  },
-
-
-
-
-
-
-   
+      
 ];
 
 const NewsPage = () => {
