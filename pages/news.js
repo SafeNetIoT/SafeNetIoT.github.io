@@ -15,14 +15,7 @@ export const allNews = [
     link: "https://www.ietf.org/meeting/123/",
   },
    
-   {
-    date: "19-25th July 2025 - ANRW Workshop + IETF 123 meeting Madrid",
-    description: "PhD student Andrew Losty presented Poster at ANRW Workshop.  Paper accepted by IETF Towards Operational and Security Best Practices for DNS in the Internet of Things Andrew Losty, Anna Maria Mandalari, Abhishek K. Mishra, Mathieu Cunche.  We also submitted IETF draft  “RFC IoT DNS Security and Privacy Guidelines”.",
-    image: "/images/news/madrid.jpeg",
-    link: "https://www.ietf.org/meeting/123/",
-  },
-   
-   {
+     {
     date: "7th July 2025 - New York Times Reports on Our Research",
     description: "The New York Times cites our paper on smart TVs' security and privacy implications in their article on Internet of Things devices.",
     image: "/images/news/NYT1.png",
