@@ -5,18 +5,16 @@ import { Nav } from '../components/Navbar';
 import { SEO, navigation } from '../config/config';
 
 export const allNews = [
+
+
+ {
+  date: "September 2025 - Recognition by H.H. the Crown Prince of Kuwait in London",
+  description:
+    "Mohammad Alhussan, PhD candidate at UCL Electronic & Electrical Engineering and member of the SafeNetIoT Lab, was honored to meet His Highness the Crown Prince Sheikh Sabah Khaled Al-Hamad Al-Sabah during a gathering with distinguished Kuwaiti students in London. The occasion also included the Ambassador of Kuwait and the leadership of the Cultural Office. Special appreciation to Dr. Abdullah Al-Meshal (Cultural Counselor & Head of the Cultural Office) and Dr. Hessah Alojayan (Cultural Attaché) for their invitation and excellent organization.",
+  image: "/images/news/crown-prince-london.jpeg",
+  link: "/news/crown-prince-2025"
+},
  
-    {
-    date: "September 2025 - Recognition by H.H. the Crown Prince of Kuwait in London",
-    description:
-      "Mohammad Alhussan, PhD candidate at UCL Electronic & Electrical Engineering and member of the SafeNetIoT Lab, was honored to meet His Highness the Crown Prince Sheikh Sabah Khaled Al-Hamad Al-Sabah during a gathering with distinguished Kuwaiti students in London. The occasion also included the Ambassador of Kuwait and the Cultural Office leadership. Special appreciation to Dr. Abdullah Al-Meshal (Cultural Counselor & Head of the Cultural Office) and Dr. Hessah Alojayan (Cultural Attaché) for their invitation and excellent organization.",
-    image: "/images/news/crown-prince-london.jpeg",
-    link: "/news/crown-prince-2025",
-
-  },
-
-
-
    {
     date: "19-25th July 2025 - ANRW Workshop + IETF 123 meeting Madrid",
     description: "PhD student Andrew Losty presented Poster at ANRW Workshop.  Paper accepted by IETF Towards Operational and Security Best Practices for DNS in the Internet of Things Andrew Losty, Anna Maria Mandalari, Abhishek K. Mishra, Mathieu Cunche.  We also submitted IETF draft  “RFC IoT DNS Security and Privacy Guidelines”.",
