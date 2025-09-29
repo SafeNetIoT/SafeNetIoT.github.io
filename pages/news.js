@@ -12,7 +12,7 @@ export const allNews = [
       "Mohammad Alhussan, PhD candidate at UCL Electronic & Electrical Engineering and member of the SafeNetIoT Lab, was honored to meet His Highness the Crown Prince Sheikh Sabah Khaled Al-Hamad Al-Sabah during a gathering with distinguished Kuwaiti students in London. The occasion also included the Ambassador of Kuwait and the leadership of the Cultural Office. Special appreciation to Dr. Abdullah Al-Meshal (Cultural Counselor & Head of the Cultural Office) and Dr. Hessah Alojayan (Cultural Attaché) for their invitation and excellent organization.",
     image: "/images/news/crown-prince-london.jpeg",
     link: "/news/crown-prince-2025",
-    imagePosition: 'center 20%'
+    imagePosition: 'center 10%'
   },
 
   {
