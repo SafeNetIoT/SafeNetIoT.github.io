@@ -29,14 +29,14 @@ const CrownPrince2025 = () => {
           <div className="row mb-4">
             <div className="col-md-6 mb-3">
               <img
-                src="/images/news/Mohammad1.jpeg"
+                src="/images/news/Mohammad3.JPEG"
                 alt="Mohammad Alhussan with H.H. the Crown Prince of Kuwait in London"
                 className="img-fluid rounded shadow"
               />
             </div>
             <div className="col-md-6 mb-3">
               <img
-                src="/images/news/Mohammad2.jpeg"
+                src="/images/news/Mohammad4.JPEG"
                 alt="Mohammad Alhussan with Dr. Abdullah Al-Meshal and Dr. Hessah Alojayan in London"
                 className="img-fluid rounded shadow"
               />
