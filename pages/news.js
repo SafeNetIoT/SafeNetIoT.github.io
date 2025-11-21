@@ -15,6 +15,13 @@ export const allNews = [
     imagePosition: 'center 10%'
   },
 
+{
+  date: "20–24 Oct 2024 – RIPE 91 Meeting Bucharest",
+  description: "PhD candidate Andrew Losty was selected as part of the RACI (RIPE Academic Cooperation Initiative) to present his early-career research at the RIPE 91 Meeting in Bucharest, Romania. He delivered two research presentations. In the Main Plenary Session, he presented *Towards Operational and Security Best Practices for DNS in the Internet of Things*, outlining IoT DNS research and progress towards adoption of the IETF BCP *IoT DNS Security and Privacy Guidelines*, a collaborative effort between UCL, INRIA and Infoblox. In the IoT Workshop, he presented *Beyond the Hype: Investigating Matter Standard’s Security and Privacy*, providing an update on the Matter standard, a security appraisal, and work underway. The event provided a valuable opportunity to meet researchers, networking professionals, and industry experts.",
+  image: "images/news/ietfposter.png",
+  link: "https://ripe91.ripe.net/",
+},
+  
   {
     date: "19-25th July 2025 - ANRW Workshop + IETF 123 meeting Madrid",
     description: "PhD student Andrew Losty presented Poster at ANRW Workshop.  Paper accepted by IETF Towards Operational and Security Best Practices for DNS in the Internet of Things Andrew Losty, Anna Maria Mandalari, Abhishek K. Mishra, Mathieu Cunche.  We also submitted IETF draft  “RFC IoT DNS Security and Privacy Guidelines”.",
