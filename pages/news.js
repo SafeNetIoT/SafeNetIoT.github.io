@@ -9,7 +9,7 @@ export const allNews = [
   
 {
   date: "19 Nov 2024 – IETF Draft 'IoT DNS Security and Privacy Guidelines' Adopted by IOTOPS WG",
-  description: "PhD student Andrew Losty and colleagues Abhishek Kumar Mishra, Anna Maria Mandalari, Jim Mozley, and Mathieu Cunche have had their IETF draft 'IoT DNS Security and Privacy Guidelines' successfully adopted by the IOTOPS Working Group.  This adoption is a key milestone. The draft will now undergo WG review for technical accuracy and consensus, followed by a Last Call, IESG review, and final approval by the RFC Editor before publication as a Best Current Practice (BCP) RFC.PhD.",  
+  description: "Dr Anna Maria Mandalari and PhD student Andrew Losty along with colleagues Abhishek Kumar Mishra, Jim Mozley, and Mathieu Cunche have had their IETF draft 'IoT DNS Security and Privacy Guidelines' successfully adopted by the IOTOPS Working Group.  This adoption is a key milestone. The draft will now undergo WG review for technical accuracy and consensus, followed by a Last Call, IESG review, and final approval by the RFC Editor before publication as a Best Current Practice (BCP) RFC.PhD.",  
   image: "images/news/IETF.png",
   link: "https://datatracker.ietf.org/doc/draft-mishra-iotops-iot-dns-guidelines/",
 },
