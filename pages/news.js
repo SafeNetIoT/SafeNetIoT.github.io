@@ -18,7 +18,7 @@ export const allNews = [
 {
   date: "20–24 Oct 2024 – RIPE 91 Meeting Bucharest",
   description: "PhD candidate Andrew Losty was selected as part of the RACI (RIPE Academic Cooperation Initiative) to present his research at the RIPE 91 Meeting in Bucharest, Romania. He delivered two research presentations. In the Main Plenary Session, he presented *Towards Operational and Security Best Practices for DNS in the Internet of Things*, outlining IoT DNS research and progress towards adoption of the IETF BCP *IoT DNS Security and Privacy Guidelines*, a collaborative effort between UCL, INRIA and Infoblox. In the IoT Workshop, he presented *Beyond the Hype: Investigating Matter Standard’s Security and Privacy*, providing an update on the Matter standard, a security appraisal, and research in progress. ",
-  image: "images/news/Andrew-raci-1.png",
+  image: "images/news/Coseners.jpeg",
   link: "https://ripe91.ripe.net/",
   },
   
