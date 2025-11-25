@@ -25,7 +25,7 @@ export const allNews = [
 
   {
     date: "19-25th July 2025 - ANRW Workshop + IETF 123 meeting Madrid",
-    description: "PhD student Andrew Losty had his paper Towards Operational and Security Best Practices for DNS in the Internet of Things, co-authored with Anna Maria Mandalari, Abhishek K. Mishra, and Mathieu Cunche, accepted by the IETF, giving him the opportunity to present a short overview in the ANRW session followed by a poster presentation. During the IETF workshop, the authors—joined by Jim Mozley (Infoblox)—also submitted an IETF Best Current Practice draft, 'IoT DNS Security and Privacy Guidelines'.",
+    description: "“PhD student Andrew Losty had the paper Towards Operational and Security Best Practices for DNS in the Internet of Things accepted by the IETF. Co-authored with Anna Maria Mandalari, Abhishek K. Mishra, and Mathieu Cunche, the work was presented as an overview in the ANRW session, followed by a poster presentation. During the IETF workshop, the authors were joined by Jim Mozley (Infoblox) in submitting an IETF draft Best Current Practice, 'IoT DNS Security and Privacy Guidelines'.”,
     image: "images/news/ietfposter.png",
     link: "https://www.ietf.org/meeting/123/",
   },
