@@ -25,7 +25,7 @@ export const allNews = [
     "Beyond the Hype: Investigating Matter Standard’s Security and Privacy, providing an update on the Matter standard, a security appraisal, and research in progress.",
   image: "images/news/andrew1.png",
   link: "https://ripe91.ripe.net/",
-}
+},
 
 
 
