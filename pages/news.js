@@ -17,7 +17,7 @@ export const allNews = [
 
 {
   date: "20–24 Oct 2024 – RIPE 91 Meeting Bucharest",
-  description: "PhD candidate Andrew Losty was selected to be part of the RACI (RIPE Academic Cooperation Initiative) and invited to present his research at the RIPE 91 Meeting in Bucharest, Romania. He delivered two research presentations. Main Plenary Session - "Towards Operational and Security Best Practices for DNS in the Internet of Things" and IoT Workshop - "Beyond the Hype Investigating Matter Standard’s Security and Privacy".,
+  description: "PhD candidate Andrew Losty was selected to be part of the RACI (RIPE Academic Cooperation Initiative) and invited to present his research at the RIPE 91 Meeting in Bucharest, Romania. He delivered two research presentations. (1) Main Plenary Session - Towards Operational and Security Best Practices for DNS in the Internet of Things and in the IoT Workshop - Beyond the Hype Investigating Matter Standard’s Security and Privacy.",
   image: "images/news/andrew1.png",
   link: "https://ripe91.ripe.net/",
 },
