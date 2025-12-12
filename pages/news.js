@@ -32,7 +32,7 @@ export const allNews = [
    {
     date: "September to October 2025 - Weizenbaumm Institute Fellowship",
     description:
-      "PhD Student Ammara Yasin was awarded a month long fellowship at the Weizenbaum Institut in Berlin; a top research institute for interdisciplinary digitalization research. She worked with Dr Volker Stocker to advance work on circumventing network shutdowns in adversarial contexts, with a strong focus on user safety in an expanding threat landscape. ",
+      "PhD Student Ammara Yasin was awarded a month long fellowship at the Weizenbaum Institut in Berlin; a top research institute for interdisciplinary digitalization research. She worked with Dr Volker Stocker to develop a Layered Taxonomy of Network Shutdown Circumvention Methods, evaluating their efficacy against state-level adversaries with a focus on surveillance-resistance and user privacy. ",
     image: "/images/news/crown-prince-london.jpeg",
     link: "https://www.weizenbaum-institut.de/en/portrait/p/ammara-yasin/",
     imagePosition: 'center 10%'
