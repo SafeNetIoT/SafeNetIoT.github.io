@@ -6,13 +6,37 @@ import { SEO, navigation } from '../config/config';
 
 export const allNews = [
 
-  
-{
-  date: "19 Nov 2024 – IETF Draft 'IoT DNS Security and Privacy Guidelines' Adopted by IOTOPS WG",
-  description: "Dr Anna Maria Mandalari and PhD student Andrew Losty along with colleagues Abhishek Kumar Mishra, Jim Mozley, and Mathieu Cunche have had their IETF draft 'IoT DNS Security and Privacy Guidelines' successfully adopted by the IOTOPS Working Group.  This adoption is a key milestone. The draft will now undergo WG review for technical accuracy and consensus, followed by a Last Call, IESG review, and final approval by the RFC Editor before publication as a Best Current Practice (BCP) RFC.PhD.",  
-  image: "images/news/IETF.png",
-  link: "https://datatracker.ietf.org/doc/draft-mishra-iotops-iot-dns-guidelines/",
-},
+
+      {
+      date: "5 Dec 2025 -  IO Inspire pitch finale",
+      description: "PhD Candidate Mohammad Alhussan presented at UCL's IO Inspire pitch finale on the security of wearable devices, demonstrating the real commercial opportunities facilitated by his research. ",
+      image: "images/news/mohammadInspirePitch",
+      link: "https://www.linkedin.com/posts/ucl-business-ltd_our-io-inspire-pitch-finale-last-week-was-activity-7404508965499322369-h1m8?",
+    },
+
+      
+    {
+      date: "19 Nov 2025 – IETF Draft 'IoT DNS Security and Privacy Guidelines' Adopted by IOTOPS WG",
+      description: "Dr Anna Maria Mandalari and PhD student Andrew Losty along with colleagues Abhishek Kumar Mishra, Jim Mozley, and Mathieu Cunche have had their IETF draft 'IoT DNS Security and Privacy Guidelines' successfully adopted by the IOTOPS Working Group.  This adoption is a key milestone. The draft will now undergo WG review for technical accuracy and consensus, followed by a Last Call, IESG review, and final approval by the RFC Editor before publication as a Best Current Practice (BCP) RFC.PhD.",  
+      image: "images/news/IETF.png",
+      link: "https://datatracker.ietf.org/doc/draft-mishra-iotops-iot-dns-guidelines/",
+    },
+
+    {
+    date: "20–24 Oct 2024 – RIPE 91 Meeting Bucharest",
+    description: "PhD candidate Andrew Losty was selected to be part of the RACI (RIPE Academic Cooperation Initiative) and invited to present his research at the RIPE 91 Meeting in Bucharest, Romania. He delivered two research presentations. (1) Main Plenary Session - Towards Operational and Security Best Practices for DNS in the Internet of Things and (2) IoT Workshop - Beyond the Hype Investigating Matter Standard’s Security and Privacy.",
+    image: "images/news/andrew1.png",
+    link: "https://ripe91.ripe.net/",
+  },
+
+   {
+    date: "September to October 2025 - Weizenbaumm Institute Fellowship",
+    description:
+      "PhD Student Ammara Yasin was awarded a month long fellowship at the Weizenbaum Institut in Berlin; a top research institute for interdisciplinary digitalization research. She worked with Dr Volker Stocker to advance work on circumventing network shutdowns in adversarial contexts, with a strong focus on user safety in an expanding threat landscape. ",
+    image: "/images/news/crown-prince-london.jpeg",
+    link: "https://www.weizenbaum-institut.de/en/portrait/p/ammara-yasin/",
+    imagePosition: 'center 10%'
+  },
   
   {
     date: "September 2025 - Recognition by H.H. the Crown Prince of Kuwait in London",
@@ -22,13 +46,6 @@ export const allNews = [
     link: "/news/crown-prince-2025",
     imagePosition: 'center 10%'
   },
-
-{
-  date: "20–24 Oct 2024 – RIPE 91 Meeting Bucharest",
-  description: "PhD candidate Andrew Losty was selected to be part of the RACI (RIPE Academic Cooperation Initiative) and invited to present his research at the RIPE 91 Meeting in Bucharest, Romania. He delivered two research presentations. (1) Main Plenary Session - Towards Operational and Security Best Practices for DNS in the Internet of Things and (2) IoT Workshop - Beyond the Hype Investigating Matter Standard’s Security and Privacy.",
-  image: "images/news/andrew1.png",
-  link: "https://ripe91.ripe.net/",
-},
 
 
   {
