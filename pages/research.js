@@ -75,7 +75,7 @@ const ResearchPage = () => {
                 className="btn btn-outline-primary btn-sm"
               >
                 <i className="bi bi-box-arrow-up-right me-2"></i>
-                View
+                Read
               </a>
             </div>
           </div>
@@ -190,7 +190,7 @@ const ResearchPage = () => {
                 className="btn btn-outline-primary btn-sm"
               >
                 <i className="bi bi-download me-2"></i>
-                PDF
+                Read
               </a>
             </div>
           </div>
@@ -237,7 +237,7 @@ const ResearchPage = () => {
                 className="btn btn-outline-primary btn-sm"
               >
                 <i className="bi bi-box-arrow-up-right me-2"></i>
-                Open
+                Read
               </a>
             </div>
           </div>
@@ -277,7 +277,7 @@ const ResearchPage = () => {
                 className="btn btn-outline-primary btn-sm"
               >
                 <i className="bi bi-box-arrow-up-right me-2"></i>
-                View
+                Read
               </a>
             </div>
           </div>
@@ -316,7 +316,7 @@ const ResearchPage = () => {
                 className="btn btn-outline-primary btn-sm"
               >
                 <i className="bi bi-box-arrow-up-right me-2"></i>
-                View
+                Read
               </a>
             </div>
           </div>
@@ -354,7 +354,7 @@ const ResearchPage = () => {
                 className="btn btn-outline-primary btn-sm"
               >
                 <i className="bi bi-box-arrow-up-right me-2"></i>
-                View
+                Read
               </a>
             </div>
           </div>
