@@ -88,7 +88,7 @@ const ResearchPage = () => {
           <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
             <div className="flex-grow-1">
               <div className="d-flex align-items-center gap-2 mb-2">
-                <span className="badge rounded-pill text-bg-secondary">Preprint</span>
+                <span className="badge rounded-pill text-bg-primary">Conference</span>
                 <span className="text-muted small">March 2025 • Seattle, USA </span>
               </div>
 
