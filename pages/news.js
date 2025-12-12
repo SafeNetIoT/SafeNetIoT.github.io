@@ -70,7 +70,7 @@ export const allNews = [
   },
 
   {
-    date: "9th June 2025 - 20th June 2025 - HC2P Summer Research Program",
+    date: "June 2025 - HC2P Summer Research Program",
     description: "Ammara Yasin attended the Human Centric Cybersecurity Summer Program in Montreal and Ottowa, Canada, as one of 3 PhD students across all UK institutions to be awarded full funding to attend this trans-disciplinary research residency on human-centric cybersecurity.",
     image: "/images/news/HC2P.jpeg",
     link: "https://www.hc2p.ca/",
