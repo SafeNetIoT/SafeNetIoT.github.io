@@ -9,7 +9,7 @@ export const allNews = [
 
       {
       date: "5 Dec 2025 -  IO Inspire pitch finale",
-      description: "PhD Candidate Mohammad Alhussan presented at UCL's IO Inspire pitch finale on the security of wearable devices, demonstrating the real commercial opportunities facilitated by his research. ",
+      description: "PhD Candidate Mohammad Alhussan presented at UCL's IO Inspire pitch finale on the security of wearable devices, demonstrating the real commercial opportunities facilitated by his research on security deviciencies in BLE-enabled medical devices.  ",
       image: "images/news/mohammadInspirePitch",
       link: "https://www.linkedin.com/posts/ucl-business-ltd_our-io-inspire-pitch-finale-last-week-was-activity-7404508965499322369-h1m8?",
     },
