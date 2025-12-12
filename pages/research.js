@@ -172,6 +172,11 @@ const ResearchPage = () => {
                 Intelligent Detection of Non-Essential IoT Traffic on the Home Gateway
               </h5>
 
+         <p className="text-muted mb-2">
+                Palmese, Fabio ;  Mandalari, Anna Maria ;  Haddadi, Hamed ; Enrico Cesare Redondi, Alessandro
+              </p>
+        
+
               <p className="text-muted mb-0">
                 <span className="fw-semibold">Link:</span> arXiv PDF
               </p>
@@ -192,28 +197,41 @@ const ResearchPage = () => {
         </div>
       </div>
 
-      {/* Item */}
+
+
+  {/* Year: 2024 */}
+
+  <div>
+    <h5 className="text-primary fw-bold mb-3">2024</h5>
+
+    <div className="d-flex flex-column gap-3">
+
+          {/* Item */}
       <div className="card border-0 shadow-sm">
         <div className="card-body p-4">
           <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
             <div className="flex-grow-1">
               <div className="d-flex align-items-center gap-2 mb-2">
-                <span className="badge rounded-pill text-bg-light border text-primary">Publication</span>
-                <span className="text-muted small">External link</span>
+                <span className="badge rounded-pill text-bg-light border text-primary">Conference Paper</span>
+                <span className="text-muted small"> August 2024 • Electronic Government and the Information Systems Perspective </span>
               </div>
 
               <h5 className="text-dark fw-semibold mb-2">
                 Enabling Lawful Interception in Environments Protected by IoT Safeguard
               </h5>
 
+        <p className="text-muted mb-2">
+                Aurelio Loris Canino, Gianluca Lax 
+              </p>
+
               <p className="text-muted mb-0">
-                <span className="fw-semibold">Link:</span> ResearchGate
+                <span className="fw-semibold">Link:</span> Springer
               </p>
             </div>
 
             <div className="d-flex gap-2">
               <a
-                href="https://www.researchgate.net/publication/383139967_Enabling_Lawful_Interception_in_Environments_Protected_by_IoT_Safeguard"
+                href="https://link.springer.com/chapter/10.1007/978-3-031-68211-7_12"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn btn-outline-primary btn-sm"
@@ -228,11 +246,6 @@ const ResearchPage = () => {
     </div>
   </div>
 
-  {/* Year: 2024 */}
-  <div>
-    <h5 className="text-primary fw-bold mb-3">2024</h5>
-
-    <div className="d-flex flex-column gap-3">
       {/* Item */}
       <div className="card border-0 shadow-sm">
         <div className="card-body p-4">
