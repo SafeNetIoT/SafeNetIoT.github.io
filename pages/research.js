@@ -26,111 +26,344 @@ const ResearchPage = () => {
             </div>
           </div>
 
-          {/* Enhanced Published Papers Section */}
-          <div className="mb-5">
-            <h2 className="text-primary mb-4">Published Papers</h2>
-            <ul className="list-unstyled">
+          {/* Published Papers (refreshed UI) */}
+<div className="mb-5">
+  <div className="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
+    <h2 className="text-primary mb-0">Published Papers</h2>
+    <span className="badge rounded-pill text-bg-light border text-primary">
+      7 items
+    </span>
+  </div>
 
-              <li className="mb-3">
-                <a 
-                  href="/research/hacking-health" 
-                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="bi bi-file-earmark-text me-2"></i>
-                  [1] M. Alhussan, F. Boem, S. Ghoreishizadeh, and A. M. Mandalari, "Hacking Health: Unveiling Vulnerabilities in Wireless Wearable Sensors," in Proc. IEEE BioSensors Conf., 2024
-                </a>
-              </li>
+  <p className="text-primary mb-4" style={{ maxWidth: 900 }}>
+    Selected peer-reviewed papers, demos, and workshop publications related to IoT security in smart homes, healthcare, and industrial environments.
+  </p>
 
-              <li className="mb-3">
-                <a
-                  href="/research/ewsn_demo2024"
-                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="bi bi-file-earmark-text me-2"></i>
-                  [2] M. Alhussan, F. Boem, S. Ghoreishizadeh, and A. M. Mandalari, "Demo: From Eavesdropping to Exploitation: Exposing Vulnerabilities in BLE-Enabled Wearable Medical Devices," in Proc. 21st Int. Conf. Embedded Wireless Syst. Netw. (EWSN), Dec. 2024, St. Regis Abu Dhabi, UAE. Best Demo Award.
-                </a>
-              </li>
+  {/* Year: 2025 */}
+  <div className="mb-4">
+    <h5 className="text-primary fw-bold mb-3">2025</h5>
 
-              <li className="mb-3">
-                <a
-                  href="/research/ewsn_phd2024"
-                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="bi bi-file-earmark-text me-2"></i>
-                  [3] M. Alhussan, F. Boem, S. Ghoreishizadeh, and A. M. Mandalari, "PhD School: From Eavesdropping to Exploitation: Exposing Vulnerabilities in BLE-Enabled Wearable Medical Devices," in PhD School at the 21st Int. Conf. Embedded Wireless Syst. Netw. (EWSN), Dec. 2024, St. Regis Abu Dhabi, UAE.
-                </a>
-              </li>
+    <div className="d-flex flex-column gap-3">
+      {/* Item */}
+      <div className="card border-0 shadow-sm">
+        <div className="card-body p-4">
+          <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+            <div className="flex-grow-1">
+              <div className="d-flex align-items-center gap-2 mb-2">
+                <span className="badge rounded-pill text-bg-primary">Conference</span>
+                <span className="text-muted small">May 2025 • London, UK</span>
+              </div>
 
-              <li className="mb-3">
-                <a
-                  href="/research/ISCAS"
-                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <i className="bi bi-file-earmark-text me-2"></i>
-                  [4] M. Alhussan, F. Boem, S. Ghoreishizadeh, and A. M. Mandalari, "Hacking Health: Unveiling Vulnerabilities in BLE-Enabled Wearable Sensor Nodes," in Proc. 2025 IEEE Int. Symp. Circuits Syst. (ISCAS), May 2025, London, United Kingdom.
-                </a>
-              </li>
+              <h5 className="text-dark fw-semibold mb-2">
+                Hacking Health: Unveiling Vulnerabilities in BLE-Enabled Wearable Sensor Nodes
+              </h5>
 
-              {/* Existing entries */}
-              <li className="mb-3">
-                <a
-                  href="https://arxiv.org/pdf/2504.18571?"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
-                >
-                  <i className="bi bi-file-earmark-text me-2"></i>
-                  - Intelligent Detection of Non-Essential IoT Traffic on the Home Gateway
-                </a>
-              </li>
+              <p className="text-muted mb-2">
+                <span className="fw-semibold text-dark">M.</span> Alhussan, F. Boem, S. Ghoreishizadeh, A. M. Mandalari
+              </p>
 
-              <li className="mb-3">
-                <a
-                  href="https://www.ewsn.org/file-repository/ewsn2024/EWSN24-PSCE_paper_14.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
-                >
-                  <i className="bi bi-file-earmark-text me-2"></i>
-                  [1] A. Losty, A. M. Mandalari, "An Investigation of Matter Smart Home Mechanisms to Mitigate Denial-of-Service (DoS) Attacks" in PhD School at the 21st Int. Conf. Embedded Wireless Syst. Netw. (EWSN), Dec. 2024, St. Regis Abu Dhabi, UAE.
-                </a>
-              </li>
-               
-             <li className="mb-3">
-                <a
-                  href="https://hal.science/hal-05110445/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
-                >
-                  <i className="bi bi-file-earmark-text me-2"></i>
-                  [2] A. Losty, A. M. Mandalari, A. K. Mishra, M. Cunche  "Towards Operational and Security Best Practices for DNS in the Internet of Things" in ANRW 2025-Applied Networking Research Workshop, July. 2025, IETF Madrid, Spain.
-                </a>
-              </li>
-                    
-              <li className="mb-3">
-                <a
-                  href="https://www.researchgate.net/publication/383139967_Enabling_Lawful_Interception_in_Environments_Protected_by_IoT_Safeguard"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-dark text-decoration-underline"  // Changed to text-decoration-underline
-                >
-                  <i className="bi bi-file-earmark-text me-2"></i>
-                  - Enabling Lawful Interception in Environments Protected by IoT Safeguard
-                </a>
-              </li>
-            </ul>
+              <p className="text-muted mb-0">
+                <span className="fw-semibold">Venue:</span> Proc. 2025 IEEE International Symposium on Circuits and Systems (ISCAS)
+              </p>
+            </div>
+
+            <div className="d-flex gap-2">
+              <a
+                href="/research/ISCAS"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-primary btn-sm"
+              >
+                <i className="bi bi-box-arrow-up-right me-2"></i>
+                View
+              </a>
+            </div>
           </div>
+        </div>
+      </div>
 
-          {/* Research Posters Section remains unchanged */}
+      {/* Item */}
+      <div className="card border-0 shadow-sm">
+        <div className="card-body p-4">
+          <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+            <div className="flex-grow-1">
+              <div className="d-flex align-items-center gap-2 mb-2">
+                <span className="badge rounded-pill text-bg-secondary">Workshop</span>
+                <span className="text-muted small">July 2025 • IETF Madrid, Spain</span>
+              </div>
+
+              <h5 className="text-dark fw-semibold mb-2">
+                Towards Operational and Security Best Practices for DNS in the Internet of Things
+              </h5>
+
+              <p className="text-muted mb-2">
+                A. Losty, A. M. Mandalari, A. K. Mishra, M. Cunche
+              </p>
+
+              <p className="text-muted mb-0">
+                <span className="fw-semibold">Venue:</span> ANRW 2025 (Applied Networking Research Workshop)
+              </p>
+            </div>
+
+            <div className="d-flex gap-2">
+              <a
+                href="https://hal.science/hal-05110445/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-primary btn-sm"
+              >
+                <i className="bi bi-file-earmark-text me-2"></i>
+                Read
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Item */}
+      <div className="card border-0 shadow-sm">
+        <div className="card-body p-4">
+          <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+            <div className="flex-grow-1">
+              <div className="d-flex align-items-center gap-2 mb-2">
+                <span className="badge rounded-pill text-bg-light border text-primary">Preprint</span>
+                <span className="text-muted small">arXiv</span>
+              </div>
+
+              <h5 className="text-dark fw-semibold mb-2">
+                Intelligent Detection of Non-Essential IoT Traffic on the Home Gateway
+              </h5>
+
+              <p className="text-muted mb-0">
+                <span className="fw-semibold">Link:</span> arXiv PDF
+              </p>
+            </div>
+
+            <div className="d-flex gap-2">
+              <a
+                href="https://arxiv.org/pdf/2504.18571?"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-primary btn-sm"
+              >
+                <i className="bi bi-download me-2"></i>
+                PDF
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Item */}
+      <div className="card border-0 shadow-sm">
+        <div className="card-body p-4">
+          <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+            <div className="flex-grow-1">
+              <div className="d-flex align-items-center gap-2 mb-2">
+                <span className="badge rounded-pill text-bg-light border text-primary">Publication</span>
+                <span className="text-muted small">External link</span>
+              </div>
+
+              <h5 className="text-dark fw-semibold mb-2">
+                Enabling Lawful Interception in Environments Protected by IoT Safeguard
+              </h5>
+
+              <p className="text-muted mb-0">
+                <span className="fw-semibold">Link:</span> ResearchGate
+              </p>
+            </div>
+
+            <div className="d-flex gap-2">
+              <a
+                href="https://www.researchgate.net/publication/383139967_Enabling_Lawful_Interception_in_Environments_Protected_by_IoT_Safeguard"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-primary btn-sm"
+              >
+                <i className="bi bi-box-arrow-up-right me-2"></i>
+                Open
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Year: 2024 */}
+  <div>
+    <h5 className="text-primary fw-bold mb-3">2024</h5>
+
+    <div className="d-flex flex-column gap-3">
+      {/* Item */}
+      <div className="card border-0 shadow-sm">
+        <div className="card-body p-4">
+          <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+            <div className="flex-grow-1">
+              <div className="d-flex align-items-center gap-2 mb-2">
+                <span className="badge rounded-pill text-bg-primary">Conference</span>
+                <span className="text-muted small">2024 • IEEE BioSensors</span>
+              </div>
+
+              <h5 className="text-dark fw-semibold mb-2">
+                Hacking Health: Unveiling Vulnerabilities in Wireless Wearable Sensors
+              </h5>
+
+              <p className="text-muted mb-2">
+                M. Alhussan, F. Boem, S. Ghoreishizadeh, A. M. Mandalari
+              </p>
+
+              <p className="text-muted mb-0">
+                <span className="fw-semibold">Venue:</span> Proc. IEEE BioSensors Conference (2024)
+              </p>
+            </div>
+
+            <div className="d-flex gap-2">
+              <a
+                href="/research/hacking-health"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-primary btn-sm"
+              >
+                <i className="bi bi-box-arrow-up-right me-2"></i>
+                View
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Item */}
+      <div className="card border-0 shadow-sm">
+        <div className="card-body p-4">
+          <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+            <div className="flex-grow-1">
+              <div className="d-flex align-items-center gap-2 mb-2">
+                <span className="badge rounded-pill text-bg-secondary">Demo</span>
+                <span className="text-muted small">Dec 2024 • St. Regis Abu Dhabi, UAE</span>
+                <span className="badge rounded-pill text-bg-warning text-dark">Best Demo Award</span>
+              </div>
+
+              <h5 className="text-dark fw-semibold mb-2">
+                Demo: From Eavesdropping to Exploitation: Exposing Vulnerabilities in BLE-Enabled Wearable Medical Devices
+              </h5>
+
+              <p className="text-muted mb-2">
+                M. Alhussan, F. Boem, S. Ghoreishizadeh, A. M. Mandalari
+              </p>
+
+              <p className="text-muted mb-0">
+                <span className="fw-semibold">Venue:</span> 21st Intl. Conf. on Embedded Wireless Systems and Networks (EWSN)
+              </p>
+            </div>
+
+            <div className="d-flex gap-2">
+              <a
+                href="/research/ewsn_demo2024"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-primary btn-sm"
+              >
+                <i className="bi bi-box-arrow-up-right me-2"></i>
+                View
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Item */}
+      <div className="card border-0 shadow-sm">
+        <div className="card-body p-4">
+          <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+            <div className="flex-grow-1">
+              <div className="d-flex align-items-center gap-2 mb-2">
+                <span className="badge rounded-pill text-bg-secondary">PhD School</span>
+                <span className="text-muted small">Dec 2024 • St. Regis Abu Dhabi, UAE</span>
+              </div>
+
+              <h5 className="text-dark fw-semibold mb-2">
+                PhD School: From Eavesdropping to Exploitation: Exposing Vulnerabilities in BLE-Enabled Wearable Medical Devices
+              </h5>
+
+              <p className="text-muted mb-2">
+                M. Alhussan, F. Boem, S. Ghoreishizadeh, A. M. Mandalari
+              </p>
+
+              <p className="text-muted mb-0">
+                <span className="fw-semibold">Venue:</span> PhD School at EWSN (2024)
+              </p>
+            </div>
+
+            <div className="d-flex gap-2">
+              <a
+                href="/research/ewsn_phd2024"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-primary btn-sm"
+              >
+                <i className="bi bi-box-arrow-up-right me-2"></i>
+                View
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Item */}
+      <div className="card border-0 shadow-sm">
+        <div className="card-body p-4">
+          <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+            <div className="flex-grow-1">
+              <div className="d-flex align-items-center gap-2 mb-2">
+                <span className="badge rounded-pill text-bg-secondary">PhD School</span>
+                <span className="text-muted small">Dec 2024 • St. Regis Abu Dhabi, UAE</span>
+              </div>
+
+              <h5 className="text-dark fw-semibold mb-2">
+                An Investigation of Matter Smart Home Mechanisms to Mitigate Denial-of-Service (DoS) Attacks
+              </h5>
+
+              <p className="text-muted mb-2">
+                A. Losty, A. M. Mandalari
+              </p>
+
+              <p className="text-muted mb-0">
+                <span className="fw-semibold">Venue:</span> PhD School at EWSN (2024)
+              </p>
+            </div>
+
+            <div className="d-flex gap-2">
+              <a
+                href="https://www.ewsn.org/file-repository/ewsn2024/EWSN24-PSCE_paper_14.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-primary btn-sm"
+              >
+                <i className="bi bi-download me-2"></i>
+                PDF
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Tiny hover polish without changing branding */}
+  <style jsx>{`
+    .card {
+      transition: transform 120ms ease, box-shadow 120ms ease;
+    }
+    .card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 .5rem 1.25rem rgba(0,0,0,.08) !important;
+    }
+  `}</style>
+</div>
+
+
+        
           <div className="mb-5">
             <h2 className="text-primary mb-4">Research Posters</h2>
             <div className="row">
