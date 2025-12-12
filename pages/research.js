@@ -26,7 +26,7 @@ const ResearchPage = () => {
             </div>
           </div>
 
-          {/* Published Papers (refreshed UI) */}
+{/* Published Papers */}
 <div className="mb-5">
   <div className="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
     <h2 className="text-primary mb-0">Published Papers</h2>
@@ -76,6 +76,44 @@ const ResearchPage = () => {
               >
                 <i className="bi bi-box-arrow-up-right me-2"></i>
                 View
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+ {/* Item */}
+      <div className="card border-0 shadow-sm">
+        <div className="card-body p-4">
+          <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+            <div className="flex-grow-1">
+              <div className="d-flex align-items-center gap-2 mb-2">
+                <span className="badge rounded-pill text-bg-secondary">Preprint</span>
+                <span className="text-muted small">March 2025 • Seattle, USA </span>
+              </div>
+
+              <h5 className="text-dark fw-semibold mb-2">
+                Big Help or Big Brother? Auditing Tracking, Profiling, and Personalization in Generative AI Assistants
+              </h5>
+
+              <p className="text-muted mb-2">
+                Yash Vekaria, Aurelio Loris Canino, Jonathan Levitsky, Alex Ciechonski, Patricia Callejo, Anna Maria Mandalari, Zubair Shafiq
+              </p>
+
+              <p className="text-muted mb-0">
+                <span className="fw-semibold">Venue:</span> 34th USENIX Security Symposium
+              </p>
+            </div>
+
+            <div className="d-flex gap-2">
+              <a
+                href="https://www.usenix.org/conference/usenixsecurity25/presentation/vekaria"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn btn-outline-primary btn-sm"
+              >
+                <i className="bi bi-file-earmark-text me-2"></i>
+                Read
               </a>
             </div>
           </div>
