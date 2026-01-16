@@ -7,10 +7,10 @@ import { SEO, navigation } from '../config/config';
 export const allNews = [
 
       {
-      date: "Jan...",
-      description: " Mohammad Alhussan description here ",
-      image: "images/news/insertImageNameHere",
-      link: "",
+      date: "13–15 January 2026",
+      description: "Mohammad Alhussan participated in the CyberASAP Pathfinder Bootcamp held in Birmingham from 13–15 January 2026. The bootcamp, delivered by Innovate UK Business Connect, focused on research commercialisation, startup formation, and early-stage venture development. The programme provided practical guidance, expert-led sessions, and valuable opportunities to engage with researchers, founders, and industry stakeholders.",
+      image: "images/news/cyberasap-birmingham-jan-2026",
+      link: "https://www.linkedin.com/posts/alhussan_cyberasap-innovateuk-cybersecurity-activity-7417646146736549888-U9d5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8VYKMB4FMP61RtSGfL9p4rR__w1xTv9PY",
     }
 
 
