@@ -6,6 +6,13 @@ import { SEO, navigation } from '../config/config';
 
 export const allNews = [
 
+      {
+      date: "Jan...",
+      description: " Mohammad Alhussan description here ",
+      image: "images/news/insertImageNameHere",
+      link: "",
+    }
+
 
       {
       date: "5 Dec 2025 -  IO Inspire pitch finale",
