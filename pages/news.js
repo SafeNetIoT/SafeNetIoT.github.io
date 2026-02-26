@@ -7,6 +7,16 @@ import { SEO, navigation } from '../config/config';
 export const allNews = [
 
       {
+      date: "23–27 Feb 2026 - SDIoTSEC (Paper) NDSS (Poster) – San Diego",
+      description: "PhD candidate Andrew Losty attended the Network and Distributed System Security Symposium (NDSS) in San Diego from February 23–27. His paper, “An Analysis of Matter IoT Security Against International Standards and Regulatory Framework,” co-authored with Anna Maria Mandalari, was accepted and presented at the SDIoTSec Workshop, which focuses on Security and Privacy in Standardized IoT. In addition, a poster outlining this research was accepted to the main NDSS Symposium and presented during the conference Poster Reception. The work examines how the Matter IoT standard aligns with international security standards and regulatory requirements, contributing to ongoing discussions around IoT security assurance and compliance.",
+      image: "images/news/NDSS3.jpg",
+      link: "https://www.ndss-symposium.org/ndss-paper/24132/",
+    },
+
+
+      
+
+      {
       date: "13–15 Jan 2026 - CyberASAP Pathfinder Bootcamp – Birmingham",
       description: "Mohammad Alhussan participated in the CyberASAP Pathfinder Bootcamp held in Birmingham from 13–15 January 2026. The bootcamp, delivered by Innovate UK Business Connect, focused on research commercialisation, startup formation, and early-stage venture development. The programme provided practical guidance, expert-led sessions, and valuable opportunities to engage with researchers, founders, and industry stakeholders.",
       image: "images/news/cyberasap-birmingham-jan-2026.PNG",
