@@ -9,8 +9,8 @@ export const allNews = [
       {
       date: "23–27 Feb 2026 - SDIoTSEC (Paper) NDSS (Poster) – San Diego",
       description: "PhD candidate Andrew Losty attended the Network and Distributed System Security Symposium (NDSS) in San Diego from February 23–27. His paper, “An Analysis of Matter IoT Security Against International Standards and Regulatory Framework,” co-authored with Anna Maria Mandalari, was accepted and presented at the SDIoTSec Workshop, which focuses on Security and Privacy in Standardized IoT. In addition, a poster outlining this research was accepted to the main NDSS Symposium and presented during the conference Poster Reception. The work examines how the Matter IoT standard aligns with international security standards and regulatory requirements, contributing to ongoing discussions around IoT security assurance and compliance.",
-      image: "images/news/NDSS3.jpg",
-      link: "https://www.ndss-symposium.org/ndss-paper/24132/",
+      image: "images/news/cyberasap-birmingham-jan-2026.PNG",
+      link: "https://www.linkedin.com/posts/alhussan_cyberasap-innovateuk-cybersecurity-activity-7417646146736549888-U9d5?utm_source=share&utm_medium=member_desktop&rcm=ACoAAC8VYKMB4FMP61RtSGfL9p4rR__w1xTv9PY",
     },
 
 
