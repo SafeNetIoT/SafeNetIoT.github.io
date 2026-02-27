@@ -47,43 +47,44 @@ const ResearchPage = () => {
 verify this code - check for errors 
 
 <div className="d-flex flex-column gap-3">
-      {/* Item */}
-      <div className="card border-0 shadow-sm">
-        <div className="card-body p-4">
-          <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
-            <div className="flex-grow-1">
-              <div className="d-flex align-items-center gap-2 mb-2">
-                <span className="badge rounded-pill text-bg-primary">Conference</span>
-                <span className="text-muted small">Feb 2026 • San Diego, US</span>
-              </div>
-
-              <h5 className="text-dark fw-semibold mb-2">
-                An Analysis of Matter IoT Security Against International Standards and Regulatory Framework
-              </h5>
-
-              <p className="text-muted mb-2">
-                <span className="fw-semibold text-dark">A.</span> Losty, A. M. Mandalari
-              </p>
-
-              <p className="text-muted mb-0">
-                <span className="fw-semibold">Venue:</span> Proc. Network and Distributed System Security Symposium (NDSS) / SDIoTSEC Workshop
-              </p>
-            </div>
-
-            <div className="d-flex gap-2">
-              <a
-                href="/research/ISCAS"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="btn btn-outline-primary btn-sm"
-              >
-                <i className="bi bi-box-arrow-up-right me-2"></i>
-                Read
-              </a>
-            </div>
+  {/* Item */}
+  <div className="card border-0 shadow-sm">
+    <div className="card-body p-4">
+      <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+        <div className="flex-grow-1">
+          <div className="d-flex align-items-center gap-2 mb-2">
+            <span className="badge rounded-pill text-bg-primary">Conference</span>
+            <span className="text-muted small">Feb 2026 • San Diego, US</span>
           </div>
+
+          <h5 className="text-dark fw-semibold mb-2">
+            An Analysis of Matter IoT Security Against International Standards and Regulatory Framework
+          </h5>
+
+          <p className="text-muted mb-2">
+            <span className="fw-semibold text-dark">A.</span> Losty, A. M. Mandalari
+          </p>
+
+          <p className="text-muted mb-0">
+            <span className="fw-semibold">Venue:</span> Proc. Network and Distributed System Security Symposium (NDSS) / SDIoTSEC Workshop
+          </p>
+        </div>
+
+        <div className="d-flex gap-2">
+          <a
+            href="/research/ISCAS"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline-primary btn-sm"
+          >
+            <i className="bi bi-box-arrow-up-right me-2"></i>
+            Read
+          </a>
         </div>
       </div>
+    </div>
+  </div>
+</div>  
 
 
 
