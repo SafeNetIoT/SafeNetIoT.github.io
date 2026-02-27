@@ -42,7 +42,7 @@ const people = {
     },
     {
       name: "Andrew Losty",
-      description: "Andrew Losty is a PhD candidate in Electronic and Electrical Engineering at University College London (UCL), where he is also affiliated with the UCL Centre for Doctoral Training in Cybersecurity. His research focuses on the privacy, security, and operational behavior of Internet of Things (IoT) devices.",
+      description: "Andrew Losty is a PhD candidate in Electronic and Electrical Engineering department at University College London (UCL) and is affiliated with the UCL Centre for Doctoral Training in Cybersecurity. His research examines the privacy, security, and operational behaviour of Internet of Things (IoT) devices. His work spans two primary domains. First, he investigates international regulatory alignment of the Matter protocol with global IoT cybersecurity frameworks, identifying areas of alignment as well as points of operational divergence. Further work examines the operational characteristics of the Matter protocol, including firmware update mechanisms, robustness under adverse conditions, and service discovery processes such as Multicast DNS (mDNS). Second, his research examines the security and operational behaviour of the Domain Name System (DNS) on IoT devices, assessing the level of support for secure DNS, identifying operational security gaps, deviations from defined standards, and inefficiencies in operation. infrastructures affect device .",
       image: "/images/people/andrew4.jpg",
       links: [
         { name: "linkedin", url: "https://www.linkedin.com/in/andrew-losty-4087521a/?originalSubdomain=uk" },
