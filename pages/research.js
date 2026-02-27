@@ -44,7 +44,7 @@ const ResearchPage = () => {
     <h5 className="text-primary fw-bold mb-3">2025</h5>
 
 
-<div className="d-flex flex-column gap-3">
+<div className="d-flex flex-column gap-5">
   {/* Item */}
   <div className="card border-0 shadow-sm">
     <div className="card-body p-4">
