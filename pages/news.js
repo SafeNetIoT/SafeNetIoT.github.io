@@ -6,6 +6,15 @@ import { SEO, navigation } from '../config/config';
 
 export const allNews = [
 
+
+      {
+      date: "14-20 March 2026 - Internet Engineering Task Force - Chenzhen, China",
+      description: "PhD candidates Yuanyuan Zhou and Andrew Losty have been awarded full funding from the Department for Science, Innovation and Technology (DSIT) to attend Internet Engineering Task Force (IETF) 125. PhD candidates Yuanyuan Zhou and Andrew Losty have been awarded full funding from the Department for Science, Innovation and Technology (DSIT). During the meeting, Yuanyuan and Andrew will contribute to discussions and activities focused on the promotion and development of networking standards.",
+      image: "images/news/chenzhen.jpg",
+      link: "https://www.ietf.org/meeting/125/",
+     },
+
+      
       {
       date: "23–27 Feb 2026 - SDIoTSEC (Paper) NDSS (Poster) – San Diego",
       description: "PhD candidate Andrew Losty attended the Network and Distributed System Security Symposium (NDSS) in San Diego, February 23–27. His paper, “An Analysis of Matter IoT Security Against International Standards and Regulatory Framework,” co-authored with Anna Maria Mandalari, was accepted to the SDIoTSec Workshop on Security and Privacy in Standardized IoT. A poster on the research was also presented at the main symposium. The work explores how the Matter IoT standard aligns with international security and regulatory requirements, contributing to discussions on IoT security assurance and compliance.",
