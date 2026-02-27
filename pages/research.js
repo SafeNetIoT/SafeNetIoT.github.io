@@ -44,8 +44,6 @@ const ResearchPage = () => {
     <h5 className="text-primary fw-bold mb-3">2025</h5>
 
 
-verify this code - check for errors 
-
 <div className="d-flex flex-column gap-3">
   {/* Item */}
   <div className="card border-0 shadow-sm">
@@ -72,7 +70,7 @@ verify this code - check for errors
 
         <div className="d-flex gap-2">
           <a
-            href="/research/ISCAS"
+            href="https://www.ndss-symposium.org/ndss-paper/24132/"
             target="_blank"
             rel="noopener noreferrer"
             className="btn btn-outline-primary btn-sm"
