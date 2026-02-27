@@ -44,40 +44,7 @@ const ResearchPage = () => {
     <h5 className="text-primary fw-bold mb-3">2025</h5>
 
 
-      {/* New NDSS 2026 Entry */}
-  <div className="card border-0 shadow-sm">
-    <div className="card-body p-4">
-      <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
-        <div className="flex-grow-1">
-          <div className="d-flex align-items-center gap-2 mb-2">
-            <span className="badge rounded-pill text-bg-primary">Conference</span>
-            <span className="text-muted small">Feb 2026 • San Diego, US</span>
-          </div>
-
-          <h5 className="text-dark fw-semibold mb-2">
-            An Analysis of Matter IoT Security Against International Standards and Regulatory Framework
-          </h5>
-
-          <p className="text-muted mb-0">
-            <span className="fw-semibold">Venue:</span> Proc. 2026 Network and Distributed System Security Symposium (NDSS) / SDIoTSEC in San Diego
-          </p>
-        </div>
-
-        <div className="d-flex gap-2">
-          <a
-            href="https://www.ndss-symposium.org/ndss-paper/24132/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="btn btn-outline-primary btn-sm"
-          >
-            <i className="bi bi-box-arrow-up-right me-2"></i>
-            Read
-          </a>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+      
 
     <div className="d-flex flex-column gap-3">
       {/* Item */}
