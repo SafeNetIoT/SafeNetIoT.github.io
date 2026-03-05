@@ -8,7 +8,7 @@ export const allNews = [
 
 
       {
-      date: "14-20 March 2026 - Internet Engineering Task Force - Chenzhen, China",
+      date: "14-20 March 2026 - Internet Engineering Task Force - Shenzhen, China",
       description: "PhD candidates Yuanyuan Zhou and Andrew Losty have received full support from the Department for Science, Innovation and Technology (DSIT) to participate in the 125th meeting of the Internet Engineering Task Force (IETF). This opportunity is funded through a DSIT grant awarded to the University of Glasgow under the project Enhancing UK Engagement with Internet Standardisation. At the meeting, they will take part in technical discussions and collaborative activities supporting the advancement and adoption of networking standards.",
       image: "images/news/chenzhen3-20.jpg",
       link: "https://www.ietf.org/meeting/125/",
