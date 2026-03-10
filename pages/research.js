@@ -51,7 +51,7 @@ const ResearchPage = () => {
                       <div className="flex-grow-1">
                         <div className="d-flex align-items-center gap-2 mb-2">
                           <span className="badge rounded-pill text-bg-primary">Journal</span>
-                          <span className="text-muted small">Mar 2026 • Journal of the European Society for Radiotherapy and Oncology and affiliated to the Canadian Association of Radiation Oncology.</span>
+                          <span className="text-muted small">Mar 2026 • London, UK </span>
                         </div>
                         <h5 className="text-dark fw-semibold mb-2">
                           Cybersecurity of linear accelerators in radiation oncology beyond ransomware
@@ -60,7 +60,7 @@ const ResearchPage = () => {
                           <span className="fw-semibold text-dark">M.</span> Alhussan, A. Alhussan, N. Chng, F. Boem, A. M. Mandalari
                         </p>
                         <p className="text-muted mb-0">
-                          <span className="fw-semibold">Venue:</span> Radiotherapy and Oncology
+                          <span className="fw-semibold">Venue:</span> Radiotherapy and Oncology - Journal of the European Society for Radiotherapy and Oncology and affiliated to the Canadian Association of Radiation Oncology
                         </p>
                       </div>
                       <div className="d-flex gap-2">
