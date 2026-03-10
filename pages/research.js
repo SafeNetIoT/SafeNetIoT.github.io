@@ -44,6 +44,47 @@ const ResearchPage = () => {
     <h5 className="text-primary fw-bold mb-3">2025</h5>
 
 
+
+    <div className="d-flex flex-column gap-5">
+  {/* Item */}
+  <div className="card border-0 shadow-sm">
+    <div className="card-body p-4">
+      <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+        <div className="flex-grow-1">
+          <div className="d-flex align-items-center gap-2 mb-2">
+            <span className="badge rounded-pill text-bg-primary">Journal</span>
+            <span className="text-muted small">Mar 2026 • Radiotherapy and Oncology</span>
+          </div>
+
+          <h5 className="text-dark fw-semibold mb-2">
+            Cybersecurity of linear accelerators in radiation oncology beyond ransomware
+          </h5>
+
+          <p className="text-muted mb-2">
+            <span className="fw-semibold text-dark">M.</span> Alhussan, A. Alhussan, N. Chng, F. Boem, A. M. Mandalari
+          </p>
+
+          <p className="text-muted mb-0">
+            <span className="fw-semibold">Venue:</span> Radiotherapy and Oncology
+          </p>
+        </div>
+
+        <div className="d-flex gap-2">
+          <a
+            href="https://www.sciencedirect.com/science/article/pii/S0167814026001131?via%3Dihub"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="btn btn-outline-primary btn-sm"
+          >
+            <i className="bi bi-box-arrow-up-right me-2"></i>
+            Read
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>  
+
 <div className="d-flex flex-column gap-5">
   {/* Item */}
   <div className="card border-0 shadow-sm">
@@ -85,46 +126,6 @@ const ResearchPage = () => {
 </div>  
 
 
-
-
-
-   {/* Item */}
-<div className="card border-0 shadow-sm">
-  <div className="card-body p-4">
-    <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
-      <div className="flex-grow-1">
-        <div className="d-flex align-items-center gap-2 mb-2">
-          <span className="badge rounded-pill text-bg-success">Journal</span>
-          <span className="text-muted small">January 2026 • Online</span>
-        </div>
-
-        <h5 className="text-dark fw-semibold mb-2">
-          Secure Architectures for Low-Power Biomedical IoT Devices
-        </h5>
-
-        <p className="text-muted mb-2">
-          <span className="fw-semibold text-dark">M.</span> Alhussan, J. Smith, R. Patel
-        </p>
-
-        <p className="text-muted mb-0">
-          <span className="fw-semibold">Venue:</span> IEEE Transactions on Biomedical Circuits and Systems
-        </p>
-      </div>
-
-      <div className="d-flex gap-2">
-        <a
-          href="/research/TBCAS"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="btn btn-outline-primary btn-sm"
-        >
-          <i className="bi bi-box-arrow-up-right me-2"></i>
-          Read
-        </a>
-      </div>
-    </div>
-  </div>
-</div>      
 
     <div className="d-flex flex-column gap-3">
       {/* Item */}
