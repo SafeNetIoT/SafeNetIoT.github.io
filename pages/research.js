@@ -54,7 +54,7 @@ const ResearchPage = () => {
                           <span className="text-muted small">Mar 2026 •  </span>
                         </div>
                         <h5 className="text-dark fw-semibold mb-2">
-                          Cybersecurity of linear accelerators in radiation oncology beyond ransomware
+                          Cybersecurity of Linear Accelerators in Radiation Oncology Beyond Ransomware
                         </h5>
                         <p className="text-muted mb-2">
                           <span className="fw-semibold text-dark">M.</span> Alhussan, A. Alhussan, N. Chng, F. Boem, A. M. Mandalari
