@@ -53,7 +53,7 @@ const ResearchPage = () => {
         <div className="flex-grow-1">
           <div className="d-flex align-items-center gap-2 mb-2">
             <span className="badge rounded-pill text-bg-primary">Journal</span>
-            <span className="text-muted small">Mar 2026 • Radiotherapy and Oncology Journal of the European Society for Radiotherapy and Oncology and affiliated to the Canadian Association of Radiation Oncology.</span>
+            <span className="text-muted small">Mar 2026 • Journal of the European Society for Radiotherapy and Oncology and affiliated to the Canadian Association of Radiation Oncology.</span>
           </div>
 
           <h5 className="text-dark fw-semibold mb-2">
