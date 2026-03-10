@@ -127,6 +127,9 @@ const ResearchPage = () => {
 
 {/* Year: 2025 */}
 
+ <div className="mb-4">
+    <h5 className="text-primary fw-bold mb-3">2025</h5>
+
     <div className="d-flex flex-column gap-3">
       {/* Item */}
       <div className="card border-0 shadow-sm">
