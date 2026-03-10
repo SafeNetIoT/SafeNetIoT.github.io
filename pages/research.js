@@ -51,7 +51,7 @@ const ResearchPage = () => {
                       <div className="flex-grow-1">
                         <div className="d-flex align-items-center gap-2 mb-2">
                           <span className="badge rounded-pill text-bg-primary">Journal</span>
-                          <span className="text-muted small">Mar 2026 • London, UK </span>
+                          <span className="text-muted small">Mar 2026 •  </span>
                         </div>
                         <h5 className="text-dark fw-semibold mb-2">
                           Cybersecurity of linear accelerators in radiation oncology beyond ransomware
