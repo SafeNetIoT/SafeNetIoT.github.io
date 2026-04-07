@@ -44,6 +44,48 @@ const ResearchPage = () => {
               <h5 className="text-primary fw-bold mb-3">2026</h5>
               <div className="d-flex flex-column gap-3">
 
+             
+
+
+
+
+
+                {/* Item */}
+                <div className="card border-0 shadow-sm">
+                  <div className="card-body p-4">
+                    <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+                      <div className="flex-grow-1">
+                        <div className="d-flex align-items-center gap-2 mb-2">
+                          <span className="badge rounded-pill text-bg-primary">Journal</span>
+                          <span className="text-muted small">April 2026 •  </span>
+                        </div>
+                        <h5 className="text-dark fw-semibold mb-2">
+                          From Lookup to Lockdown: DNS Guidelines for Securing IoT Ecosystems
+                        </h5>
+                        <p className="text-muted mb-2">
+                          <span className="fw-semibold text-dark">M.</span> A. Losty, A.K. Mishra, M. Cunche, A. M. Mandalari
+                        </p>
+                        <p className="text-muted mb-0">
+                          <span className="fw-semibold">Venue:</span> IEEE Internet of Things Journal
+                        </p>
+                      </div>
+                      <div className="d-flex gap-2">
+                        <a
+                          href="https://ieeexplore.ieee.org/document/11471802"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn-outline-primary btn-sm"
+                        >
+                          <i className="bi bi-box-arrow-up-right me-2"></i>
+                          Read
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+
+              
                 {/* Item */}
                 <div className="card border-0 shadow-sm">
                   <div className="card-body p-4">
