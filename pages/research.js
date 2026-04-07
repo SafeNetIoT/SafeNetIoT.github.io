@@ -63,7 +63,7 @@ const ResearchPage = () => {
                           From Lookup to Lockdown: DNS Guidelines for Securing IoT Ecosystems
                         </h5>
                         <p className="text-muted mb-2">
-                         M. A. Losty, A.K. Mishra, M. Cunche, A. M. Mandalari
+                         A. Losty, A.K. Mishra, M. Cunche, A. M. Mandalari
                         </p>
                         <p className="text-muted mb-0">
                           <span className="fw-semibold">Venue:</span> IEEE Internet of Things Journal
