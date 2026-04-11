@@ -7,6 +7,16 @@ import { SEO, navigation } from '../config/config';
 export const allNews = [
 
 
+  {
+      date: "10 April 2026 – ICURe Discover Programme – Innovate UK / The Helix Way",
+      description: "Mohammad Alhussan has secured a place on the ICURe Discover Programme, delivered by The Helix Way. The place is funded by Innovate UK and includes up to £2,500 for market discovery activity. The programme supports early-stage research commercialisation through guided customer discovery, training, and venture development activities. Participation in ICURe Discover represents an important milestone in exploring the commercial potential and real-world impact of research emerging from the SafeNetIoT Lab.",
+      image: "images/news/1727058_cover.jpg",
+      link: "https://iuk-business-connect.org.uk/opportunities/icure-discover/",
+     },
+
+
+
+      
       {
       date: "14-20 March 2026 - Internet Engineering Task Force - Shenzhen, China",
       description: "PhD candidates Yuanyuan Zhou and Andrew Losty have received full support from the Department for Science, Innovation and Technology (DSIT) to participate in the 125th meeting of the Internet Engineering Task Force (IETF). This opportunity is funded through a DSIT grant awarded to the University of Glasgow under the project Enhancing UK Engagement with Internet Standardisation. At the meeting, they will take part in technical discussions and collaborative activities supporting the advancement and adoption of networking standards.",
