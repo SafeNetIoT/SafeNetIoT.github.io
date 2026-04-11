@@ -14,7 +14,12 @@ export const allNews = [
       link: "https://iuk-business-connect.org.uk/opportunities/icure-discover/",
      },
 
-
+{
+      date: "9 April 2026 – Internet Society Early Career Fellow",
+      description: "Ammara Yasin has been selected as a Fellow on the Internet Society's Early Career Fellowship: a competitive, six-month programme that brings together a global cohort of 15 professionals working at the intersection of Internet technology, policy, and governance. The fellowship, delivered in partnership with the Oxford Internet Institute and American University, provides access to world-class experts and develops skills in leadership, advocacy, and Internet governance. Ammara's  participation reflects a commitment to bridging the gap between Internet engineering and policy, and to championing an open, globally connected, secure, and trustworthy Internet .",
+      image: "images/news/internet-society-logo-bg.jpg",
+      link: "https://iuk-business-connect.org.uk/opportunities/icure-discover/",
+     },
 
       
       {
