@@ -11,7 +11,7 @@ export const allNews = [
       date: "10 April 2026 – ICURe Discover Programme – Innovate UK / The Helix Way",
       description: "Mohammad Alhussan has secured a place on the ICURe Discover Programme, delivered by The Helix Way. The place is funded by Innovate UK and includes up to £2,500 for market discovery activity. The programme supports early-stage research commercialisation through guided customer discovery, training, and venture development activities. Participation in ICURe Discover represents an important milestone in exploring the commercial potential and real-world impact of research emerging from the SafeNetIoT Lab.",
       image: "images/news/1727058_cover.jpg",
-      link: "https://iuk-business-connect.org.uk/opportunities/icure-discover/",
+      link: "https://www.ucl.ac.uk/iccs/news/2026/apr/phd-student-secures-icure-discover-grant-innovate-uk",
      },
 
 {
