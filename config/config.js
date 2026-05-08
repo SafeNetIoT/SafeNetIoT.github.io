@@ -24,7 +24,7 @@ export const navigation = {
           link: "/research"
         },
          {
-          title: "LINAC Radiotherapy & Oncology",
+          title: "LINAC",
           link: "/research/LINAC"
         },
         {
