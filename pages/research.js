@@ -107,7 +107,7 @@ const ResearchPage = () => {
                       </div>
                       <div className="d-flex gap-2">
                         <a
-                          href="/research/ISCAS2"
+                          href="/research/ISCAS"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="btn btn-outline-primary btn-sm"
