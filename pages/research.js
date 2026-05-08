@@ -107,7 +107,7 @@ const ResearchPage = () => {
                       </div>
                       <div className="d-flex gap-2">
                         <a
-                          href="https://www.sciencedirect.com/science/article/pii/S0167814026001131?via%3Dihub"
+                          href="/research/ISCAS2"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="btn btn-outline-primary btn-sm"
