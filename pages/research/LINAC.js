@@ -32,17 +32,14 @@ export default function LinacPaper() {
           <div className="row justify-content-center mt-4">
             <div className="col-12 col-md-10 col-lg-8">
               <p>
-                <strong>Authors:</strong> Abdulaziz Alhussan, Mohammad Alhussan, Nick Chng,
+                <strong>Authors:</strong> Mohammad Alhussan, Abdulaziz Alhussan, Nick Chng,
                 Francesca Boem, Anna Maria Mandalari
               </p>
               <p>
-                <strong>Journal:</strong> Radiotherapy and Oncology
+                <strong>Journal:</strong> Radiotherapy and Oncology (Green Journal) - Q1
               </p>
               <p>
                 <strong>Article Type:</strong> Review Article
-              </p>
-              <p>
-                <strong>Status:</strong> Accepted
               </p>
               <p>
                 <strong>DOI:</strong> 10.1016/j.radonc.2026.111474
@@ -53,7 +50,7 @@ export default function LinacPaper() {
                   src={linacImage.src}
                   alt="LINAC cybersecurity in radiation oncology"
                   className="img-fluid border border-secondary"
-                  style={{ width: '100%', display: 'block', margin: '0 auto' }}
+                  style={{ width: '50%', display: 'block', margin: '0 auto' }}
                 />
                 <p className="text-center font-italic">
                   Conceptual illustration of key cybersecurity attack surfaces in a radiation oncology LINAC ecosystem.
