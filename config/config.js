@@ -23,6 +23,10 @@ export const navigation = {
           title: "All Research",
           link: "/research"
         },
+         {
+          title: "LINAC Radiotherapy & Oncology",
+          link: "/research/LINAC"
+        },
         {
           title: "Hacking Health",
           link: "/research/hacking-health"
