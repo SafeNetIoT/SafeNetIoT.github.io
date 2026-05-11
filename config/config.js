@@ -43,6 +43,10 @@ export const navigation = {
           title: "Matter Security Privacy",
           link: "/research/Mattersecpriv"
         },
+        {
+          title: "Matter Regulatory Control",
+          link: "/research/Matterregulation"
+        },
 
         // Add more papers here as they're created
         //{
