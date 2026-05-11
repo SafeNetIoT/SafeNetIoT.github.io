@@ -54,13 +54,37 @@ export default function MatterSecurityPrivacy() {
               <div className="mt-5">
                 <h3 className="text-primary">Abstract</h3>
 
-                <p>
-                  The Matter standard defines a secure interoperability framework for IoT devices...
-                </p>
+                  <p>
+    The rapid growth of the Internet of Things (IoT) has created fragmented smart home ecosystems, with platforms such as Apple Home, Google Home, and Samsung SmartThings historically relying on proprietary protocols and device-specific implementations that limited interoperability.
+  </p>
 
-                <p>
-                  This study empirically evaluates security and privacy in Matter vs non-Matter ecosystems...
-                </p>
+  <p>
+    The Matter standard defines a common, secure application-layer framework enabling cross-platform interoperability for Internet of Things (IoT) devices. It is developed under the Connectivity Standards Alliance (CSA), an industry consortium comprising more than 860 member organizations.
+  </p>
+
+  <p>
+    This study empirically analyzes Matter and non-Matter ecosystems, focusing on security and privacy. We evaluate 25 Matter devices and 14 non-Matter devices with comparable functionality, examining network traffic during commissioning, device control, and data transmission.
+  </p>
+
+  <p>
+    Our evaluation shows that Matter improves security and privacy through AES-128-CCM encryption, device attestation, and secure commissioning. Its local-first design further reduces cloud dependency and limits data exposure.
+  </p>
+
+  <p>
+    However, we identify several risks. Persistent multicast DNS broadcasts reveal detailed device metadata, and rotating key identifiers are inconsistently implemented, with some devices failing to renew keys for extended periods.
+  </p>
+
+  <p>
+    We also observe ecosystem-specific differences in commissioning behavior. In addition, many devices maintain persistent connections to vendor or third-party cloud services.
+  </p>
+
+  <p>
+    Firmware maintenance is inconsistent, as most devices in our study run early versions of Matter and do not receive updates over the observation period.
+  </p>
+
+  <p>
+    Finally, traffic patterns in encrypted unicast communication can still reveal device types and user activities to an in-network adversary.
+  </p>
 
               </div>
 
