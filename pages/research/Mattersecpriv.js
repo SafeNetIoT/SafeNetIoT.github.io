@@ -58,40 +58,53 @@ export default function MatterSecurityPrivacy() {
                 </a>
               </p>
 
-              {/* Images */}
-              <div className="mt-5 image-container">
+{/* Images Grid */}
+<div className="mt-5">
+  <div className="row g-4">
 
-                <img
-                  src={cyncPlugImg.src}
-                  alt="Cync Matter Plug Analysis"
-                  className="img-fluid border border-secondary"
-                  style={{ width: '100%', display: 'block', margin: '0 auto' }}
-                />
-                <p className="text-center font-italic">
-                  Cync Matter Plug (Security Analysis)
-                </p>
+    {/* Image 1 */}
+    <div className="col-12 col-md-4">
+      <img
+        src={cyncPlugImg.src}
+        alt="Cync Matter Plug Analysis"
+        className="img-fluid border border-secondary"
+        style={{ width: '100%', height: 'auto', display: 'block' }}
+      />
+      <p className="text-center font-italic mt-2">
+        Cync Matter Plug (Security Analysis)
+      </p>
+    </div>
 
-                <img
-                  src={linkindPlugImg.src}
-                  alt="Linkind Matter Plug Analysis"
-                  className="img-fluid border border-secondary mt-4"
-                  style={{ width: '100%', display: 'block', margin: '0 auto' }}
-                />
-                <p className="text-center font-italic">
-                  Linkind Matter Plug (Privacy Evaluation)
-                </p>
+    {/* Image 2 */}
+    <div className="col-12 col-md-4">
+      <img
+        src={linkindPlugImg.src}
+        alt="Linkind Matter Plug Analysis"
+        className="img-fluid border border-secondary"
+        style={{ width: '100%', height: 'auto', display: 'block' }}
+      />
+      <p className="text-center font-italic mt-2">
+        Linkind Matter Plug (Privacy Evaluation)
+      </p>
+    </div>
 
-                <img
-                  src={tuyaPlugImg.src}
-                  alt="Tuya Matter Plug Analysis"
-                  className="img-fluid border border-secondary mt-4"
-                  style={{ width: '100%', display: 'block', margin: '0 auto' }}
-                />
-                <p className="text-center font-italic">
-                  Tuya Matter Plug (Traffic Behaviour Study)
-                </p>
+    {/* Image 3 */}
+    <div className="col-12 col-md-4">
+      <img
+        src={tuyaPlugImg.src}
+        alt="Tuya Matter Plug Analysis"
+        className="img-fluid border border-secondary"
+        style={{ width: '100%', height: 'auto', display: 'block' }}
+      />
+      <p className="text-center font-italic mt-2">
+        Tuya Matter Plug (Traffic Behaviour Study)
+      </p>
+    </div>
 
-              </div>
+  </div>
+</div>
+
+
 
               {/* Abstract */}
               <div className="mt-5">
