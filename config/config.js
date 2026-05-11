@@ -45,7 +45,7 @@ export const navigation = {
         },
         {
           title: "Matter Regulatory Control",
-          link: "/research/Matterregulation"
+          link: "/research/Matterregulations"
         },
 
         // Add more papers here as they're created
