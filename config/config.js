@@ -35,6 +35,10 @@ export const navigation = {
           title: "ISCAS",
           link: "/research/ISCAS"
         },
+        {
+          title: "DNSguidelines",
+          link: "/research/DNSguidelines"
+        },
 
         // Add more papers here as they're created
         //{
