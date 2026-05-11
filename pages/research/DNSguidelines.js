@@ -49,31 +49,55 @@ export default function DNSGuidelines() {
                 <strong>DOI:</strong> 10.1109/JIOT.2026.3680083
               </p>
 
-<div className="mt-5 image-container">
+<div className="mt-5 text-center">
 
   <img
     src={dnsRetryImage.src}
     alt="DNS Retry Guidelines"
     className="img-fluid border border-secondary"
-    style={{ width: '100%', display: 'block', margin: '0 auto' }}
+    style={{
+      maxWidth: '750px',
+      width: '100%',
+      height: 'auto',
+      display: 'block',
+      margin: '0 auto'
+    }}
   />
-  <p className="text-center font-italic">DNS Retry Guidelines</p>
+  <p className="text-center font-italic mt-2">
+    DNS Retry Guidelines
+  </p>
 
   <img
     src={dnsTtlImage.src}
     alt="DNS TTL Guidelines"
     className="img-fluid border border-secondary mt-4"
-    style={{ width: '100%', display: 'block', margin: '0 auto' }}
+    style={{
+      maxWidth: '750px',
+      width: '100%',
+      height: 'auto',
+      display: 'block',
+      margin: '0 auto'
+    }}
   />
-  <p className="text-center font-italic">DNS TTL Guidelines</p>
+  <p className="text-center font-italic mt-2">
+    DNS TTL Guidelines
+  </p>
 
   <img
     src={dnsIqtImage.src}
     alt="DNS IQT Guidelines"
     className="img-fluid border border-secondary mt-4"
-    style={{ width: '100%', display: 'block', margin: '0 auto' }}
+    style={{
+      maxWidth: '750px',
+      width: '100%',
+      height: 'auto',
+      display: 'block',
+      margin: '0 auto'
+    }}
   />
-  <p className="text-center font-italic">DNS IQT Guidelines</p>
+  <p className="text-center font-italic mt-2">
+    DNS IQT Guidelines
+  </p>
 
 </div>
 
