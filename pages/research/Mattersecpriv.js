@@ -70,34 +70,7 @@ export default function MatterSecurityPrivacy() {
                 [10.1145/3777912.3809142](https://doi.org/10.1145/3777912.3809142?utm_source=chatgpt.com)
               </p>
 
-              {/* Images */}
-              <div className="mt-5 image-container">
-
-                <img
-                  src={cyncPlugImg.src}
-                  alt="Cync Matter Plug Analysis"
-                  className="img-fluid border border-secondary"
-                  style={{ width: '100%', display: 'block', margin: '0 auto' }}
-                />
-                <p className="text-center font-italic">Cync Matter Plug (Security Analysis)</p>
-
-                <img
-                  src={linkindPlugImg.src}
-                  alt="Linkind Matter Plug Analysis"
-                  className="img-fluid border border-secondary mt-4"
-                  style={{ width: '100%', display: 'block', margin: '0 auto' }}
-                />
-                <p className="text-center font-italic">Linkind Matter Plug (Privacy Evaluation)</p>
-
-                <img
-                  src={tuyaPlugImg.src}
-                  alt="Tuya Matter Plug Analysis"
-                  className="img-fluid border border-secondary mt-4"
-                  style={{ width: '100%', display: 'block', margin: '0 auto' }}
-                />
-                <p className="text-center font-italic">Tuya Matter Plug (Traffic Behaviour Study)</p>
-
-              </div>
+           
 
               {/* Abstract */}
               <div className="mt-5">
