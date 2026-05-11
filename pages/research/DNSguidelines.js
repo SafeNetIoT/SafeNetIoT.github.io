@@ -47,12 +47,20 @@ export default function DNSGuidelines() {
               </p>
 
             <div className="mt-4">
-            <h3 className="text-primary">Guideline Images</h3>
+  <h3 className="text-primary">Guideline Images</h3>
 
-            <img src="/DNSguidelines_images/dnsretry.png" alt="DNS Retry" />
-            <img src="/DNSguidelines_images/dnsttl.png" alt="DNS TTL" />
-            <img src="/DNSguidelines_images/dnsiqt.png" alt="DNS IQT" />
-            </div>
+  <div className="mb-3">
+    <img src={dnsRetryImage} alt="DNS Retry Guidelines" className="img-fluid" />
+  </div>
+
+  <div className="mb-3">
+    <img src={dnsTtlImage} alt="DNS TTL Guidelines" className="img-fluid" />
+  </div>
+
+  <div className="mb-3">
+    <img src={dnsIqtImage} alt="DNS IQT Guidelines" className="img-fluid" />
+  </div>
+</div>
 
 
               <div className="mt-5">
