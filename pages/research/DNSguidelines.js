@@ -4,6 +4,9 @@ import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Nav } from '../../components/Navbar';
 import { SEO, navigation } from '../../config/config';
+import dnsRetryImage from '../../DNSguidelines_images/dnsretry.png';
+import dnsTtlImage from '../../DNSguidelines_images/dnsttl.png';
+import dnsIqtImage from '../../DNSguidelines_images/dnsiqt.png';
 
 export default function DNSGuidelines() {
   return (
@@ -46,22 +49,37 @@ export default function DNSGuidelines() {
                 <strong>DOI:</strong> 10.1109/JIOT.2026.3680083
               </p>
 
-            <div className="mt-4">
-  <h3 className="text-primary">Guideline Images</h3>
+<div className="mt-5 image-container">
 
-  <div className="mb-3">
-    <img src={dnsRetryImage} alt="DNS Retry Guidelines" className="img-fluid" />
-  </div>
+  <img
+    src={dnsRetryImage.src}
+    alt="DNS Retry Guidelines"
+    className="img-fluid border border-secondary"
+    style={{ width: '100%', display: 'block', margin: '0 auto' }}
+  />
+  <p className="text-center font-italic">DNS Retry Guidelines</p>
 
-  <div className="mb-3">
-    <img src={dnsTtlImage} alt="DNS TTL Guidelines" className="img-fluid" />
-  </div>
+  <img
+    src={dnsTtlImage.src}
+    alt="DNS TTL Guidelines"
+    className="img-fluid border border-secondary mt-4"
+    style={{ width: '100%', display: 'block', margin: '0 auto' }}
+  />
+  <p className="text-center font-italic">DNS TTL Guidelines</p>
 
-  <div className="mb-3">
-    <img src={dnsIqtImage} alt="DNS IQT Guidelines" className="img-fluid" />
-  </div>
+  <img
+    src={dnsIqtImage.src}
+    alt="DNS IQT Guidelines"
+    className="img-fluid border border-secondary mt-4"
+    style={{ width: '100%', display: 'block', margin: '0 auto' }}
+  />
+  <p className="text-center font-italic">DNS IQT Guidelines</p>
+
 </div>
 
+
+
+                  
 
               <div className="mt-5">
                 <h3 className="text-primary">Abstract</h3>
