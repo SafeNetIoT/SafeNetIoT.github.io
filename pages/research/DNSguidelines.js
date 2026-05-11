@@ -46,6 +46,44 @@ export default function DNSGuidelines() {
                 <strong>DOI:</strong> 10.1109/JIOT.2026.3680083
               </p>
 
+
+                  {/* PDF Links */}
+<div className="mt-4">
+  <h3 className="text-primary">Guideline Documents</h3>
+
+  <ul className="list-unstyled">
+    <li>
+      <a
+        href="/DNSguidelines_images/DNSretry.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        DNS Retry Guidelines
+      </a>
+    </li>
+
+    <li>
+      <a
+        href="/DNSguidelines_images/DNSttl.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        DNS TTL Guidelines
+      </a>
+    </li>
+
+    <li>
+      <a
+        href="/DNSguidelines_images/DNSiqt.pdf"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        DNS IQT Guidelines
+      </a>
+    </li>
+  </ul>
+</div>
+
               <div className="mt-5">
                 <h3 className="text-primary">Abstract</h3>
 
