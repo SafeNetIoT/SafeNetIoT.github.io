@@ -39,6 +39,10 @@ export const navigation = {
           title: "DNSguidelines",
           link: "/research/DNSguidelines"
         },
+        {
+          title: "Matter Security Privacy",
+          link: "/research/Mattersecpriv"
+        },
 
         // Add more papers here as they're created
         //{
