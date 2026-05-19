@@ -1,5 +1,4 @@
 import { Fragment } from 'react';
-import { useRouter } from 'next/router';
 import { Footer } from '../../components/Footer';
 import { Header } from '../../components/Header';
 import { Nav } from '../../components/Navbar';
@@ -55,7 +54,7 @@ const people = {
     {
       name: "Ammara Yasin",
       slug: "ammara-yasin",
-      description: "Ammara (BSc Computer Science, MSc Science, Technology and Society) is undertaking interdisciplinary research at the intersection of Electronic and Electrical Engineering and Science and Technology Studies. This interdisciplinary approach is central to her work, which examines the privacy and security of methods to circumvent network shutdowns. Her research unpacks how these methods can contribute to reconfiguring global digital networks.",
+      description: "Ammara is a PhD candidate in Electronic and Electrical Engineering at University College London, with secondary supervision in Science and Technology Studies. Her research sits at the intersection of internet measurements and critical infrastructure studies, examining network shutdown circumvention tools in conflict contexts and surveillance infrastructure in the WANA region. She is a Mozilla Fellow partnered with SMEX and an Internet Society Early Career Fellow, and has held fellowships at the Weizenbaum Institute (Berlin) and the Human-Centric Cybersecurity Partnership (Montréal/Ottawa). She holds an MSc in Science, Technology and Society from UCL (Distinction, Best Dissertation Award) and a BSc in Computer Science from Lancaster University (First Class Honours).",
       image: "/images/people/ammara.jpg",
       links: [
         { name: "linkedin", url: "https://www.linkedin.com/in/ammara-y/" },
@@ -131,13 +130,9 @@ const renderIcon = (name) => {
   }
 };
 
-export default function PersonPage() {
-  const router = useRouter();
-  const { slug } = router.query;
-
+export default function PersonPage({ slug }) {
   const person = allPeople.find((p) => p.slug === slug);
 
-  if (!slug) return null; // still loading
   if (!person) return (
     <Fragment>
       <Header seo={SEO} />
@@ -190,4 +185,15 @@ export default function PersonPage() {
       </div>
     </Fragment>
   );
+}
+
+export async function getStaticPaths() {
+  return {
+    paths: allPeople.map((p) => ({ params: { slug: p.slug } })),
+    fallback: false,
+  };
+}
+
+export async function getStaticProps({ params }) {
+  return { props: { slug: params.slug } };
 }
