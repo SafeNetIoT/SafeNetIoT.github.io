@@ -56,7 +56,7 @@ const people = {
     {
       name: "Ammara Yasin",
       slug: "ammara-yasin",
-      description: "Ammara is a PhD candidate in Electronic and Electrical Engineering at University College London, with secondary supervision in Science and Technology Studies. Her research sits at the intersection of internet measurements and critical infrastructure studies, examining network shutdown circumvention tools in conflict contexts and surveillance infrastructure. She is a Mozilla Fellow partnered with SMEX and an Internet Society Early Career Fellow, and has held fellowships at the Weizenbaum Institute (Berlin) and the Human-Centric Cybersecurity Partnership (Montréal/Ottawa). She holds an MSc in Science, Technology and Society from UCL (Distinction, Best Dissertation Award) and a BSc in Computer Science from Lancaster University (First Class Honours).",
+      description: "Ammara is a PhD student in Electronic and Electrical Engineering at University College London, with secondary supervision in Science and Technology Studies. Her research sits at the intersection of internet measurements and critical infrastructure studies, examining network shutdown circumvention tools in conflict contexts and surveillance infrastructure. She is a Mozilla Fellow partnered with SMEX and an Internet Society Early Career Fellow, and has held fellowships at the Weizenbaum Institute (Berlin) and the Human-Centric Cybersecurity Partnership (Montréal/Ottawa). She holds an MSc in Science, Technology and Society from UCL (Distinction, Best Dissertation Award) and a BSc in Computer Science from Lancaster University (First Class Honours).",
       image: "/images/people/ammara.jpg",
       links: [
         { name: "linkedin", url: "https://www.linkedin.com/in/ammara-y/" },
