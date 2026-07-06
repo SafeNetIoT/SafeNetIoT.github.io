@@ -11,6 +11,7 @@ export const allNews = [
       description: "We are pleased to share that CYBERMED (Trust2Wear): Dual-Communication Security for Wearable Medical Devices Using Intra-Body Communication – Phase 2 has been recommended for funding through UCL Innovation & Enterprise’s Knowledge Exchange and Innovation funding scheme. This was a highly competitive funding round, with 108 applications received and only a limited number of projects recommended for support. The project, led by Dr Anna Maria Mandalari with Dr Francesca Boem, Dr Aurelio Loris Canino and Mohammad Alhussan, will support the next stage of CYBERMED (Trust2Wear) development, exploring dual-communication approaches to improve the reliability and security of wearable medical devices using intra-body communication.",
       image: "images/news/UCLI&E2.png",
       link: "https://trust2wear.com/",
+      imagePosition: 'center 10%'
      },
   {
       date: "10 April 2026 – ICURe Discover Programme – Innovate UK / The Helix Way",
