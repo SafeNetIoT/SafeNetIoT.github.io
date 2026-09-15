@@ -37,7 +37,7 @@ export default function DNSGuidelines() {
               </p>
 
               <p>
-                <strong>Venue:</strong> IEEE Internet of Things Journal
+                <strong>Venue:</strong> IEEE Internet of Things Journal - Volume 13, Issue 13 
               </p>
 
               <p>
