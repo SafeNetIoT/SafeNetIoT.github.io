@@ -66,7 +66,7 @@ const ResearchPage = () => {
                          A. Losty, A.K. Mishra, M. Cunche, A. M. Mandalari
                         </p>
                         <p className="text-muted mb-0">
-                          <span className="fw-semibold">Venue:</span> IEEE Internet of Things Journal
+                          <span className="fw-semibold">Venue:</span> IEEE Internet of Things Journal Volume 13, Issue 13
                         </p>
                       </div>
                       <div className="d-flex gap-2">
