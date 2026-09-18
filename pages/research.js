@@ -31,7 +31,7 @@ const ResearchPage = () => {
             <div className="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
               <h2 className="text-primary mb-0">Published Papers</h2>
               <span className="badge rounded-pill text-bg-light border text-primary">
-                11 items
+                12 items
               </span>
             </div>
 
@@ -44,10 +44,39 @@ const ResearchPage = () => {
               <h5 className="text-primary fw-bold mb-3">2026</h5>
               <div className="d-flex flex-column gap-3">
 
-             
-
-
-
+                {/* Item */}
+                <div className="card border-0 shadow-sm">
+                  <div className="card-body p-4">
+                    <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+                      <div className="flex-grow-1">
+                        <div className="d-flex align-items-center gap-2 mb-2">
+                          <span className="badge rounded-pill text-bg-primary">Journal</span>
+                          <span className="text-muted small">Aug 2026 •  </span>
+                        </div>
+                        <h5 className="text-dark fw-semibold mb-2">
+                          Catching Hackers by Watching Watts: A Measurement Study of Power-Only Attack Detection on Consumer IoT Devices
+                        </h5>
+                        <p className="text-muted mb-2">
+                          Yuanyuan Zhou, Hashim Zia, Jiahui Qin, Sandra Siby, Anna Maria Mandalari
+                        </p>
+                        <p className="text-muted mb-0">
+                          <span className="fw-semibold">Venue:</span> IEEE Internet of Things Journal (Vol. 13, Issue 16)
+                        </p>
+                      </div>
+                      <div className="d-flex gap-2">
+                        <a
+                          href="/research/CatchingHackersByWatchingWatts"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn-outline-primary btn-sm"
+                        >
+                          <i className="bi bi-box-arrow-up-right me-2"></i>
+                          Read
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
 
 
                 {/* Item */}
@@ -63,7 +92,7 @@ const ResearchPage = () => {
                           From Lookup to Lockdown: DNS Guidelines for Securing IoT Ecosystems
                         </h5>
                         <p className="text-muted mb-2">
-                         A. Losty, A.K. Mishra, M. Cunche, A. M. Mandalari
+                          A. Losty, A.K. Mishra, M. Cunche, A. M. Mandalari
                         </p>
                         <p className="text-muted mb-0">
                           <span className="fw-semibold">Venue:</span> IEEE Internet of Things Journal Volume 13, Issue 13
@@ -85,7 +114,7 @@ const ResearchPage = () => {
                 </div>
 
 
-              
+
                 {/* Item */}
                 <div className="card border-0 shadow-sm">
                   <div className="card-body p-4">
