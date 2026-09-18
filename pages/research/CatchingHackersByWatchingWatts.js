@@ -99,12 +99,22 @@ export default function CatchingHackersByWatchingWatts() {
               <ul>
                 <li>
                   <a
-                    href="https://doi.org/10.1109/JIOT.2026.3702795"
+                    href="https://ieeexplore.ieee.org/abstract/document/11558329"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary"
                   >
                     Read the paper on IEEE Xplore
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://github.com/SafeNetIoT/PowerIDS"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary"
+                  >
+                    Code on GitHub
                   </a>
                 </li>
               </ul>

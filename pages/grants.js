@@ -46,19 +46,15 @@ const GrantsPage = () => {
                 {/* Item */}
                 <div className="card border-0 shadow-sm">
                   <div className="card-body p-4">
-                    <div className="d-flex gap-4 align-items-start flex-wrap">
+                    <div className="d-flex gap-4 align-items-center flex-wrap">
                       <img
                         src={craneImg.src}
                         alt="CRANE"
-                        style={{ width: '160px', height: 'auto', objectFit: 'contain', flexShrink: 0 }}
+                        style={{ width: '300px', height: 'auto', objectFit: 'contain', flexShrink: 0 }}
                       />
                       <div className="flex-grow-1" style={{ flexBasis: 0, minWidth: '250px' }}>
                         <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
                           <div className="flex-grow-1">
-                            <div className="d-flex align-items-center gap-2 mb-2">
-                              <span className="badge rounded-pill text-bg-primary">CRANE</span>
-                              <span className="text-muted small">2026 • 7 months</span>
-                            </div>
                             <h5 className="text-dark fw-semibold mb-2">
                               Securing Wearable Medical Communication Through Neuromorphic-Inspired Anomaly Detection
                             </h5>
@@ -77,7 +73,7 @@ const GrantsPage = () => {
                               className="btn btn-outline-primary btn-sm"
                             >
                               <i className="bi bi-box-arrow-up-right me-2"></i>
-                              Read
+                              Read More
                             </a>
                           </div>
                         </div>
