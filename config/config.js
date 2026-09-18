@@ -56,6 +56,10 @@ export const navigation = {
       ]
     },
     {
+      title: "Grants",
+      link: "/grants",
+    },
+    {
       title: "Lab",
       link: "/lab",
     },
