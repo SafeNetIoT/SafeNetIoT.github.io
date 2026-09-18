@@ -50,13 +50,13 @@ const GrantsPage = () => {
                       <div className="flex-grow-1">
                         <div className="d-flex align-items-center gap-2 mb-2">
                           <span className="badge rounded-pill text-bg-primary">CRANE</span>
-                          <span className="text-muted small">2026 • 9 months</span>
+                          <span className="text-muted small">2026 • 7 months</span>
                         </div>
                         <h5 className="text-dark fw-semibold mb-2">
                           Securing Wearable Medical Communication Through Neuromorphic-Inspired Anomaly Detection
                         </h5>
                         <p className="text-muted mb-2">
-                          Yuanyuan Zhou
+                          Anna Maria Mandalari (PI), Yuanyuan Zhou
                         </p>
                         <p className="text-muted mb-0">
                           <span className="fw-semibold">Funder:</span> CRANE Phase One Pilot Project (EPSRC)

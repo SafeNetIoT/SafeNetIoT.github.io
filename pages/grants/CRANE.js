@@ -31,7 +31,11 @@ export default function CraneGrant() {
 
               {/* Meta info */}
               <p>
-                <strong>Principal Investigator:</strong> Yuanyuan Zhou
+                <strong>Principal Investigator:</strong> Anna Maria Mandalari
+              </p>
+
+              <p>
+                <strong>Researcher:</strong> Yuanyuan Zhou
               </p>
 
               <p>
@@ -40,6 +44,10 @@ export default function CraneGrant() {
 
               <p>
                 <strong>Duration:</strong> 7 months (Oct–Dec 2026 to Apr–Jun 2027)
+              </p>
+
+              <p>
+                <strong>Keywords:</strong> secure cyber-physical autonomy, medical IoT resilience, anomaly detection, event-driven verification, energy-efficient system
               </p>
 
               <p>
@@ -53,6 +61,23 @@ export default function CraneGrant() {
                   CRANE Phase One Pilot Projects Call: Securing Trust, Autonomy, and Resilience in Future Cyber Ecosystems
                 </a>
               </p>
+
+              {/* Abstract */}
+              <div className="mt-5">
+                <h3 className="text-primary">Abstract</h3>
+
+                <p>
+                  BLE-based medical IoT (IoMT) devices face real, demonstrated threats like man-in-the-middle attacks (MITM), denial-of-service (DoS), and eavesdropping which we have verified through hardware-based exploits. In closed-loop medical contexts, such vulnerabilities carry direct implications for patient safety, from corrupted readings to silently dropped alerts.
+                </p>
+
+                <p>
+                  Neuromorphic computing offers a promising alternative: an event-driven paradigm particularly well suited to energy-constrained edge and sensory applications, where sparse, meaningful transmissions could in principle reduce both attack exposure and network congestion compared to conventional always-on communication.
+                </p>
+
+                <p>
+                  This project sets out to build and empirically validate a neuromorphic-inspired verification mechanism for wearable medical devices, testing whether it can deliver stronger resilience and greater efficiency while matching the attack detection performance of continuous verification.
+                </p>
+              </div>
 
             </div>
           </div>
