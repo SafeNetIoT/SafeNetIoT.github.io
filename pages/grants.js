@@ -7,6 +7,8 @@ import { Header } from '../components/Header';
 import { Nav } from '../components/Navbar';
 import { SEO, navigation } from '../config/config';
 
+import craneImg from '../images/grants/crane.png';
+
 const GrantsPage = () => {
   return (
     <Fragment>
@@ -34,9 +36,7 @@ const GrantsPage = () => {
               </span>
             </div>
 
-            <p className="text-primary mb-4" style={{ maxWidth: 900 }}>
-              Grants awarded to the lab, funding research into IoT security and privacy.
-            </p>
+
 
             {/* ── Year: 2026 ── */}
             <div className="mb-4">
@@ -46,32 +46,41 @@ const GrantsPage = () => {
                 {/* Item */}
                 <div className="card border-0 shadow-sm">
                   <div className="card-body p-4">
-                    <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
-                      <div className="flex-grow-1">
-                        <div className="d-flex align-items-center gap-2 mb-2">
-                          <span className="badge rounded-pill text-bg-primary">CRANE</span>
-                          <span className="text-muted small">2026 • 7 months</span>
+                    <div className="d-flex gap-4 align-items-start flex-wrap">
+                      <img
+                        src={craneImg.src}
+                        alt="CRANE"
+                        style={{ width: '160px', height: 'auto', objectFit: 'contain', flexShrink: 0 }}
+                      />
+                      <div className="flex-grow-1" style={{ flexBasis: 0, minWidth: '250px' }}>
+                        <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+                          <div className="flex-grow-1">
+                            <div className="d-flex align-items-center gap-2 mb-2">
+                              <span className="badge rounded-pill text-bg-primary">CRANE</span>
+                              <span className="text-muted small">2026 • 7 months</span>
+                            </div>
+                            <h5 className="text-dark fw-semibold mb-2">
+                              Securing Wearable Medical Communication Through Neuromorphic-Inspired Anomaly Detection
+                            </h5>
+                            <p className="text-muted mb-2">
+                              Anna Maria Mandalari (PI), Yuanyuan Zhou
+                            </p>
+                            <p className="text-muted mb-0">
+                              <span className="fw-semibold">Funder:</span> CRANE Phase One Pilot Project (EPSRC)
+                            </p>
+                          </div>
+                          <div className="d-flex gap-2">
+                            <a
+                              href="/grants/CRANE"
+                              target="_blank"
+                              rel="noopener noreferrer"
+                              className="btn btn-outline-primary btn-sm"
+                            >
+                              <i className="bi bi-box-arrow-up-right me-2"></i>
+                              Read
+                            </a>
+                          </div>
                         </div>
-                        <h5 className="text-dark fw-semibold mb-2">
-                          Securing Wearable Medical Communication Through Neuromorphic-Inspired Anomaly Detection
-                        </h5>
-                        <p className="text-muted mb-2">
-                          Anna Maria Mandalari (PI), Yuanyuan Zhou
-                        </p>
-                        <p className="text-muted mb-0">
-                          <span className="fw-semibold">Funder:</span> CRANE Phase One Pilot Project (EPSRC)
-                        </p>
-                      </div>
-                      <div className="d-flex gap-2">
-                        <a
-                          href="/grants/CRANE"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          className="btn btn-outline-primary btn-sm"
-                        >
-                          <i className="bi bi-box-arrow-up-right me-2"></i>
-                          Read
-                        </a>
                       </div>
                     </div>
                   </div>
