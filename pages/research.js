@@ -66,7 +66,7 @@ const ResearchPage = () => {
                       </div>
                       <div className="d-flex gap-2">
                         <a
-                          href="/research/CatchingHackersByWatchingWatts"
+                          href="/research/Matter-Hype"
                           target="_blank"
                           rel="noopener noreferrer"
                           className="btn btn-outline-primary btn-sm"
