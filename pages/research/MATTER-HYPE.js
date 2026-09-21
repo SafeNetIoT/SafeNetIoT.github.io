@@ -65,17 +65,17 @@ export default function IscasPaper() {
                 <ul>
                   <li>
                     <a
-                      href="https://ieeexplore.ieee.org/document/11043235"
+                      href="https://conferences.sigcomm.org/imc/2026/"
                       target="_blank"
                       rel="noopener noreferrer"
                       className="text-primary"
                     >
-                      Read the paper on IEEE Xplore
+                      See IMC Conference details
                     </a>
                   </li>
                   <li>
                     <a
-                    href="/images/pdfs/ISCAS_Template_Presentation.pdf"
+                    href="/images/pdfs/IMC Karlsruhe Matter Security V1.1.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary"
