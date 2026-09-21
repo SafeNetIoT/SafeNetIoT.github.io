@@ -8,6 +8,7 @@ import { Nav } from '../components/Navbar';
 import { SEO, navigation } from '../config/config';
 
 import craneImg from '../images/grants/crane.png';
+import kfasImg from '../images/grants/kfas.png';
 
 const GrantsPage = () => {
   return (
@@ -32,7 +33,7 @@ const GrantsPage = () => {
             <div className="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
               <h2 className="text-primary mb-0">Accepted Grants</h2>
               <span className="badge rounded-pill text-bg-light border text-primary">
-                1 item
+                2 items
               </span>
             </div>
 
@@ -85,6 +86,44 @@ const GrantsPage = () => {
               </div>
             </div>
             {/* ── End Year: 2026 ── */}
+
+            {/* ── Year: 2024 ── */}
+            <div className="mb-4">
+              <h5 className="text-primary fw-bold mb-3">2024</h5>
+              <div className="card border-0 shadow-sm">
+                <div className="card-body p-4">
+                  <div className="d-flex gap-4 align-items-center flex-wrap">
+                    <img
+                      src={kfasImg.src}
+                      alt="Kuwait Foundation for the Advancement of Sciences (KFAS)"
+                      width={kfasImg.width}
+                      height={kfasImg.height}
+                      style={{ width: '300px', maxWidth: '100%', height: 'auto', objectFit: 'contain', flexShrink: 0 }}
+                    />
+                    <div className="flex-grow-1" style={{ flexBasis: '250px', minWidth: 0 }}>
+                      <h5 className="text-dark fw-semibold mb-2">
+                        Exploring the Limitations and Challenges of the Internet of Medical Things (IoMT) Devices
+                      </h5>
+                      <p className="text-muted mb-2">
+                        Mohammad Alhussan (Student Researcher), Anna Maria Mandalari (Supervisor)
+                      </p>
+                      <p className="text-muted mb-2">
+                        <span className="fw-semibold">Funder:</span> Kuwait Foundation for the Advancement of Sciences (KFAS)
+                      </p>
+                      <p className="text-muted mb-3">
+                        <span className="fw-semibold">Funding:</span> Approximately £25,000
+                      </p>
+                      <Link href="/grants/KFAS">
+                        <a className="btn btn-outline-primary btn-sm" aria-label="Read more about the KFAS grant">
+                          Read More
+                        </a>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            {/* ── End Year: 2024 ── */}
 
             {/* Tiny hover polish without changing branding */}
             <style jsx>{`
