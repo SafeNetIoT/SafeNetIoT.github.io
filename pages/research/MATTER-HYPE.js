@@ -35,12 +35,12 @@ export default function IscasPaper() {
 
               <div className="image-container mt-5">
                 <img
-                  src={iscasImage.src}
-                  alt="ISCAS 2025 presentation"
+                  src={paperImg.src}
+                  alt="Matter security assessment overview"
                   className="img-fluid border border-secondary"
                   style={{ width: '100%', display: 'block', margin: '0 auto' }}
                 />
-                <p className="text-center font-italic">BLE Sniffing & MITM Execution Process.</p>
+                <p className="text-center font-italic">Security assessment of Matter and non-Matter IoT devices.</p>
               </div>
 
               <div className="mt-5">
