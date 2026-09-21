@@ -6,7 +6,7 @@ import { Nav } from '../../components/Navbar';
 import { SEO, navigation } from '../../config/config';
 
 // Import images
-import iscasImage from '../../ISCAS_images/3.png';
+import paperImg from '../../images/research/Matter-security-assessment.png';
 
 export default function IscasPaper() {
   return (
