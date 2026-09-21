@@ -75,7 +75,7 @@ export default function IscasPaper() {
                   </li>
                   <li>
                     <a
-                    href="/images/pdfs/IMC-Karlsruhe-Matter-Security-V1-1-SafeNetIoT.pdf"
+                    href="https://raw.githubusercontent.com/SafeNetIoT/SafeNetIoT.github.io/main/images/pdfs/IMC-Karlsruhe-Matter-Security-V1-1-SafeNetIoT.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary"
