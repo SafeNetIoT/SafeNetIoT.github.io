@@ -44,7 +44,7 @@ export default function KfasGrant() {
               <p><strong>Institution:</strong> University College London (UCL)</p>
               <p><strong>Funder:</strong> Kuwait Foundation for the Advancement of Sciences (KFAS)</p>
               <p><strong>Scheme:</strong> Student Research Grant</p>
-              <p><strong>Funding:</strong> Approximately £25,000 (awarded amount: £24,900)</p>
+              <p><strong>Funding:</strong> Approximately £25,000</p>
               <p><strong>Project Code:</strong> CB24-18EE-01</p>
               <p><strong>Duration:</strong> 31 months (November 2024 – June 2027)</p>
               <p>
