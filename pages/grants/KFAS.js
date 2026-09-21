@@ -5,6 +5,7 @@ import { Nav } from '../../components/Navbar';
 import { SEO, navigation } from '../../config/config';
 import kfasImg from '../../images/grants/kfas.png';
 
+
 const title = 'Exploring the Limitations and Challenges of the Internet of Medical Things (IoMT) Devices';
 
 export default function KfasGrant() {
