@@ -8,142 +8,203 @@ import { Nav } from '../components/Navbar';
 import { SEO, navigation } from '../config/config';
 
 import craneImg from '../images/grants/crane.png';
+import epsrcImg from '../images/grants/epsrc.png';
+import icureImg from '../images/grants/icure-discover.png';
 import kfasImg from '../images/grants/kfas.png';
+import nntiImg from '../images/grants/nnti.png';
+import uclIeImg from '../images/grants/ucl-ie.jpg';
 
-const GrantsPage = () => {
-  return (
-    <Fragment>
-      <Header seo={SEO} />
-      <Nav title={navigation.name} links={navigation.links} />
+const grantsByYear = [
+  {
+    year: '2026',
+    grants: [
+      {
+        title: 'CYBERMED: Dual-Communication Security for Wearable Medical Devices Using Intra-Body Communication - Phase 2',
+        people: 'Dr Anna Maria Mandalari (Project Lead), Mohammad Alhussan, Dr Francesca Boem and Aurelio Loris Canino',
+        funder: 'UCL Innovation & Enterprise',
+        scheme: 'HEIF ESC Innovation Funding',
+        image: uclIeImg,
+        imageAlt: 'UCL Innovation and Enterprise - CYBERMED Phase 2',
+        href: '/grants/UCL-IE',
+      },
+      {
+        title: 'BODYCOM: Body-Coupled Networking for Reliable Wearable Medical Communication',
+        people: 'Dr Anna Maria Mandalari (PI), Mohammad Alhussan, Aurelio Loris Canino and Dr Francesca Boem',
+        funder: 'Huawei-UCL NNTI Joint Laboratory',
+        scheme: 'Base Exploratory Project',
+        funding: '£62,500',
+        image: nntiImg,
+        imageAlt: 'Huawei NNTI Joint Laboratory',
+        href: '/grants/NNTI',
+      },
+      {
+        title: 'ICURe Discover Programme',
+        people: 'Mohammad Alhussan',
+        funder: 'Innovate UK',
+        scheme: 'ICURe Discover, delivered by The Helix Way',
+        funding: 'Up to £2,500',
+        image: icureImg,
+        imageAlt: 'UKRI, Innovate UK and ICURe Discover',
+        href: '/grants/ICURe-Discover',
+      },
+      {
+        title: 'Securing Wearable Medical Communication Through Neuromorphic-Inspired Anomaly Detection',
+        people: 'Dr Anna Maria Mandalari (PI), Yuanyuan Zhou',
+        funder: 'CRANE Phase One Pilot Project (EPSRC)',
+        image: craneImg,
+        imageAlt: 'CRANE',
+        href: '/grants/CRANE',
+      },
+    ],
+  },
+  {
+    year: '2025',
+    grants: [
+      {
+        title: 'CYBERMED: Dual-Communication Security for Wearable Medical Devices Using Intra-Body Communication',
+        people: 'Dr Anna Maria Mandalari (PI), Mohammad Alhussan, Dr Francesca Boem and Aurelio Loris Canino',
+        funder: 'EPSRC via UCL Innovation & Enterprise',
+        scheme: 'EPSRC IAA Uplift',
+        funding: '£30,000',
+        image: epsrcImg,
+        imageAlt: 'Engineering and Physical Sciences Research Council (EPSRC)',
+        href: '/grants/EPSRC-IAA-Uplift',
+      },
+      {
+        title: 'CYBERMED: Dual-Communication Security for Wearable Medical Devices Using Intra-Body Communication',
+        people: 'Dr Anna Maria Mandalari (PI), Mohammad Alhussan, Dr Francesca Boem and Aurelio Loris Canino',
+        funder: 'EPSRC Impact Acceleration Account',
+        scheme: 'Discovery to Use',
+        funding: 'Approximately £30,000',
+        image: epsrcImg,
+        imageAlt: 'Engineering and Physical Sciences Research Council (EPSRC)',
+        href: '/grants/EPSRC-IAA',
+      },
+    ],
+  },
+  {
+    year: '2024',
+    grants: [
+      {
+        title: 'Exploring the Limitations and Challenges of the Internet of Medical Things (IoMT) Devices',
+        people: 'Mohammad Alhussan (Student Researcher), Dr Anna Maria Mandalari (Supervisor)',
+        funder: 'Kuwait Foundation for the Advancement of Sciences (KFAS)',
+        funding: 'Approximately £25,000',
+        image: kfasImg,
+        imageAlt: 'Kuwait Foundation for the Advancement of Sciences (KFAS)',
+        href: '/grants/KFAS',
+      },
+    ],
+  },
+];
 
-      <div className="d-flex flex-column justify-content-between bg-secondary min-vh-100">
-        <div className="container py-5 px-3 px-sm-5">
-          <h1 className="text-primary fw-bold text-left mb-4">Grants</h1>
+const GrantCard = ({ grant }) => (
+  <div className="card border-0 shadow-sm">
+    <div className="card-body p-4">
+      <div className="d-flex gap-4 align-items-center flex-wrap">
+        <div className="grant-image-wrap">
+          <img src={grant.image.src} alt={grant.imageAlt} />
+        </div>
+        <div className="flex-grow-1 grant-copy">
+          {grant.scheme && (
+            <span className="badge rounded-pill text-bg-light border text-primary mb-2">
+              {grant.scheme}
+            </span>
+          )}
+          <h5 className="text-dark fw-semibold mb-2">{grant.title}</h5>
+          <p className="text-muted mb-2">{grant.people}</p>
+          <p className={grant.funding ? 'text-muted mb-2' : 'text-muted mb-3'}>
+            <span className="fw-semibold">Funder:</span> {grant.funder}
+          </p>
+          {grant.funding && (
+            <p className="text-muted mb-3">
+              <span className="fw-semibold">Funding:</span> {grant.funding}
+            </p>
+          )}
+          <Link href={grant.href}>
+            <a className="btn btn-outline-primary btn-sm" aria-label={`Read more about ${grant.title}`}>
+              Read More
+            </a>
+          </Link>
+        </div>
+      </div>
+    </div>
+  </div>
+);
 
-          <div className="row justify-content-center mb-5">
-            <div className="col-12 col-md-10 col-lg-8">
-              <p className="text-primary lead text-left">
-                Funded projects supporting our research into securing IoT systems across smart homes, healthcare, and industrial environments.
-              </p>
-            </div>
+const GrantsPage = () => (
+  <Fragment>
+    <Header seo={SEO} />
+    <Nav title={navigation.name} links={navigation.links} />
+
+    <div className="d-flex flex-column justify-content-between bg-secondary min-vh-100">
+      <div className="container py-5 px-3 px-sm-5">
+        <h1 className="text-primary fw-bold text-left mb-4">Grants</h1>
+
+        <div className="row justify-content-center mb-5">
+          <div className="col-12 col-md-10 col-lg-8">
+            <p className="text-primary lead text-left">
+              Funded projects supporting our research into securing IoT systems across smart homes, healthcare, and industrial environments.
+            </p>
           </div>
-
-          {/* Accepted Grants */}
-          <div className="mb-5">
-            <div className="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
-              <h2 className="text-primary mb-0">Accepted Grants</h2>
-              <span className="badge rounded-pill text-bg-light border text-primary">
-                2 items
-              </span>
-            </div>
-
-
-
-            {/* ── Year: 2026 ── */}
-            <div className="mb-4">
-              <h5 className="text-primary fw-bold mb-3">2026</h5>
-              <div className="d-flex flex-column gap-3">
-
-                {/* Item */}
-                <div className="card border-0 shadow-sm">
-                  <div className="card-body p-4">
-                    <div className="d-flex gap-4 align-items-center flex-wrap">
-                      <img
-                        src={craneImg.src}
-                        alt="CRANE"
-                        style={{ width: '300px', height: 'auto', objectFit: 'contain', flexShrink: 0 }}
-                      />
-                      <div className="flex-grow-1" style={{ flexBasis: 0, minWidth: '250px' }}>
-                        <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
-                          <div className="flex-grow-1">
-                            <h5 className="text-dark fw-semibold mb-2">
-                              Securing Wearable Medical Communication Through Neuromorphic-Inspired Anomaly Detection
-                            </h5>
-                            <p className="text-muted mb-2">
-                              Anna Maria Mandalari (PI), Yuanyuan Zhou
-                            </p>
-                            <p className="text-muted mb-0">
-                              <span className="fw-semibold">Funder:</span> CRANE Phase One Pilot Project (EPSRC)
-                            </p>
-                          </div>
-                          <div className="d-flex gap-2">
-                            <a
-                              href="/grants/CRANE"
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              className="btn btn-outline-primary btn-sm"
-                            >
-                              <i className="bi bi-box-arrow-up-right me-2"></i>
-                              Read More
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-            {/* ── End Year: 2026 ── */}
-
-            {/* ── Year: 2024 ── */}
-            <div className="mb-4">
-              <h5 className="text-primary fw-bold mb-3">2024</h5>
-              <div className="card border-0 shadow-sm">
-                <div className="card-body p-4">
-                  <div className="d-flex gap-4 align-items-center flex-wrap">
-                    <img
-                      src={kfasImg.src}
-                      alt="Kuwait Foundation for the Advancement of Sciences (KFAS)"
-                      width={kfasImg.width}
-                      height={kfasImg.height}
-                      style={{ width: '300px', maxWidth: '100%', height: 'auto', objectFit: 'contain', flexShrink: 0 }}
-                    />
-                    <div className="flex-grow-1" style={{ flexBasis: '250px', minWidth: 0 }}>
-                      <h5 className="text-dark fw-semibold mb-2">
-                        Exploring the Limitations and Challenges of the Internet of Medical Things (IoMT) Devices
-                      </h5>
-                      <p className="text-muted mb-2">
-                        Mohammad Alhussan (Student Researcher), Anna Maria Mandalari (Supervisor)
-                      </p>
-                      <p className="text-muted mb-2">
-                        <span className="fw-semibold">Funder:</span> Kuwait Foundation for the Advancement of Sciences (KFAS)
-                      </p>
-                      <p className="text-muted mb-3">
-                        <span className="fw-semibold">Funding:</span> Approximately £25,000
-                      </p>
-                      <Link href="/grants/KFAS">
-                        <a className="btn btn-outline-primary btn-sm" aria-label="Read more about the KFAS grant">
-                          Read More
-                        </a>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* ── End Year: 2024 ── */}
-
-            {/* Tiny hover polish without changing branding */}
-            <style jsx>{`
-              .card {
-                transition: transform 120ms ease, box-shadow 120ms ease;
-              }
-              .card:hover {
-                transform: translateY(-2px);
-                box-shadow: 0 .5rem 1.25rem rgba(0,0,0,.08) !important;
-              }
-            `}</style>
-          </div>
-          {/* ── End Accepted Grants ── */}
-
         </div>
 
-        <Footer />
+        <div className="mb-5">
+          <div className="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
+            <h2 className="text-primary mb-0">Accepted Grants</h2>
+            <span className="badge rounded-pill text-bg-light border text-primary">7 items</span>
+          </div>
+
+          {grantsByYear.map(({ year, grants }) => (
+            <div className="mb-4" key={year}>
+              <h5 className="text-primary fw-bold mb-3">{year}</h5>
+              <div className="d-flex flex-column gap-3">
+                {grants.map((grant) => <GrantCard grant={grant} key={grant.href} />)}
+              </div>
+            </div>
+          ))}
+
+          <style jsx global>{`
+            .card {
+              transition: transform 120ms ease, box-shadow 120ms ease;
+            }
+            .card:hover {
+              transform: translateY(-2px);
+              box-shadow: 0 .5rem 1.25rem rgba(0,0,0,.08) !important;
+            }
+            .grant-image-wrap {
+              align-items: center;
+              display: flex;
+              flex: 0 0 280px;
+              justify-content: center;
+              min-height: 150px;
+              width: 280px;
+            }
+            .grant-image-wrap img {
+              height: auto;
+              max-height: 170px;
+              max-width: 100%;
+              object-fit: contain;
+              width: auto;
+            }
+            .grant-copy {
+              flex-basis: 320px;
+              min-width: 0;
+            }
+            @media (max-width: 575.98px) {
+              .grant-image-wrap {
+                flex-basis: 100%;
+                min-height: 110px;
+                width: 100%;
+              }
+            }
+          `}</style>
+        </div>
       </div>
-    </Fragment>
-  );
-};
+
+      <Footer />
+    </div>
+  </Fragment>
+);
 
 export default GrantsPage;
