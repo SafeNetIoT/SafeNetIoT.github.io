@@ -10,6 +10,7 @@ import { SEO, navigation } from '../config/config';
 import craneImg from '../images/grants/crane.png';
 import epsrcImg from '../images/grants/epsrc.png';
 import icureImg from '../images/grants/icure-discover.png';
+import icureExploreImg from '../images/grants/icure-explore.png';
 import kfasImg from '../images/grants/kfas.png';
 import nntiImg from '../images/grants/nnti.png';
 import uclIeImg from '../images/grants/ucl-ie.jpg';
@@ -18,6 +19,16 @@ const grantsByYear = [
   {
     year: '2026',
     grants: [
+      {
+        title: 'Trust2Wear: Secure and Reliable Communication for Wearable Medical Devices',
+        people: 'Aurelio Loris Canino (EL), Dr Anna Maria Mandalari (PSA), Eleanor Barlow (TTO), Richard Marshall (BA), Dr Francesca Boem and Mohammad Alhussan',
+        funder: 'Innovate UK',
+        scheme: 'ICURe Explore',
+        funding: '£35,000',
+        image: icureExploreImg,
+        imageAlt: 'UKRI, Innovate UK and ICURe Explore',
+        href: '/grants/ICURe-Explore',
+      },
       {
         title: 'CYBERMED: Dual-Communication Security for Wearable Medical Devices Using Intra-Body Communication - Phase 2',
         people: 'Dr Anna Maria Mandalari (Project Lead), Mohammad Alhussan, Dr Francesca Boem and Aurelio Loris Canino',
@@ -152,7 +163,7 @@ const GrantsPage = () => (
         <div className="mb-5">
           <div className="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
             <h2 className="text-primary mb-0">Accepted Grants</h2>
-            <span className="badge rounded-pill text-bg-light border text-primary">7 items</span>
+            <span className="badge rounded-pill text-bg-light border text-primary">8 items</span>
           </div>
 
           {grantsByYear.map(({ year, grants }) => (
