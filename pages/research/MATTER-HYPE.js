@@ -75,13 +75,24 @@ export default function IscasPaper() {
                   </li>
                   <li>
                     <a
-                    href="https://raw.githubusercontent.com/SafeNetIoT/SafeNetIoT.github.io/main/images/pdfs/IMC-Karlsruhe-Matter-Security-V1-1-SafeNetIoT.pdf"
+                    href="https://doi.org/10.1145/3777912.3809142%E2%80%8B"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-primary"
                   >
-                    View Paper Presentation (pdf)
+                    View Paper 
                   </a>
+                  </li>
+                  <li>
+                    <a
+                    href="https://github.com/SafeNetIoT/matter_sec_privacy"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-primary"
+                  >
+                    Github Repository (Scripts and Dataset Overview)
+                  </a>
+                      
                   </li>
                 </ul>
               </div>
