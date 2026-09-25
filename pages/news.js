@@ -8,8 +8,7 @@ export const allNews = [
 
 {
       date: "2 July 2026 - Coseners 2025 (Next Generation Networking and Multi-Service Networks Workshop)",
-      description: "Andrew Losty presented his research detailing developments in the Matter Protocol, and presents the latest research in the Standard’s Security and Privacy at the The 38th Multi-Service Networks workshop(MSN 2026) This annual workshop brings together leading researchers and practitioners to explore cutting-edge developments across networking and communications.  Attending provided valuable opportunities to engage with the wider research community and exchange insights on emerging network technologies.
-",
+      description: "Andrew Losty presented his research detailing developments in the Matter Protocol, and presents the latest research in the Standard’s Security and Privacy at the The 38th Multi-Service Networks workshop(MSN 2026) This annual workshop brings together leading researchers and practitioners to explore cutting-edge developments across networking and communications.  Attending provided valuable opportunities to engage with the wider research community and exchange insights on emerging network technologies.",
       image: "images/news/Cosners26-3.jpg",
       link: "https://https://coseners.qmul.ac.uk/coseners-2026//",
       imagePosition: 'center 10%'
