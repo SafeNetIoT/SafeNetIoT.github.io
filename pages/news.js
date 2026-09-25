@@ -6,6 +6,14 @@ import { SEO, navigation } from '../config/config';
 
 export const allNews = [
 
+{
+      date: "2 July 2026 - Coseners 2025 (Next Generation Networking and Multi-Service Networks Workshop)",
+      description: "Andrew Losty presented his research detailing developments in the Matter Protocol, and presents the latest research in the Standard’s Security and Privacy at the The 38th Multi-Service Networks workshop(MSN 2026) This annual workshop brings together leading researchers and practitioners to explore cutting-edge developments across networking and communications.  Attending provided valuable opportunities to engage with the wider research community and exchange insights on emerging network technologies.
+",
+      image: "images/news/Cosners26-3.jpg",
+      link: "https://https://coseners.qmul.ac.uk/coseners-2026//",
+      imagePosition: 'center 10%'
+     },
  {
       date: "2 July 2026 - CYBERMED (Trust2Wear) Phase 2 Recommended for UCL Innovation Funding",
       description: "We are pleased to share that CYBERMED (Trust2Wear): Dual-Communication Security for Wearable Medical Devices Using Intra-Body Communication – Phase 2 has been recommended for funding through UCL Innovation & Enterprise’s Knowledge Exchange and Innovation funding scheme. This was a highly competitive funding round, with 108 applications received and only a limited number of projects recommended for support. The project, led by Dr Anna Maria Mandalari with Dr Francesca Boem, Dr Aurelio Loris Canino and Mohammad Alhussan, will support the next stage of CYBERMED (Trust2Wear) development, exploring dual-communication approaches to improve the reliability and security of wearable medical devices using intra-body communication.",
