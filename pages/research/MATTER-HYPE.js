@@ -113,7 +113,7 @@ export default function IscasPaper() {
   publisher = {Association for Computing Machinery}
 }
 </pre>
-                </ul>
+                
               </div>
             </div>
           </div>
