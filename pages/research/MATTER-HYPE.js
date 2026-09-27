@@ -95,11 +95,6 @@ export default function IscasPaper() {
                       
                   </li>
                 </ul>
-                  <li>
-                     
-                
-
-                
               </div>
             </div>
           </div>
