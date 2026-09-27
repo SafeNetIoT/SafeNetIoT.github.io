@@ -96,12 +96,7 @@ export default function IscasPaper() {
                   </li>
                 </ul>
                   <li>
-  <strong>Citation:</strong> A. Losty, T. Hu, D. J. Dubois, N. Shafqat,
-  A. Ranganathan, D. Choffnes, and A. M. Mandalari, "Beyond the Hype:
-  Empirical Analysis of Matter Standard's Security and Privacy," in
-  Proceedings of the 2026 ACM Internet Measurement Conference (IMC '26),
-  Karlsruhe, Germany, 2026.
-</li>                      
+                     
                 
 
                 
