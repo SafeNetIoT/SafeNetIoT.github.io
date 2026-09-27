@@ -58,14 +58,6 @@ const grantsByYear = [
         imageAlt: 'UKRI, Innovate UK and ICURe Discover',
         href: '/grants/ICURe-Discover',
       },
-      {
-        title: 'Securing Wearable Medical Communication Through Neuromorphic-Inspired Anomaly Detection',
-        people: 'Dr Anna Maria Mandalari (PI), Yuanyuan Zhou',
-        funder: 'CRANE Phase One Pilot Project (EPSRC)',
-        image: craneImg,
-        imageAlt: 'CRANE',
-        href: '/grants/CRANE',
-      },
     ],
   },
   {
