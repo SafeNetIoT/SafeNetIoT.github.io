@@ -104,18 +104,7 @@ export default function IscasPaper() {
   Measurement Conference (IMC '26), Karlsruhe, Germany, 2026.
 </p>
 
-<pre>{`@inproceedings{losty2026matter,
-  author    = {Andrew Losty and Tianrui Hu and Daniel J. Dubois and
-               Narmeen Shafqat and Aanjhan Ranganathan and
-               David Choffnes and Anna Maria Mandalari},
-  title     = {Beyond the Hype: Empirical Analysis of Matter Standard's
-               Security and Privacy},
-  booktitle = {Proceedings of the 2026 ACM Internet Measurement Conference},
-  series    = {IMC '26},
-  year      = {2026},
-  address   = {Karlsruhe, Germany},
-  publisher = {Association for Computing Machinery}
-}`}</pre>
+
                 
               </div>
             </div>
