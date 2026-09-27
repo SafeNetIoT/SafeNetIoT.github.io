@@ -98,6 +98,18 @@ export default function IscasPaper() {
                   <strong>Citation:</strong> A. Losty, T. Hu, D. J. Dubois, N. Shafqat, A. Ranganathan, D. Choffnes, and A. M. Mandalari, &quot;Beyond the Hype: Empirical Analysis of Matter Standard&apos;s Security and Privacy,&quot; in Proceedings of the 2026 ACM Internet Measurement Conference (IMC &apos;26), Karlsruhe, Germany, 2026.
                  </li> 
 
+                      <li>
+                   <strong>BibTeX:</strong>
+                   <pre className="mt-2 mb-0">{`@inproceedings{losty2026matter,
+  author    = {Andrew Losty and Tianrui Hu and Daniel J. Dubois and Narmeen Shafqat and Aanjhan Ranganathan and David Choffnes and Anna Maria Mandalari},
+  title     = {Beyond the Hype: Empirical Analysis of Matter Standard's Security and Privacy},
+  booktitle = {Proceedings of the 2026 ACM Internet Measurement Conference},
+  series    = {IMC '26},
+  year      = {2026},
+  address   = {Karlsruhe, Germany},
+  publisher = {Association for Computing Machinery}
+}`}</pre>
+                 </li>
                       
                 </ul>
               </div>
