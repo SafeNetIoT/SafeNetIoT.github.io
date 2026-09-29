@@ -26,17 +26,17 @@ const ResearchPage = () => {
             </div>
           </div>
 
-          {/* Published Papers */}
+          {/* Published and Accepted Papers */}
           <div className="mb-5">
             <div className="d-flex align-items-center justify-content-between flex-wrap gap-2 mb-3">
-              <h2 className="text-primary mb-0">Published Papers</h2>
+              <h2 className="text-primary mb-0">Published and Accepted Papers</h2>
               <span className="badge rounded-pill text-bg-light border text-primary">
-                12 items
+                13 items
               </span>
             </div>
 
             <p className="text-primary mb-4" style={{ maxWidth: 900 }}>
-              Selected peer-reviewed papers, demos, and workshop publications related to IoT security in smart homes, healthcare, and industrial environments.
+              Selected peer-reviewed published and accepted papers, demos, and workshop publications related to IoT security in smart homes, healthcare, and industrial environments.
             </p>
 
             {/* ── Year: 2026 ── */}
@@ -79,6 +79,41 @@ const ResearchPage = () => {
                   </div>
                 </div>
               
+
+                {/* Item */}
+                <div className="card border-0 shadow-sm">
+                  <div className="card-body p-4">
+                    <div className="d-flex justify-content-between align-items-start gap-3 flex-wrap">
+                      <div className="flex-grow-1">
+                        <div className="d-flex align-items-center gap-2 mb-2">
+                          <span className="badge rounded-pill text-bg-primary">Journal</span>
+                          <span className="text-muted small">September 2026 • Accepted</span>
+                        </div>
+                        <h5 className="text-dark fw-semibold mb-2">
+                          Intra-Body Communication for the Internet of Medical Things: A Survey of Communication Modalities, Security, and Reliability
+                        </h5>
+                        <p className="text-muted mb-2">
+                          <span className="fw-semibold text-dark">M.</span> Alhussan, F. Boem, A. M. Mandalari
+                        </p>
+                        <p className="text-muted mb-0">
+                          <span className="fw-semibold">Venue:</span> IEEE Internet of Things Journal
+                        </p>
+                      </div>
+                      <div className="d-flex gap-2">
+                        <a
+                          href="/research/IBC-IoMT"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="btn btn-outline-primary btn-sm"
+                        >
+                          <i className="bi bi-box-arrow-up-right me-2"></i>
+                          Read
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
 
                 {/* Item */}
                 <div className="card border-0 shadow-sm">
@@ -559,7 +594,7 @@ const ResearchPage = () => {
               }
             `}</style>
           </div>
-          {/* ── End Published Papers ── */}
+          {/* ── End Published and Accepted Papers ── */}
 
           {/* Research Posters */}
           <div className="mb-5">
