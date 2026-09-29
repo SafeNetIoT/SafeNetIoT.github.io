@@ -23,6 +23,10 @@ export const navigation = {
           title: "All Research",
           link: "/research"
         },
+        {
+          title: "IBC for IoMT",
+          link: "/research/IBC-IoMT"
+        },
          {
           title: "LINAC",
           link: "/research/LINAC"
