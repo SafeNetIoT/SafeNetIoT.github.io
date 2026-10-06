@@ -10,7 +10,7 @@ export const allNews = [
       date: "14 September 2026 - EU & Japan Cyber Resilience Act and JC-STAR Mapping: Preliminary Results presentation)",
       description: "Ammara Yasin and Andrew Losty presented their preliminary results to the EU & Japan working group that is developing a mapping between the Cyber Resilience Act and JC-STAR. Ammara Yasin presented findings on Cyber Resilience Act (CRA) assessment mechanisms, national implementation strategies, and comparison with Japan’s JC-STAR scheme. Her work examined how CRA assessments are governed, how approaches may differ across EU Member States. Andrew Losty presented progress mapping JC-STAR ★3 Equipment requirements against ETSI EN 304 627. The mapping covers 47 requirements, categorised as Full Compliance, Partial Compliance, or No Matching Controls. Examples included resistance to brute-force attacks, algorithms for SSH authentication, and enabling services.",
       image: "images/news/jc-star-logo.jpg",
-      link: "https://www.ipa.go.jp/security/jc-star/index.html/",
+      link: "https://www.ipa.go.jp/en/security/jc-star/index.html",
       imagePosition: 'center 10%'
      },
       
