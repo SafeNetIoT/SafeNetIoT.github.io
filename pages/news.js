@@ -7,6 +7,14 @@ import { SEO, navigation } from '../config/config';
 export const allNews = [
 
 {
+      date: "14 September 2026 - EU & Japan Cyber Resilience Act and JC-STAR Mapping: Preliminary Results presentation)",
+      description: "Ammara Yasin presented findings on Cyber Resilience Act (CRA) assessment mechanisms, national implementation strategies, and comparison with Japan’s JC-STAR scheme. Her work examined how CRA assessments are governed, how approaches may differ across EU Member States, and JC-STAR assessment models, including self-declaration for STAR-1/2 and third-party test-lab evaluation for STAR-3/4. Andrew Losty presented progress mapping JC-STAR ★3 Equipment requirements against ETSI EN 304 627. The mapping covers 47 requirements, categorised as Full Compliance, Partial Compliance, or No Matching Controls. Examples included resistance to brute-force attacks, algorithms for SSH authentication, and enabling services. The work is progressing toward a mapping report..",",
+      image: "images/news/jc-star-logo.jpg",
+      link: "https://www.ipa.go.jp/security/jc-star/index.html/",
+      imagePosition: 'center 10%'
+     },
+      
+{
       date: "2 July 2026 - Coseners 2025 (Next Generation Networking and Multi-Service Networks Workshop)",
       description: "Andrew Losty presented his research detailing developments in the Matter Protocol, and presents the latest research in the Standard’s Security and Privacy at the The 38th Multi-Service Networks workshop(MSN 2026) This annual workshop brings together leading researchers and practitioners to explore cutting-edge developments across networking and communications.  Attending provided valuable opportunities to engage with the wider research community and exchange insights on emerging network technologies.",
       image: "images/news/C2026-3.png",
