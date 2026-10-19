@@ -7,6 +7,15 @@ import { SEO, navigation } from '../config/config';
 export const allNews = [
 
 {
+      date: "14 October 2026 - Internet Measurement Conference (IMC), Karlsruhe, Germany",
+      description: "PhD candidate Andrew Losty, as primary author, presented a collaborative paper at the ACM Internet Measurement Conference (IMC) 2026, titled Beyond the Hype: Empirical Analysis of Matter Standard’s Security and Privacy. The paper evaluates the security and privacy of Matter smart-home devices, comparing their behavior with a non-Matter baseline. The research was conducted in collaboration with Northeastern University (USA), the National University of Sciences and Technology (Pakistan), and University College London (UCL). The co-authors were Tianrui Hu, Daniel J. Dubois, Narmeen Shafqat, Aanjhan Ranganathan, David Choffnes, Anna Maria Mandalari, and Andrew Losty.",
+      image: "images/news/AL-IMC-2026-2.png",
+      link: "https://conferences.sigcomm.org/imc/2026/",
+      imagePosition: 'center 10%'
+     },
+
+      
+{
       date: "14 September 2026 - EU & Japan Cyber Resilience Act and JC-STAR Mapping: Preliminary Results presentation)",
       description: "Ammara Yasin and Andrew Losty presented their preliminary results to the EU & Japan working group that is developing a mapping between the Cyber Resilience Act and JC-STAR. Ammara Yasin presented findings on Cyber Resilience Act (CRA) assessment mechanisms, national implementation strategies, and comparison with Japan’s JC-STAR scheme. Her work examined how CRA assessments are governed, how approaches may differ across EU Member States. Andrew Losty presented progress mapping JC-STAR ★3 Equipment requirements against ETSI EN 304 627. The mapping covers 47 requirements, categorised as Full Compliance, Partial Compliance, or No Matching Controls. Examples included resistance to brute-force attacks, algorithms for SSH authentication, and enabling services.",
       image: "images/news/jc-star-logo.jpg",
