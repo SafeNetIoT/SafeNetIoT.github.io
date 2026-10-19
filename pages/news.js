@@ -9,7 +9,7 @@ export const allNews = [
 {
       date: "14 October 2026 - Internet Measurement Conference (IMC), Karlsruhe, Germany",
       description: "PhD candidate Andrew Losty, as primary author, presented a collaborative paper at the ACM Internet Measurement Conference (IMC) 2026, titled Beyond the Hype: Empirical Analysis of Matter Standard’s Security and Privacy. The paper evaluates the security and privacy of Matter smart-home devices, comparing their behavior with a non-Matter baseline. The research was conducted in collaboration with Northeastern University (USA), the National University of Sciences and Technology (Pakistan), and University College London (UCL). The co-authors were Tianrui Hu, Daniel J. Dubois, Narmeen Shafqat, Aanjhan Ranganathan, David Choffnes, Anna Maria Mandalari, and Andrew Losty.",
-      image: "images/news/AL-IMC-2026-2.jpg",
+      image: "images/news/AL-IMC-2026-2b.png",
       link: "https://conferences.sigcomm.org/imc/2026/",
       imagePosition: 'center 10%'
      },
