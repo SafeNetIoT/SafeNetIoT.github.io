@@ -7,6 +7,14 @@ import { SEO, navigation } from '../config/config';
 export const allNews = [
 
 {
+      date: "14-16 October 2026 - Bread&Net 2026, Beirut, Lebanon",
+      description: "Ammara Yasin attended Bread&Net 2026, SMEX's annual digital rights unconference in Beirut, contributing to two workshops. The first, run by the Internet Society (ISOC), was 'Understanding the Internet Through Data: A Digital Rights Measurements Lab', where she demonstrated how to use internet measurement data in digital rights work. The second, 'Know Who's Watching: Counter-Appropriating Network Infrastructure', was a presentation of her in-progress research, demonstrating how civil society in the WANA region can utilise network measurement techniques to understand surveillance and dependency on foreign infrastructure. Ammara attended as part of her Mozilla Foundation Early Career Fellowship, which is hosted at SMEX.",
+      image: "images/news/b&nWorkshop.jpeg",
+      link: "https://breadandnet.org/",
+      imagePosition: 'center 10%'
+     },
+
+{
       date: "14 October 2026 - Internet Measurement Conference (IMC), Karlsruhe, Germany",
       description: "PhD candidate Andrew Losty, as primary author, presented a collaborative paper at the ACM Internet Measurement Conference (IMC) 2026, titled Beyond the Hype: Empirical Analysis of Matter Standard’s Security and Privacy. The paper evaluates the security and privacy of Matter smart-home devices, comparing their behavior with a non-Matter baseline. The research was conducted in collaboration with Northeastern University (USA), the National University of Sciences and Technology (Pakistan), and University College London (UCL). The co-authors were Tianrui Hu, Daniel J. Dubois, Narmeen Shafqat, Aanjhan Ranganathan, David Choffnes, Anna Maria Mandalari, and Andrew Losty.",
       image: "images/news/AL-IMC-2026-2b.png",
@@ -15,16 +23,8 @@ export const allNews = [
      },
 
 {
-      date: "XX October 2026 - Bread&Net 2026, Beirut, Lebanon",
-      description: "Ammara Yasin took part in Bread&Net 2026, SMEX's annual digital rights unconference in Beirut, contributing to two workshops. The first, run by the Internet Society (ISOC), was 'Understanding the Internet Through Data: A Digital Rights Measurements Lab', which introduced participants to using internet measurement data in digital rights work. The second, 'Know Who's Watching: Counter-Appropriating Network Infrastructure', was a presentation of her in-progress research, demonstrating how civil society in the WANA region can utilise network measurement techniques to understand surveillance and dependency on foreign infrastructure. Ammara attended as part of her Mozilla Foundation Early Career Fellowship, which is hosted at SMEX.",
-      image: "images/news/b&nWorkshop.jpeg",
-      link: "https://breadandnet.org/",
-      imagePosition: 'center 10%'
-     },
-
-{
       date: "September 2026 - Fieldwork in Cairo, Egypt",
-      description: "Ammara Yasin began fieldwork in Cairo for her Mozilla Foundation Early Career Fellowship, working with the American University in Cairo (AUC). The fieldwork covers internet measurement and national digital sovereignty, and pilots her methodology for identifying the apps and IoT devices that civil society relies on and that carry the highest risk to digital sovereignty.",
+      description: "PhD Student Ammara Yasin began fieldwork in Cairo for her Mozilla Foundation Early Career Fellowship, working with the American University in Cairo (AUC). The fieldwork covers internet measurement and national digital sovereignty, and pilots her methodology for identifying the apps and IoT devices that civil society relies on and that carry the highest risk to digital sovereignty.",
       image: "images/news/AUC.jpeg",
       link: "TODO",
       imagePosition: 'center 10%'
