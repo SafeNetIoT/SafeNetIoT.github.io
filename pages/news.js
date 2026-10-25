@@ -14,6 +14,22 @@ export const allNews = [
       imagePosition: 'center 10%'
      },
 
+{
+      date: "XX October 2026 - Bread&Net 2026, Beirut, Lebanon",
+      description: "Ammara Yasin took part in Bread&Net 2026, SMEX's annual digital rights unconference in Beirut, contributing to two workshops. The first, run by the Internet Society (ISOC), was 'Understanding the Internet Through Data: A Digital Rights Measurements Lab', which introduced participants to using internet measurement data in digital rights work. The second, 'Know Who's Watching: Counter-Appropriating Network Infrastructure', was a presentation of her in-progress research, demonstrating how civil society in the WANA region can utilise network measurement techniques to understand surveillance and dependency on foreign infrastructure. Ammara attended as part of her Mozilla Foundation Early Career Fellowship, which is hosted at SMEX.",
+      image: "images/news/b&nWorkshop.jpeg",
+      link: "https://breadandnet.org/",
+      imagePosition: 'center 10%'
+     },
+
+{
+      date: "September 2026 - Fieldwork in Cairo, Egypt",
+      description: "Ammara Yasin began fieldwork in Cairo for her Mozilla Foundation Early Career Fellowship, working with the American University in Cairo (AUC). The fieldwork covers internet measurement and national digital sovereignty, and pilots her methodology for identifying the apps and IoT devices that civil society relies on and that carry the highest risk to digital sovereignty.",
+      image: "images/news/AUC.jpeg",
+      link: "TODO",
+      imagePosition: 'center 10%'
+     },
+
       
 {
       date: "14 September 2026 - EU & Japan Cyber Resilience Act and JC-STAR Mapping: Preliminary Results presentation)",
